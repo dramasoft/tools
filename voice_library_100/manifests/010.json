@@ -1,0 +1,295 @@
+{
+  "id": "010",
+  "name": "奶油感童声",
+  "gender": "female",
+  "age_range": "9—11岁",
+  "age_group": "child",
+  "pitch": "中高偏中",
+  "resonance": "口腔圆润，明暗均衡",
+  "texture": "绵密平滑，奶油般柔和",
+  "pace": "中速",
+  "accent": "普通话，轻微江南语感",
+  "delivery": "轻松自然，连读柔顺",
+  "text": "雨停以后路面很亮，我想穿上新鞋出去走走。",
+  "voice_description": "9—11岁的儿童女声，音高中高偏中，口腔圆润，明暗均衡，绵密平滑，奶油般柔和，语速中速。普通话，轻微江南语感，轻松自然，连读柔顺。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "休闲游戏"
+  ],
+  "tags": [
+    "儿童",
+    "女声",
+    "中高偏中",
+    "绵密平滑",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "雨停以后路面很亮，我想穿上新鞋出去，沿着院墙找几只蜗牛。",
+  "long_text_char_count": 25,
+  "design_text": "雨停以后路面很亮，我想穿上新鞋出去走走。",
+  "fingerprint": "c922449379945117175d822955ce88cff74a8b430fa58ce11e943679bd4bf9f9",
+  "status": "generated",
+  "audio": "audio/010_奶油感童声.wav",
+  "sha256": "6e984d9be6f16d9b8cdbd7d0a036b5a52c6eba6748e0e7438a6c131a45ee2a80",
+  "seed": 20271104,
+  "description_used": "9—11岁的儿童女声，音高中高偏中，口腔圆润，明暗均衡，绵密平滑，奶油般柔和，语速中速。普通话，轻微江南语感，轻松自然，连读柔顺。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 282720,
+    "duration_seconds": 5.89,
+    "active_duration_seconds": 5.22,
+    "active_span_seconds": 5.77,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.345857173204422,
+    "rms": 0.04635031198568653,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 6.400166666666666,
+    "original_active_duration_seconds": 5.22,
+    "original_peak": 0.345857173204422,
+    "original_rms": 0.044464629169915976,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.5101666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20271104,
+      "description": "9—11岁的儿童女声，音高中高偏中，口腔圆润，明暗均衡，绵密平滑，奶油般柔和，语速中速。普通话，轻微江南语感，轻松自然，连读柔顺。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "雨停以后路面很亮，我想穿上新鞋出去走走。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 282720,
+        "duration_seconds": 5.89,
+        "active_duration_seconds": 5.22,
+        "active_span_seconds": 5.77,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.345857173204422,
+        "rms": 0.04635031198568653,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 6.400166666666666,
+        "original_active_duration_seconds": 5.22,
+        "original_peak": 0.345857173204422,
+        "original_rms": 0.044464629169915976,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.5101666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.7,
+      "audio": "attempts/010__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "010",
+    "status": "checked",
+    "expected_text": "雨停以后路面很亮，我想穿上新鞋出去走走。",
+    "recognized_text": "旅行以后路面很亮,我想穿上新鞋出去走走。",
+    "audio": "audio/010_奶油感童声.wav",
+    "audio_sha256": "6e984d9be6f16d9b8cdbd7d0a036b5a52c6eba6748e0e7438a6c131a45ee2a80",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:56.012588+00:00",
+    "passed": true,
+    "expected_normalized": "雨停以后路面很亮我想穿上新鞋出去走走",
+    "recognized_normalized": "旅行以后路面很亮我想穿上新鞋出去走走",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 2,
+    "substitutions": 2,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.1111111111111111,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.8888888888888888,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 2,
+        "recognized_start": 2,
+        "length": 16,
+        "text": "以后路面很亮我想穿上新鞋出去走走"
+      }
+    ],
+    "elapsed_seconds": 0.8761252081021667,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": false,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "yu3",
+          "yu4"
+        ],
+        [
+          "ting2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "xiang3"
+        ],
+        [
+          "chuan1",
+          "chuan4",
+          "yuan1"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "xie2",
+          "wa1"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "zou3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "lv3"
+        ],
+        [
+          "xing2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "xiang3"
+        ],
+        [
+          "chuan1",
+          "chuan4",
+          "yuan1"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "xie2",
+          "wa1"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "zou3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

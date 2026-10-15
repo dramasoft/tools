@@ -1,0 +1,310 @@
+{
+  "id": "076",
+  "name": "中年女声亮鼻腔",
+  "gender": "female",
+  "age_range": "37—45岁",
+  "age_group": "middle_aged",
+  "pitch": "中音",
+  "resonance": "靠前，鼻腔共鸣适中",
+  "texture": "明亮紧实，轻鼻音",
+  "pace": "中速稍快",
+  "accent": "普通话，轻微北方语感",
+  "delivery": "爽利自然，轻微笑意",
+  "text": "你的包裹放在前台了，出门的时候顺手带上。",
+  "voice_description": "37—45岁的中年女声，音高中音，靠前，鼻腔共鸣适中，明亮紧实，轻鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "城市游戏"
+  ],
+  "tags": [
+    "中年",
+    "女声",
+    "中音",
+    "明亮紧实",
+    "中速稍快"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "你的包裹放在前台了，出门时记得带上，里面还有你上周订的书。",
+  "long_text_char_count": 26,
+  "design_text": "你的包裹放在前台了，出门的时候顺手带上。",
+  "fingerprint": "95af954e4834ac8b1a09980d961e7a30ed0d1922bac5761469bf4181af9fc2ab",
+  "status": "generated",
+  "audio": "audio/076_中年女声亮鼻腔.wav",
+  "sha256": "b5c77c2b5da7c06b37650dd380a6501efc61b786937d373eec6217ce18d5773c",
+  "seed": 20337698,
+  "description_used": "37—45岁的中年女声，音高中音，靠前，鼻腔共鸣适中，明亮紧实，轻鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 206400,
+    "duration_seconds": 4.3,
+    "active_duration_seconds": 4.01,
+    "active_span_seconds": 4.2,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.6888337135314941,
+    "rms": 0.11004290036543472,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 4.01,
+    "original_peak": 0.6888337135314941,
+    "original_rms": 0.10978575816140755,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.020166666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20337698,
+      "description": "37—45岁的中年女声，音高中音，靠前，鼻腔共鸣适中，明亮紧实，轻鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "你的包裹放在前台了，出门的时候顺手带上。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 206400,
+        "duration_seconds": 4.3,
+        "active_duration_seconds": 4.01,
+        "active_span_seconds": 4.2,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6888337135314941,
+        "rms": 0.11004290036543472,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 4.01,
+        "original_peak": 0.6888337135314941,
+        "original_rms": 0.10978575816140755,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.020166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.92,
+      "audio": "attempts/076__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "076",
+    "status": "checked",
+    "expected_text": "你的包裹放在前台了，出门的时候顺手带上。",
+    "recognized_text": "你的包裹放在前台了出门的时候顺手戴上",
+    "audio": "audio/076_中年女声亮鼻腔.wav",
+    "audio_sha256": "b5c77c2b5da7c06b37650dd380a6501efc61b786937d373eec6217ce18d5773c",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:05.887098+00:00",
+    "passed": true,
+    "expected_normalized": "你的包裹放在前台了出门的时候顺手带上",
+    "recognized_normalized": "你的包裹放在前台了出门的时候顺手戴上",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.05555555555555555,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9444444444444444,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 16,
+        "text": "你的包裹放在前台了出门的时候顺手"
+      },
+      {
+        "expected_start": 17,
+        "recognized_start": 17,
+        "length": 1,
+        "text": "上"
+      }
+    ],
+    "elapsed_seconds": 0.564799333922565,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "ni3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "bao1",
+          "pao2",
+          "fu2"
+        ],
+        [
+          "guo3"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qian2"
+        ],
+        [
+          "tai2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "shun4"
+        ],
+        [
+          "shou3"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "ni3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "bao1",
+          "pao2",
+          "fu2"
+        ],
+        [
+          "guo3"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qian2"
+        ],
+        [
+          "tai2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "shun4"
+        ],
+        [
+          "shou3"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

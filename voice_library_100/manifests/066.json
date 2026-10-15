@@ -1,0 +1,290 @@
+{
+  "id": "066",
+  "name": "中年软绒",
+  "gender": "male",
+  "age_range": "45—54岁",
+  "age_group": "middle_aged",
+  "pitch": "偏低",
+  "resonance": "后口腔柔和，胸腔温润",
+  "texture": "暗暖平滑，厚丝绒感",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "温和从容，不刻意低沉",
+  "text": "饭还在锅里温着，回来以后记得先吃一点。",
+  "voice_description": "45—54岁的中年男声，音高偏低，后口腔柔和，胸腔温润，暗暖平滑，厚丝绒感，语速中速稍慢。标准普通话，温和从容，不刻意低沉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活旁白",
+    "家庭游戏"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "偏低",
+    "暗暖平滑",
+    "中速稍慢"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "饭还在锅里温着，回来以后记得先吃一点，碗筷都放在桌子上了。",
+  "long_text_char_count": 26,
+  "design_text": "饭还在锅里温着，回来以后记得先吃一点。",
+  "fingerprint": "7188242085e1f11643563e9874a73e747fe5292e4b4bf8b4f7d0ddc3634aa853",
+  "status": "generated",
+  "audio": "audio/066_中年软绒.wav",
+  "sha256": "d597168fcb81f3dee5921f7e81148cca1ac9c9ca0836036cfdd2ec56c13a6016",
+  "seed": 20327608,
+  "description_used": "45—54岁的中年男声，音高偏低，后口腔柔和，胸腔温润，暗暖平滑，厚丝绒感，语速中速稍慢。标准普通话，温和从容，不刻意低沉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 207368,
+    "duration_seconds": 4.320166666666666,
+    "active_duration_seconds": 4.0,
+    "active_span_seconds": 4.29,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.030166666666666668,
+    "peak": 0.9397003650665283,
+    "rms": 0.14058361344798953,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 4.0,
+    "original_peak": 0.9397003650665283,
+    "original_rms": 0.14058361344798953,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20327608,
+      "description": "45—54岁的中年男声，音高偏低，后口腔柔和，胸腔温润，暗暖平滑，厚丝绒感，语速中速稍慢。标准普通话，温和从容，不刻意低沉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "饭还在锅里温着，回来以后记得先吃一点。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 207368,
+        "duration_seconds": 4.320166666666666,
+        "active_duration_seconds": 4.0,
+        "active_span_seconds": 4.29,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.030166666666666668,
+        "peak": 0.9397003650665283,
+        "rms": 0.14058361344798953,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 4.0,
+        "original_peak": 0.9397003650665283,
+        "original_rms": 0.14058361344798953,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.02,
+      "audio": "attempts/066__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "066",
+    "status": "checked",
+    "expected_text": "饭还在锅里温着，回来以后记得先吃一点。",
+    "recognized_text": "饭还在锅里温着回来以后记得先吃一点",
+    "audio": "audio/066_中年软绒.wav",
+    "audio_sha256": "d597168fcb81f3dee5921f7e81148cca1ac9c9ca0836036cfdd2ec56c13a6016",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:01.093863+00:00",
+    "passed": true,
+    "expected_normalized": "饭还在锅里温着回来以后记得先吃一点",
+    "recognized_normalized": "饭还在锅里温着回来以后记得先吃一点",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 17,
+        "text": "饭还在锅里温着回来以后记得先吃一点"
+      }
+    ],
+    "elapsed_seconds": 0.5111475419253111,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "fan4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "guo1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "wen1",
+          "yun4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "chi1",
+          "qi1"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "fan4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "guo1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "wen1",
+          "yun4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "chi1",
+          "qi1"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

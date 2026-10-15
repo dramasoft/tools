@@ -1,0 +1,49 @@
+{
+  "id": "065",
+  "status": "checked",
+  "expected_text": "现场已经完成检查，所有入口都要保持畅通。",
+  "recognized_text": "现场已经完成检查所有入口都要保持畅通",
+  "audio": "audio/065_中年冷金属.wav",
+  "audio_sha256": "569c6256212d29c8ade17e07da1f953cce54bf3b32b2120b1d32b43be7828b7b",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:08:00.589870+00:00",
+  "passed": true,
+  "expected_normalized": "现场已经完成检查所有入口都要保持畅通",
+  "recognized_normalized": "现场已经完成检查所有入口都要保持畅通",
+  "expected_characters": 18,
+  "recognized_characters": 18,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 18,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 18,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 18,
+      "text": "现场已经完成检查所有入口都要保持畅通"
+    }
+  ],
+  "elapsed_seconds": 0.5011341250501573
+}

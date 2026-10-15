@@ -1,0 +1,298 @@
+{
+  "id": "009",
+  "name": "清脆童声",
+  "gender": "female",
+  "age_range": "11—12岁",
+  "age_group": "child",
+  "pitch": "中高",
+  "resonance": "前口腔集中，头腔明亮",
+  "texture": "清脆利落，带轻微金属亮边",
+  "pace": "中速稍快",
+  "accent": "标准普通话",
+  "delivery": "笃定自然，字头清楚",
+  "text": "车票和水杯都带齐了，现在可以出发了吧。",
+  "voice_description": "11—12岁的儿童女声，音高中高，前口腔集中，头腔明亮，清脆利落，带轻微金属亮边，语速中速稍快。标准普通话，笃定自然，字头清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "校园剧情",
+    "任务提示"
+  ],
+  "tags": [
+    "儿童",
+    "女声",
+    "中高",
+    "清脆利落",
+    "中速稍快"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "车票和水杯都已经带齐了，出发前再看看，窗户是不是关好了。",
+  "long_text_char_count": 25,
+  "design_text": "车票和水杯都带齐了，现在可以出发了吧。",
+  "fingerprint": "37756f433be91707034111c2b710365b8ecc275a61b162974db8208ad0b4f0a5",
+  "status": "generated",
+  "audio": "audio/009_清脆童声.wav",
+  "sha256": "00b42c043911b6867f8fc55215a752bb3e45839a2cc96aff53187dc8b77fb92b",
+  "seed": 20270095,
+  "description_used": "11—12岁的儿童女声，音高中高，前口腔集中，头腔明亮，清脆利落，带轻微金属亮边，语速中速稍快。标准普通话，笃定自然，字头清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 213600,
+    "duration_seconds": 4.45,
+    "active_duration_seconds": 3.74,
+    "active_span_seconds": 4.33,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.37489449977874756,
+    "rms": 0.08342706443953098,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.960166666666667,
+    "original_active_duration_seconds": 3.74,
+    "original_peak": 0.37489449977874756,
+    "original_rms": 0.07902032898930517,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.5101666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20270095,
+      "description": "11—12岁的儿童女声，音高中高，前口腔集中，头腔明亮，清脆利落，带轻微金属亮边，语速中速稍快。标准普通话，笃定自然，字头清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "车票和水杯都带齐了，现在可以出发了吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 213600,
+        "duration_seconds": 4.45,
+        "active_duration_seconds": 3.74,
+        "active_span_seconds": 4.33,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.37489449977874756,
+        "rms": 0.08342706443953098,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.960166666666667,
+        "original_active_duration_seconds": 3.74,
+        "original_peak": 0.37489449977874756,
+        "original_rms": 0.07902032898930517,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.5101666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.71,
+      "audio": "attempts/009__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "009",
+    "status": "checked",
+    "expected_text": "车票和水杯都带齐了，现在可以出发了吧。",
+    "recognized_text": "車票和水杯都帶齊了,現在可以出發了吧!",
+    "audio": "audio/009_清脆童声.wav",
+    "audio_sha256": "00b42c043911b6867f8fc55215a752bb3e45839a2cc96aff53187dc8b77fb92b",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:55.129678+00:00",
+    "passed": true,
+    "expected_normalized": "车票和水杯都带齐了现在可以出发了吧",
+    "recognized_normalized": "车票和水杯都带齐了现在可以出发了吧",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 17,
+        "text": "车票和水杯都带齐了现在可以出发了吧"
+      }
+    ],
+    "elapsed_seconds": 0.8800596669316292,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "che1"
+        ],
+        [
+          "piao4"
+        ],
+        [
+          "he2",
+          "he4",
+          "hu2",
+          "huo2",
+          "huo4",
+          "huo5"
+        ],
+        [
+          "shui3"
+        ],
+        [
+          "bei1"
+        ],
+        [
+          "dou1",
+          "du1"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "qi2",
+          "ji4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "che1"
+        ],
+        [
+          "piao4"
+        ],
+        [
+          "he2",
+          "he4",
+          "hu2",
+          "huo2",
+          "huo4",
+          "huo5"
+        ],
+        [
+          "shui3"
+        ],
+        [
+          "bei1"
+        ],
+        [
+          "dou1",
+          "du1"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "qi2",
+          "ji4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

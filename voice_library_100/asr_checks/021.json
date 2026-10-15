@@ -1,0 +1,49 @@
+{
+  "id": "021",
+  "status": "checked",
+  "expected_text": "围巾忘在教室里了，我陪你回去拿一下吧。",
+  "recognized_text": "围巾忘在教室里了,我陪你回去拿一下吧。",
+  "audio": "audio/021_少女蜂蜜感.wav",
+  "audio_sha256": "a4fe93ba2fef902e3ffc741ceddabe6ebc64149b69cc899dc70b89ad0bf04a35",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T09:28:06.401251+00:00",
+  "passed": true,
+  "expected_normalized": "围巾忘在教室里了我陪你回去拿一下吧",
+  "recognized_normalized": "围巾忘在教室里了我陪你回去拿一下吧",
+  "expected_characters": 17,
+  "recognized_characters": 17,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 17,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 17,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 17,
+      "text": "围巾忘在教室里了我陪你回去拿一下吧"
+    }
+  ],
+  "elapsed_seconds": 0.8760908343829215
+}

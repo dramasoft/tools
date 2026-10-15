@@ -1,0 +1,49 @@
+{
+  "id": "075",
+  "status": "checked",
+  "expected_text": "菜市场今天收得早，剩下的东西明天再买。",
+  "recognized_text": "菜市场今天收得早剩下的东西明天再买",
+  "audio": "audio/075_中年女声砂感.wav",
+  "audio_sha256": "5f44f6c48a8dd6e3542a29cb6517aa020be78fbd24f31ba4c41fc129360716b2",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:08:05.381007+00:00",
+  "passed": true,
+  "expected_normalized": "菜市场今天收得早剩下的东西明天再买",
+  "recognized_normalized": "菜市场今天收得早剩下的东西明天再买",
+  "expected_characters": 17,
+  "recognized_characters": 17,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 17,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 17,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 17,
+      "text": "菜市场今天收得早剩下的东西明天再买"
+    }
+  ],
+  "elapsed_seconds": 0.5035629579797387
+}

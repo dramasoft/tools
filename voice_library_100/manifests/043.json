@@ -1,0 +1,388 @@
+{
+  "id": "043",
+  "name": "青年女声清甜",
+  "gender": "female",
+  "age_range": "18—22岁",
+  "age_group": "young_adult",
+  "pitch": "中高",
+  "resonance": "前口腔明亮，头腔清",
+  "texture": "清甜通透，声线纤细",
+  "pace": "中速稍快",
+  "accent": "标准普通话",
+  "delivery": "轻快自然，甜感克制",
+  "text": "新的展览今天开门，带上相机我们一起去吧，听说还有木雕展区。",
+  "voice_description": "18—22岁的青年女声，音高中高，前口腔明亮，头腔清，清甜通透，声线纤细，语速中速稍快。标准普通话，轻快自然，甜感克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "休闲游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中高",
+    "清甜通透",
+    "中速稍快"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "新的展览今天开门，带上相机我们一起去吧，听说还有木雕展区。",
+  "long_text_char_count": 26,
+  "design_text": "新的展览今天开门，带上相机，我们一起去吧。",
+  "fingerprint": "1e97975c66b5146daed3290b4507b078cd7bd9b0b24eb3a3f30989bc7424da6f",
+  "status": "generated",
+  "audio": "audio/043_青年女声清甜.wav",
+  "sha256": "754a6f17afb63dcab0235b37e4d1bf917cad99ea3575c5a9b1a5f08007ebdb25",
+  "seed": 20409130,
+  "description_used": "18—22岁的青年女声，音高中高，前口腔明亮，头腔清，清甜通透，声线纤细，语速中速稍快。标准普通话，轻快自然，甜感克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 220800,
+    "duration_seconds": 4.6,
+    "active_duration_seconds": 3.98,
+    "active_span_seconds": 4.5,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.6733140349388123,
+    "rms": 0.0891533098499301,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.6401666666666666,
+    "original_active_duration_seconds": 3.98,
+    "original_peak": 0.6733140349388123,
+    "original_rms": 0.08876660235103831,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.04016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20304401,
+      "description": "18—22岁的青年女声，音高中高，前口腔明亮，头腔清，清甜通透，声线纤细，语速中速稍快。标准普通话，轻快自然，甜感克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "新的展览今天开门，带上相机，我们一起去吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 176640,
+        "duration_seconds": 3.68,
+        "active_duration_seconds": 3.04,
+        "active_span_seconds": 3.58,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7861531376838684,
+        "rms": 0.08725478118477398,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.04,
+        "original_peak": 0.7861531376838684,
+        "original_rms": 0.08725280537369287,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.00016666666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.54,
+      "audio": "attempts/043__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20409130,
+      "description": "18—22岁的青年女声，音高中高，前口腔明亮，头腔清，清甜通透，声线纤细，语速中速稍快。标准普通话，轻快自然，甜感克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "新的展览今天开门，带上相机我们一起去吧，听说还有木雕展区。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 220800,
+        "duration_seconds": 4.6,
+        "active_duration_seconds": 3.98,
+        "active_span_seconds": 4.5,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6733140349388123,
+        "rms": 0.0891533098499301,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.6401666666666666,
+        "original_active_duration_seconds": 3.98,
+        "original_peak": 0.6733140349388123,
+        "original_rms": 0.08876660235103831,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.04016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.62,
+      "audio": "attempts/043__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "043",
+    "status": "checked",
+    "expected_text": "新的展览今天开门，带上相机我们一起去吧，听说还有木雕展区。",
+    "recognized_text": "新的展览今天开门带上相机我们一起去吧听说还有木雕斩区",
+    "audio": "audio/043_青年女声清甜.wav",
+    "audio_sha256": "754a6f17afb63dcab0235b37e4d1bf917cad99ea3575c5a9b1a5f08007ebdb25",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:49.171560+00:00",
+    "passed": true,
+    "expected_normalized": "新的展览今天开门带上相机我们一起去吧听说还有木雕展区",
+    "recognized_normalized": "新的展览今天开门带上相机我们一起去吧听说还有木雕斩区",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.038461538461538464,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9615384615384616,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 24,
+        "text": "新的展览今天开门带上相机我们一起去吧听说还有木雕"
+      },
+      {
+        "expected_start": 25,
+        "recognized_start": 25,
+        "length": 1,
+        "text": "区"
+      }
+    ],
+    "elapsed_seconds": 0.5536262090317905,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xin1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "zhan3"
+        ],
+        [
+          "lan3"
+        ],
+        [
+          "jin1"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "xiang4"
+        ],
+        [
+          "ji1",
+          "wei4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "ting1"
+        ],
+        [
+          "shuo1"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "mu4"
+        ],
+        [
+          "diao1"
+        ],
+        [
+          "zhan3"
+        ],
+        [
+          "qu1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xin1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "zhan3"
+        ],
+        [
+          "lan3"
+        ],
+        [
+          "jin1"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "xiang4"
+        ],
+        [
+          "ji1",
+          "wei4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "ting1"
+        ],
+        [
+          "shuo1"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "mu4"
+        ],
+        [
+          "diao1"
+        ],
+        [
+          "zhan3"
+        ],
+        [
+          "qu1",
+          "ou1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

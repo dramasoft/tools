@@ -1,0 +1,49 @@
+{
+  "id": "050",
+  "status": "checked",
+  "expected_text": "今天这批材料都验过了，下午就能送到仓库，清单放在文件夹里。",
+  "recognized_text": "今天这批材料都验过了下午就能送到仓库清单放在文件夹里",
+  "audio": "audio/050_青年女声暖木.wav",
+  "audio_sha256": "3a5e505f526a6c058f7008bd81c3bc38e01bd7547a99f0b0bcc9d6484b60a13e",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:07:52.347691+00:00",
+  "passed": true,
+  "expected_normalized": "今天这批材料都验过了下午就能送到仓库清单放在文件夹里",
+  "recognized_normalized": "今天这批材料都验过了下午就能送到仓库清单放在文件夹里",
+  "expected_characters": 26,
+  "recognized_characters": 26,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 26,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 26,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 26,
+      "text": "今天这批材料都验过了下午就能送到仓库清单放在文件夹里"
+    }
+  ],
+  "elapsed_seconds": 0.5414115418680012
+}

@@ -1,0 +1,55 @@
+{
+  "id": "030",
+  "status": "checked",
+  "expected_text": "行李我已经放好了，你坐稳再系上安全带，我们马上就要出发。",
+  "recognized_text": "行李我已经放好了你坐稳再击上安全带我们马上就要出发",
+  "audio": "audio/030_青年暖磁.wav",
+  "audio_sha256": "54efb6141701c031f68f0aaa72398707342ddc7a10e4ead708e59c6528f53eaf",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:07:36.203085+00:00",
+  "passed": true,
+  "expected_normalized": "行李我已经放好了你坐稳再系上安全带我们马上就要出发",
+  "recognized_normalized": "行李我已经放好了你坐稳再击上安全带我们马上就要出发",
+  "expected_characters": 25,
+  "recognized_characters": 25,
+  "levenshtein_distance": 1,
+  "substitutions": 1,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 24,
+  "cer": 0.04,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": false,
+  "sequence_match_ratio": 0.96,
+  "sequence_matching_characters": 24,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 12,
+      "text": "行李我已经放好了你坐稳再"
+    },
+    {
+      "expected_start": 13,
+      "recognized_start": 13,
+      "length": 12,
+      "text": "上安全带我们马上就要出发"
+    }
+  ],
+  "elapsed_seconds": 7.012895166873932
+}

@@ -1,0 +1,415 @@
+{
+  "id": "069",
+  "name": "中年清润",
+  "gender": "male",
+  "age_range": "35—43岁",
+  "age_group": "middle_aged",
+  "pitch": "中音",
+  "resonance": "口腔舒展，头胸均衡",
+  "texture": "清润柔实，明暗适中",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "从容清楚，表情轻淡",
+  "text": "会议室就在二楼，资料已经放到各位的座位上，缺的那份我来补齐。",
+  "voice_description": "35—43岁的中年男声，音高中音，口腔舒展，头胸均衡，清润柔实，明暗适中，语速中速。标准普通话，从容清楚，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "职业短视频",
+    "服务提示"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "中音",
+    "清润柔实",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "会议室就在二楼，资料已经放到各位的座位上，缺的那份我来补齐。",
+  "long_text_char_count": 27,
+  "design_text": "会议室在二楼，资料已经放到每个人的座位上。",
+  "fingerprint": "cc84f0a25a54b99a22fa332ff24ebfe2c1ebc37760362d2802141577d1f6d971",
+  "status": "generated",
+  "audio": "audio/069_中年清润.wav",
+  "sha256": "94cff96dce73316e8322a9ff44857e1b3eb8797896cca9f5bc5215822112a0c3",
+  "seed": 20435364,
+  "description_used": "35—43岁的中年男声，音高中音，口腔舒展，头胸均衡，清润柔实，明暗适中，语速中速。标准普通话，从容清楚，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 233760,
+    "duration_seconds": 4.87,
+    "active_duration_seconds": 3.74,
+    "active_span_seconds": 4.75,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.10765961365363015,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.120166666666667,
+    "original_active_duration_seconds": 3.74,
+    "original_peak": 0.9628356695175171,
+    "original_rms": 0.10641524428864522,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.25016666666666665,
+    "gain": 0.9866688886547492
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20330635,
+      "description": "35—43岁的中年男声，音高中音，口腔舒展，头胸均衡，清润柔实，明暗适中，语速中速。标准普通话，从容清楚，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "会议室在二楼，资料已经放到每个人的座位上。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 140160,
+        "duration_seconds": 2.92,
+        "active_duration_seconds": 2.35,
+        "active_span_seconds": 2.8,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5414386987686157,
+        "rms": 0.1023843802773701,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.0401666666666665,
+        "original_active_duration_seconds": 2.35,
+        "original_peak": 0.5414386987686157,
+        "original_rms": 0.10034054072635999,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.12016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.56,
+      "audio": "attempts/069__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20435364,
+      "description": "35—43岁的中年男声，音高中音，口腔舒展，头胸均衡，清润柔实，明暗适中，语速中速。标准普通话，从容清楚，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "会议室就在二楼，资料已经放到各位的座位上，缺的那份我来补齐。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 233760,
+        "duration_seconds": 4.87,
+        "active_duration_seconds": 3.74,
+        "active_span_seconds": 4.75,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.10765961365363015,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.120166666666667,
+        "original_active_duration_seconds": 3.74,
+        "original_peak": 0.9628356695175171,
+        "original_rms": 0.10641524428864522,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.25016666666666665,
+        "gain": 0.9866688886547492
+      },
+      "elapsed_seconds": 5.92,
+      "audio": "attempts/069__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "069",
+    "status": "checked",
+    "expected_text": "会议室就在二楼，资料已经放到各位的座位上，缺的那份我来补齐。",
+    "recognized_text": "会议室就在二楼资料已经放到各位的座位上缺的那份我来补齐",
+    "audio": "audio/069_中年清润.wav",
+    "audio_sha256": "94cff96dce73316e8322a9ff44857e1b3eb8797896cca9f5bc5215822112a0c3",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:02.720845+00:00",
+    "passed": true,
+    "expected_normalized": "会议室就在二楼资料已经放到各位的座位上缺的那份我来补齐",
+    "recognized_normalized": "会议室就在二楼资料已经放到各位的座位上缺的那份我来补齐",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 27,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 27,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 27,
+        "text": "会议室就在二楼资料已经放到各位的座位上缺的那份我来补齐"
+      }
+    ],
+    "elapsed_seconds": 0.540851874742657,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "hui4"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "er4"
+        ],
+        [
+          "lou2"
+        ],
+        [
+          "zi1"
+        ],
+        [
+          "liao4",
+          "liao2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "ge4"
+        ],
+        [
+          "wei4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "que1",
+          "kui3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "fen4",
+          "bin1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "bu3"
+        ],
+        [
+          "qi2",
+          "ji4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "hui4"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "er4"
+        ],
+        [
+          "lou2"
+        ],
+        [
+          "zi1"
+        ],
+        [
+          "liao4",
+          "liao2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "ge4"
+        ],
+        [
+          "wei4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "que1",
+          "kui3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "fen4",
+          "bin1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "bu3"
+        ],
+        [
+          "qi2",
+          "ji4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

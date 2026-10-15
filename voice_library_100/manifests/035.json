@@ -1,0 +1,377 @@
+{
+  "id": "035",
+  "name": "青年软气声",
+  "gender": "male",
+  "age_range": "22—27岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "口腔柔和，胸腔轻共鸣",
+  "texture": "柔软细润，均匀少量气感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "温和自然，保持正常有声",
+  "text": "先喝一点温水，等外面雨小些我送你去车站，伞已经放在门口。",
+  "voice_description": "22—27岁的青年男声，音高中音，口腔柔和，胸腔轻共鸣，柔软细润，均匀少量气感，语速中速。标准普通话，温和自然，保持正常有声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "情感短视频",
+    "恋爱游戏"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中音",
+    "柔软细润",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "先喝一点温水，等外面雨小些我送你去车站，伞已经放在门口。",
+  "long_text_char_count": 25,
+  "design_text": "先喝一点温水，等外面雨小些，我送你去车站。",
+  "fingerprint": "d6acf6aab236e9857b6d0dcc722a70a1cd6285b185d5d7c77119884b4aae98bf",
+  "status": "generated",
+  "audio": "audio/035_青年软气声.wav",
+  "sha256": "50db2d60c57b218c30e711dabde25b38cf958182ff6c5d1d634391dc0febbd8f",
+  "seed": 20401058,
+  "description_used": "22—27岁的青年男声，音高中音，口腔柔和，胸腔轻共鸣，柔软细润，均匀少量气感，语速中速。标准普通话，温和自然，保持正常有声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 215040,
+    "duration_seconds": 4.48,
+    "active_duration_seconds": 3.72,
+    "active_span_seconds": 4.38,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.3273240327835083,
+    "rms": 0.04078998111278851,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.6401666666666666,
+    "original_active_duration_seconds": 3.72,
+    "original_peak": 0.3273240327835083,
+    "original_rms": 0.04007981990277509,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.16016666666666668,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20296329,
+      "description": "22—27岁的青年男声，音高中音，口腔柔和，胸腔轻共鸣，柔软细润，均匀少量气感，语速中速。标准普通话，温和自然，保持正常有声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "先喝一点温水，等外面雨小些，我送你去车站。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 134880,
+        "duration_seconds": 2.81,
+        "active_duration_seconds": 2.5,
+        "active_span_seconds": 2.71,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2659841477870941,
+        "rms": 0.05089129512188326,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.0401666666666665,
+        "original_active_duration_seconds": 2.5,
+        "original_peak": 0.2659841477870941,
+        "original_rms": 0.048926950350403856,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.23016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.21,
+      "audio": "attempts/035__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20401058,
+      "description": "22—27岁的青年男声，音高中音，口腔柔和，胸腔轻共鸣，柔软细润，均匀少量气感，语速中速。标准普通话，温和自然，保持正常有声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "先喝一点温水，等外面雨小些我送你去车站，伞已经放在门口。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 215040,
+        "duration_seconds": 4.48,
+        "active_duration_seconds": 3.72,
+        "active_span_seconds": 4.38,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3273240327835083,
+        "rms": 0.04078998111278851,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.6401666666666666,
+        "original_active_duration_seconds": 3.72,
+        "original_peak": 0.3273240327835083,
+        "original_rms": 0.04007981990277509,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.16016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.26,
+      "audio": "attempts/035__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "035",
+    "status": "checked",
+    "expected_text": "先喝一点温水，等外面雨小些我送你去车站，伞已经放在门口。",
+    "recognized_text": "先喝一点温水,等外面雨小些我送你去车站,伞已经放在门口。",
+    "audio": "audio/035_青年软气声.wav",
+    "audio_sha256": "50db2d60c57b218c30e711dabde25b38cf958182ff6c5d1d634391dc0febbd8f",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:44.832121+00:00",
+    "passed": true,
+    "expected_normalized": "先喝一点温水等外面雨小些我送你去车站伞已经放在门口",
+    "recognized_normalized": "先喝一点温水等外面雨小些我送你去车站伞已经放在门口",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "先喝一点温水等外面雨小些我送你去车站伞已经放在门口"
+      }
+    ],
+    "elapsed_seconds": 0.538338374812156,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xian1"
+        ],
+        [
+          "he1",
+          "he4",
+          "ye4",
+          "kai4"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "wen1",
+          "yun4"
+        ],
+        [
+          "shui3"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "wai4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "yu3",
+          "yu4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "xie1",
+          "suo4",
+          "suo1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "song4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "zhan4"
+        ],
+        [
+          "san3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "kou3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xian1"
+        ],
+        [
+          "he1",
+          "he4",
+          "ye4",
+          "kai4"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "wen1",
+          "yun4"
+        ],
+        [
+          "shui3"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "wai4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "yu3",
+          "yu4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "xie1",
+          "suo4",
+          "suo1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "song4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "zhan4"
+        ],
+        [
+          "san3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "kou3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

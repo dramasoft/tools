@@ -1,0 +1,397 @@
+{
+  "id": "098",
+  "name": "长者女声厚暖",
+  "gender": "female",
+  "age_range": "58—66岁",
+  "age_group": "senior",
+  "pitch": "中低",
+  "resonance": "胸腔饱满，口腔圆润",
+  "texture": "厚暖结实，轻微磁性",
+  "pace": "中速稍慢",
+  "accent": "普通话，轻微西南语感",
+  "delivery": "大方自然，气息平稳",
+  "text": "柜子里还有些点心，饿了就自己拿着吃，左边那盒是新买的。",
+  "voice_description": "58—66岁的老年女声，音高中低，胸腔饱满，口腔圆润，厚暖结实，轻微磁性，语速中速稍慢。普通话，轻微西南语感，大方自然，气息平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活旁白",
+    "家庭游戏"
+  ],
+  "tags": [
+    "老年",
+    "女声",
+    "中低",
+    "厚暖结实",
+    "中速稍慢"
+  ],
+  "text_char_count": 24,
+  "target_duration_seconds": 5.0,
+  "long_text": "柜子里还有些点心，饿了就自己拿着吃，左边那盒是新买的。",
+  "long_text_char_count": 24,
+  "design_text": "柜子里还有些点心，饿了就自己拿着吃。",
+  "fingerprint": "2b17536addbccae9ae914aec6fe8b07066facab11c89441bae0481d525754910",
+  "status": "generated",
+  "audio": "audio/098_长者女声厚暖.wav",
+  "sha256": "e3f296ebeeb48f04486e10703131788134e71b5c5c93fe48d3b0558950169a07",
+  "seed": 20464625,
+  "description_used": "58—66岁的老年女声，音高中低，胸腔饱满，口腔圆润，厚暖结实，轻微磁性，语速中速稍慢。普通话，轻微西南语感，大方自然，气息平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 280320,
+    "duration_seconds": 5.84,
+    "active_duration_seconds": 5.27,
+    "active_span_seconds": 5.71,
+    "leading_silence_seconds": 0.03,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.3864114284515381,
+    "rms": 0.056653662395076465,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 6.080166666666667,
+    "original_active_duration_seconds": 5.27,
+    "original_peak": 0.3864114284515381,
+    "original_rms": 0.055523479536826514,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.24016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20359896,
+      "description": "58—66岁的老年女声，音高中低，胸腔饱满，口腔圆润，厚暖结实，轻微磁性，语速中速稍慢。普通话，轻微西南语感，大方自然，气息平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "柜子里还有些点心，饿了就自己拿着吃。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 189600,
+        "duration_seconds": 3.95,
+        "active_duration_seconds": 3.79,
+        "active_span_seconds": 3.85,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.45760446786880493,
+        "rms": 0.06107204141189754,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.000166666666667,
+        "original_active_duration_seconds": 3.79,
+        "original_peak": 0.45760446786880493,
+        "original_rms": 0.06068787651706042,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.050166666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.52,
+      "audio": "attempts/098__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20464625,
+      "description": "58—66岁的老年女声，音高中低，胸腔饱满，口腔圆润，厚暖结实，轻微磁性，语速中速稍慢。普通话，轻微西南语感，大方自然，气息平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "柜子里还有些点心，饿了就自己拿着吃，左边那盒是新买的。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 280320,
+        "duration_seconds": 5.84,
+        "active_duration_seconds": 5.27,
+        "active_span_seconds": 5.71,
+        "leading_silence_seconds": 0.03,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3864114284515381,
+        "rms": 0.056653662395076465,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 6.080166666666667,
+        "original_active_duration_seconds": 5.27,
+        "original_peak": 0.3864114284515381,
+        "original_rms": 0.055523479536826514,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.24016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.85,
+      "audio": "attempts/098__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "098",
+    "status": "checked",
+    "expected_text": "柜子里还有些点心，饿了就自己拿着吃，左边那盒是新买的。",
+    "recognized_text": "柜子里还有些点心,饿了就自己拿着吃,左边那盒是新买的。",
+    "audio": "audio/098_长者女声厚暖.wav",
+    "audio_sha256": "e3f296ebeeb48f04486e10703131788134e71b5c5c93fe48d3b0558950169a07",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:15.810232+00:00",
+    "passed": true,
+    "expected_normalized": "柜子里还有些点心饿了就自己拿着吃左边那盒是新买的",
+    "recognized_normalized": "柜子里还有些点心饿了就自己拿着吃左边那盒是新买的",
+    "expected_characters": 24,
+    "recognized_characters": 24,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 24,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 24,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 24,
+        "text": "柜子里还有些点心饿了就自己拿着吃左边那盒是新买的"
+      }
+    ],
+    "elapsed_seconds": 0.6300450414419174,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "gui4"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "xie1"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "e4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "ji3",
+          "qi3"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "chi1",
+          "qi1"
+        ],
+        [
+          "zuo3"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "he2",
+          "an1"
+        ],
+        [
+          "shi4",
+          "ti2"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "mai3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "gui4"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "xie1"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "e4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "ji3",
+          "qi3"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "chi1",
+          "qi1"
+        ],
+        [
+          "zuo3"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "he2",
+          "an1"
+        ],
+        [
+          "shi4",
+          "ti2"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "mai3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

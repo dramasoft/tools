@@ -1,0 +1,270 @@
+{
+  "id": "100",
+  "name": "中性长者柔木",
+  "gender": "neutral",
+  "age_range": "68—76岁",
+  "age_group": "senior",
+  "pitch": "中低",
+  "resonance": "口腔温润，胸腔轻共鸣",
+  "texture": "柔和木质，细微自然颗粒",
+  "pace": "偏慢",
+  "accent": "标准普通话",
+  "delivery": "温厚从容，吐字清楚",
+  "text": "慢慢来，东西都在，收拾妥当再出门吧。",
+  "voice_description": "68—76岁的老年中性声，音高中低，口腔温润，胸腔轻共鸣，柔和木质，细微自然颗粒，语速偏慢。标准普通话，温厚从容，吐字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "情感旁白",
+    "剧情游戏"
+  ],
+  "tags": [
+    "老年",
+    "中性声",
+    "中低",
+    "柔和木质",
+    "偏慢"
+  ],
+  "text_char_count": 15,
+  "target_duration_seconds": 5.0,
+  "long_text": "慢慢来东西都在，收拾妥当再出门，车站离这里也不算很远。",
+  "long_text_char_count": 24,
+  "design_text": "慢慢来，东西都在，收拾妥当再出门吧。",
+  "fingerprint": "722b6b52d35b4b86471082236a45e55cc7f2a11a2afe2e2d5a21eacfd5e0b33e",
+  "status": "generated",
+  "audio": "audio/100_中性长者柔木.wav",
+  "sha256": "38542ffac5e011cb42f382bc8ba4ca703f4a55812c703f9848d743f2b40ffaf2",
+  "seed": 20361914,
+  "description_used": "68—76岁的老年中性声，音高中低，口腔温润，胸腔轻共鸣，柔和木质，细微自然颗粒，语速偏慢。标准普通话，温厚从容，吐字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 203520,
+    "duration_seconds": 4.24,
+    "active_duration_seconds": 3.87,
+    "active_span_seconds": 4.1,
+    "leading_silence_seconds": 0.04,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.2797900438308716,
+    "rms": 0.052488976637132284,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.480166666666666,
+    "original_active_duration_seconds": 3.87,
+    "original_peak": 0.2797900438308716,
+    "original_rms": 0.05106272560137973,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.24016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20361914,
+      "description": "68—76岁的老年中性声，音高中低，口腔温润，胸腔轻共鸣，柔和木质，细微自然颗粒，语速偏慢。标准普通话，温厚从容，吐字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "慢慢来，东西都在，收拾妥当再出门吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 203520,
+        "duration_seconds": 4.24,
+        "active_duration_seconds": 3.87,
+        "active_span_seconds": 4.1,
+        "leading_silence_seconds": 0.04,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2797900438308716,
+        "rms": 0.052488976637132284,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.480166666666666,
+        "original_active_duration_seconds": 3.87,
+        "original_peak": 0.2797900438308716,
+        "original_rms": 0.05106272560137973,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.24016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.05,
+      "audio": "attempts/100__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "100",
+    "status": "checked",
+    "expected_text": "慢慢来，东西都在，收拾妥当再出门吧。",
+    "recognized_text": "慢慢来,东西都在,收拾妥当,再出门吧。",
+    "audio": "audio/100_中性长者柔木.wav",
+    "audio_sha256": "38542ffac5e011cb42f382bc8ba4ca703f4a55812c703f9848d743f2b40ffaf2",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:16.942281+00:00",
+    "passed": true,
+    "expected_normalized": "慢慢来东西都在收拾妥当再出门吧",
+    "recognized_normalized": "慢慢来东西都在收拾妥当再出门吧",
+    "expected_characters": 15,
+    "recognized_characters": 15,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 15,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 15,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 15,
+        "text": "慢慢来东西都在收拾妥当再出门吧"
+      }
+    ],
+    "elapsed_seconds": 0.5204430832527578,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "man4",
+          "man2"
+        ],
+        [
+          "man4",
+          "man2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "dong1"
+        ],
+        [
+          "xi1"
+        ],
+        [
+          "dou1",
+          "du1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "tuo3"
+        ],
+        [
+          "dang4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "man4",
+          "man2"
+        ],
+        [
+          "man4",
+          "man2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "dong1"
+        ],
+        [
+          "xi1"
+        ],
+        [
+          "dou1",
+          "du1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "tuo3"
+        ],
+        [
+          "dang4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

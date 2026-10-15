@@ -1,0 +1,399 @@
+{
+  "id": "055",
+  "name": "青年女声微哑",
+  "gender": "female",
+  "age_range": "27—33岁",
+  "age_group": "young_adult",
+  "pitch": "中低",
+  "resonance": "前口腔偏暖，胸腔轻支撑",
+  "texture": "轻微沙哑，声线柔韧",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "松弛自然，不压喉",
+  "text": "咖啡先放在这里吧，我收完最后几页就过来，桌边还给你留了位置。",
+  "voice_description": "27—33岁的青年女声，音高中低，前口腔偏暖，胸腔轻支撑，轻微沙哑，声线柔韧，语速中速。标准普通话，松弛自然，不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "都市短视频",
+    "剧情游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中低",
+    "轻微沙哑",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "咖啡先放在这里吧，我收完最后几页就过来，桌边还给你留了位置。",
+  "long_text_char_count": 27,
+  "design_text": "咖啡先放在这里吧，我收完最后几页就过来。",
+  "fingerprint": "9fb6020163d35a22b4aef78fa1ee1357c5d93c2f1ecef844da31e3e59df4fd53",
+  "status": "generated",
+  "audio": "audio/055_青年女声微哑.wav",
+  "sha256": "dedac8bb08452c4d75d4b1dba4e770656860ef228499fcb0e20159c17ca9eef7",
+  "seed": 20421238,
+  "description_used": "27—33岁的青年女声，音高中低，前口腔偏暖，胸腔轻支撑，轻微沙哑，声线柔韧，语速中速。标准普通话，松弛自然，不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 248160,
+    "duration_seconds": 5.17,
+    "active_duration_seconds": 4.09,
+    "active_span_seconds": 4.97,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.8564054369926453,
+    "rms": 0.11122358246855972,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.6001666666666665,
+    "original_active_duration_seconds": 4.09,
+    "original_peak": 0.8564054369926453,
+    "original_rms": 0.10686654501469557,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.21,
+    "trimmed_end_seconds": 0.22016666666666668,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20316509,
+      "description": "27—33岁的青年女声，音高中低，前口腔偏暖，胸腔轻支撑，轻微沙哑，声线柔韧，语速中速。标准普通话，松弛自然，不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "咖啡先放在这里吧，我收完最后几页就过来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 151200,
+        "duration_seconds": 3.15,
+        "active_duration_seconds": 2.65,
+        "active_span_seconds": 2.95,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.8761329054832458,
+        "rms": 0.10731280691449924,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 2.65,
+        "original_peak": 0.8761329054832458,
+        "original_rms": 0.10151383176528946,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.23,
+        "trimmed_end_seconds": 0.14016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.26,
+      "audio": "attempts/055__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20421238,
+      "description": "27—33岁的青年女声，音高中低，前口腔偏暖，胸腔轻支撑，轻微沙哑，声线柔韧，语速中速。标准普通话，松弛自然，不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "咖啡先放在这里吧，我收完最后几页就过来，桌边还给你留了位置。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 248160,
+        "duration_seconds": 5.17,
+        "active_duration_seconds": 4.09,
+        "active_span_seconds": 4.97,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.8564054369926453,
+        "rms": 0.11122358246855972,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.6001666666666665,
+        "original_active_duration_seconds": 4.09,
+        "original_peak": 0.8564054369926453,
+        "original_rms": 0.10686654501469557,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.22016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.04,
+      "audio": "attempts/055__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "055",
+    "status": "checked",
+    "expected_text": "咖啡先放在这里吧，我收完最后几页就过来，桌边还给你留了位置。",
+    "recognized_text": "咖啡先放在这里吧我说完最后几页就过来桌边还给你留了位置",
+    "audio": "audio/055_青年女声微哑.wav",
+    "audio_sha256": "dedac8bb08452c4d75d4b1dba4e770656860ef228499fcb0e20159c17ca9eef7",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:55.058121+00:00",
+    "passed": true,
+    "expected_normalized": "咖啡先放在这里吧我收完最后几页就过来桌边还给你留了位置",
+    "recognized_normalized": "咖啡先放在这里吧我说完最后几页就过来桌边还给你留了位置",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 26,
+    "cer": 0.037037037037037035,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9629629629629629,
+    "sequence_matching_characters": 26,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 9,
+        "text": "咖啡先放在这里吧我"
+      },
+      {
+        "expected_start": 10,
+        "recognized_start": 10,
+        "length": 17,
+        "text": "完最后几页就过来桌边还给你留了位置"
+      }
+    ],
+    "elapsed_seconds": 0.5303005413152277,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": false,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "ka1"
+        ],
+        [
+          "fei1"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "zhe4"
+        ],
+        [
+          "li3"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "wan2",
+          "kuan1"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "ji3",
+          "ji1"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "guo4"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "zhuo1"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "huan2"
+        ],
+        [
+          "gei3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "zhi4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "ka1"
+        ],
+        [
+          "fei1"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "zhe4"
+        ],
+        [
+          "li3"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "shuo1",
+          "shui4",
+          "yue4"
+        ],
+        [
+          "wan2",
+          "kuan1"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "ji3",
+          "ji1"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "guo4"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "zhuo1"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "huan2"
+        ],
+        [
+          "gei3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "zhi4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

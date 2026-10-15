@@ -1,0 +1,329 @@
+{
+  "id": "007",
+  "name": "暖鼻腔童声",
+  "gender": "female",
+  "age_range": "10—12岁",
+  "age_group": "child",
+  "pitch": "中高",
+  "resonance": "鼻腔轻共鸣，口腔圆润",
+  "texture": "偏暖细密，轻微绵软鼻音",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "亲切自然，语调不过分上扬",
+  "text": "奶奶留了两块饼干，你先挑，我把牛奶拿来。",
+  "voice_description": "10—12岁的儿童女声，音高中高，鼻腔轻共鸣，口腔圆润，偏暖细密，轻微绵软鼻音，语速中速。标准普通话，亲切自然，语调不过分上扬。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "家庭游戏"
+  ],
+  "tags": [
+    "儿童",
+    "女声",
+    "中高",
+    "偏暖细密",
+    "中速"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "奶奶留了两块饼干，你先挑喜欢的那块，我去把热牛奶拿过来。",
+  "long_text_char_count": 25,
+  "design_text": "奶奶留了两块饼干，你先挑，我把牛奶拿来。",
+  "fingerprint": "18ffba75ebad83123ef9e192cf788f33da662f79780faf8951fa68d7f370437d",
+  "status": "generated",
+  "audio": "audio/007_暖鼻腔童声.wav",
+  "sha256": "71fa1ab1812f6b1967841764acf37966ca1f1709e117231eebb6fb575f783746",
+  "seed": 20372806,
+  "description_used": "10—12岁的儿童女声，音高中高，鼻腔轻共鸣，口腔圆润，偏暖细密，轻微绵软鼻音，语速中速。标准普通话，亲切自然，语调不过分上扬。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 229440,
+    "duration_seconds": 4.78,
+    "active_duration_seconds": 4.34,
+    "active_span_seconds": 4.58,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.47845256328582764,
+    "rms": 0.09232145719725915,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 4.34,
+    "original_peak": 0.47845256328582764,
+    "original_rms": 0.08784009384855572,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.21,
+    "trimmed_end_seconds": 0.2901666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20268077,
+      "description": "10—12岁的儿童女声，音高中高，鼻腔轻共鸣，口腔圆润，偏暖细密，轻微绵软鼻音，语速中速。标准普通话，亲切自然，语调不过分上扬。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "奶奶留了两块饼干，你先挑，我把牛奶拿来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 323520,
+        "duration_seconds": 6.74,
+        "active_duration_seconds": 6.29,
+        "active_span_seconds": 6.54,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.23106974363327026,
+        "rms": 0.03691999576456582,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 7.040166666666667,
+        "original_active_duration_seconds": 6.29,
+        "original_peak": 0.23106974363327026,
+        "original_rms": 0.03612435740471723,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.19,
+        "trimmed_end_seconds": 0.11016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 8.38,
+      "audio": "attempts/007__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20372806,
+      "description": "10—12岁的儿童女声，音高中高，鼻腔轻共鸣，口腔圆润，偏暖细密，轻微绵软鼻音，语速中速。标准普通话，亲切自然，语调不过分上扬。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "奶奶留了两块饼干，你先挑，我把牛奶拿来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 229440,
+        "duration_seconds": 4.78,
+        "active_duration_seconds": 4.34,
+        "active_span_seconds": 4.58,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.47845256328582764,
+        "rms": 0.09232145719725915,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 4.34,
+        "original_peak": 0.47845256328582764,
+        "original_rms": 0.08784009384855572,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.2901666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.36,
+      "audio": "attempts/007__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "007",
+    "status": "checked",
+    "expected_text": "奶奶留了两块饼干，你先挑，我把牛奶拿来。",
+    "recognized_text": "奶奶留了两块饼干你先挑我把牛奶拿来",
+    "audio": "audio/007_暖鼻腔童声.wav",
+    "audio_sha256": "71fa1ab1812f6b1967841764acf37966ca1f1709e117231eebb6fb575f783746",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:53.385181+00:00",
+    "passed": true,
+    "expected_normalized": "奶奶留了两块饼干你先挑我把牛奶拿来",
+    "recognized_normalized": "奶奶留了两块饼干你先挑我把牛奶拿来",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 17,
+        "text": "奶奶留了两块饼干你先挑我把牛奶拿来"
+      }
+    ],
+    "elapsed_seconds": 0.937033582944423,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "nai3"
+        ],
+        [
+          "nai3"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "liang3"
+        ],
+        [
+          "kuai4",
+          "yue2"
+        ],
+        [
+          "bing3"
+        ],
+        [
+          "gan1"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "tiao1",
+          "tiao3",
+          "tao2",
+          "diao4",
+          "tiao2",
+          "tiao5"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "niu2"
+        ],
+        [
+          "nai3"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "nai3"
+        ],
+        [
+          "nai3"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "liang3"
+        ],
+        [
+          "kuai4",
+          "yue2"
+        ],
+        [
+          "bing3"
+        ],
+        [
+          "gan1"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "tiao1",
+          "tiao3",
+          "tao2",
+          "diao4",
+          "tiao2",
+          "tiao5"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "niu2"
+        ],
+        [
+          "nai3"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

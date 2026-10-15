@@ -1,0 +1,356 @@
+{
+  "id": "047",
+  "name": "青年女声细砂",
+  "gender": "female",
+  "age_range": "25—31岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "前口腔清楚，胸腔轻",
+  "texture": "偏干细腻，有细砂颗粒",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "淡然自然，语调克制",
+  "text": "照片背面写着一个名字，我想先去查查来历。",
+  "voice_description": "25—31岁的青年女声，音高中音，前口腔清楚，胸腔轻，偏干细腻，有细砂颗粒，语速中速。标准普通话，淡然自然，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "悬疑短视频",
+    "解谜游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中音",
+    "偏干细腻",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "照片背面写着一个名字，我想先去查查来历，再找旧报纸核对一下。",
+  "long_text_char_count": 27,
+  "design_text": "照片背面写着一个名字，我想先去查查来历。",
+  "fingerprint": "3143591ace9877e6df8c5ec4906907db351864abcd80a797f7bdee0cc3ff82d3",
+  "status": "generated",
+  "audio": "audio/047_青年女声细砂.wav",
+  "sha256": "861d39dcb2212d1e9fea9ffcd56b039e1157219f2b80e3ceb953fee0a92577b0",
+  "seed": 20517895,
+  "description_used": "25—31岁的青年女声，音高中音，前口腔清楚，胸腔轻，偏干细腻，有细砂颗粒，语速中速。标准普通话，淡然自然，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 220320,
+    "duration_seconds": 4.59,
+    "active_duration_seconds": 4.38,
+    "active_span_seconds": 4.49,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.47464320063591003,
+    "rms": 0.06687092952978116,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.6401666666666666,
+    "original_active_duration_seconds": 4.38,
+    "original_peak": 0.47464320063591003,
+    "original_rms": 0.0665084632264257,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.050166666666666665,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20308437,
+      "description": "25—31岁的青年女声，音高中音，前口腔清楚，胸腔轻，偏干细腻，有细砂颗粒，语速中速。标准普通话，淡然自然，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "照片背面写着一个名字，我想先去查查来历。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 166080,
+        "duration_seconds": 3.46,
+        "active_duration_seconds": 3.27,
+        "active_span_seconds": 3.36,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.648720383644104,
+        "rms": 0.12738036305539505,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.27,
+        "original_peak": 0.648720383644104,
+        "original_rms": 0.12351133566451677,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.22016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.26,
+      "audio": "attempts/047__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20413166,
+      "description": "25—31岁的青年女声，音高中音，前口腔清楚，胸腔轻，偏干细腻，有细砂颗粒，语速中速。标准普通话，淡然自然，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "照片背面写着一个名字，我想先去查查来历，再找旧报纸核对一下。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 289920,
+        "duration_seconds": 6.04,
+        "active_duration_seconds": 4.81,
+        "active_span_seconds": 5.84,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.717481255531311,
+        "rms": 0.09267537840762839,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.400166666666666,
+        "original_active_duration_seconds": 4.81,
+        "original_peak": 0.717481255531311,
+        "original_rms": 0.09003002099169084,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.18,
+        "trimmed_end_seconds": 0.18016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.23,
+      "audio": "attempts/047__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20517895,
+      "description": "25—31岁的青年女声，音高中音，前口腔清楚，胸腔轻，偏干细腻，有细砂颗粒，语速中速。标准普通话，淡然自然，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "照片背面写着一个名字，我想先去查查来历。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 220320,
+        "duration_seconds": 4.59,
+        "active_duration_seconds": 4.38,
+        "active_span_seconds": 4.49,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.47464320063591003,
+        "rms": 0.06687092952978116,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.6401666666666666,
+        "original_active_duration_seconds": 4.38,
+        "original_peak": 0.47464320063591003,
+        "original_rms": 0.0665084632264257,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.050166666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.29,
+      "audio": "attempts/047__3.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "047",
+    "status": "checked",
+    "expected_text": "照片背面写着一个名字，我想先去查查来历。",
+    "recognized_text": "照片背面写着一个名字,我想先去查查来历。",
+    "audio": "audio/047_青年女声细砂.wav",
+    "audio_sha256": "861d39dcb2212d1e9fea9ffcd56b039e1157219f2b80e3ceb953fee0a92577b0",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:50.874482+00:00",
+    "passed": true,
+    "expected_normalized": "照片背面写着一个名字我想先去查查来历",
+    "recognized_normalized": "照片背面写着一个名字我想先去查查来历",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "照片背面写着一个名字我想先去查查来历"
+      }
+    ],
+    "elapsed_seconds": 0.47745975013822317,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhao4"
+        ],
+        [
+          "pian1"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "xie3",
+          "xie4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "yi2"
+        ],
+        [
+          "ge4"
+        ],
+        [
+          "ming2",
+          "ming4"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "xiang3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "zha1"
+        ],
+        [
+          "zha1"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "li4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhao4"
+        ],
+        [
+          "pian1"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "xie3",
+          "xie4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "yi2"
+        ],
+        [
+          "ge4"
+        ],
+        [
+          "ming2",
+          "ming4"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "xiang3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "zha1"
+        ],
+        [
+          "zha1"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "li4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

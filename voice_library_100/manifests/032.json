@@ -1,0 +1,373 @@
+{
+  "id": "032",
+  "name": "青年清朗",
+  "gender": "male",
+  "age_range": "20—25岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "口腔通透，头胸均衡",
+  "texture": "明亮清晰，薄厚均衡",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "自然笃定，吐字舒展",
+  "text": "这次路线已经确认，明天清晨我们准时集合，沿着东边山路出发。",
+  "voice_description": "20—25岁的青年男声，音高中音，口腔通透，头胸均衡，明亮清晰，薄厚均衡，语速中速。标准普通话，自然笃定，吐字舒展。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识短视频",
+    "任务提示"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中音",
+    "明亮清晰",
+    "中速"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "这次路线已经确认，明天清晨我们准时集合，沿着东边山路出发。",
+  "long_text_char_count": 26,
+  "design_text": "这次路线已经确认，明天清晨我们准时集合。",
+  "fingerprint": "62de5854849d5c00fddf3c3f76e886a2245592bafa643c23b50db62138fe9fc6",
+  "status": "generated",
+  "audio": "audio/032_青年清朗.wav",
+  "sha256": "aec61f07b14f72b6e796b854829b7525a4cd710bba6b24f9c560945b742f8c00",
+  "seed": 20398031,
+  "description_used": "20—25岁的青年男声，音高中音，口腔通透，头胸均衡，明亮清晰，薄厚均衡，语速中速。标准普通话，自然笃定，吐字舒展。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 253920,
+    "duration_seconds": 5.29,
+    "active_duration_seconds": 3.97,
+    "active_span_seconds": 5.09,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.3991822600364685,
+    "rms": 0.038366620009785024,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.760166666666667,
+    "original_active_duration_seconds": 3.97,
+    "original_peak": 0.3991822600364685,
+    "original_rms": 0.03676749124172442,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.19,
+    "trimmed_end_seconds": 0.2801666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20293302,
+      "description": "20—25岁的青年男声，音高中音，口腔通透，头胸均衡，明亮清晰，薄厚均衡，语速中速。标准普通话，自然笃定，吐字舒展。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这次路线已经确认，明天清晨我们准时集合。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 169440,
+        "duration_seconds": 3.53,
+        "active_duration_seconds": 2.93,
+        "active_span_seconds": 3.42,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6464279294013977,
+        "rms": 0.13375532160636722,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.93,
+        "original_peak": 0.6464279294013977,
+        "original_rms": 0.130998004727281,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.15016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 14.45,
+      "audio": "attempts/032__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20398031,
+      "description": "20—25岁的青年男声，音高中音，口腔通透，头胸均衡，明亮清晰，薄厚均衡，语速中速。标准普通话，自然笃定，吐字舒展。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "这次路线已经确认，明天清晨我们准时集合，沿着东边山路出发。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 253920,
+        "duration_seconds": 5.29,
+        "active_duration_seconds": 3.97,
+        "active_span_seconds": 5.09,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3991822600364685,
+        "rms": 0.038366620009785024,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.760166666666667,
+        "original_active_duration_seconds": 3.97,
+        "original_peak": 0.3991822600364685,
+        "original_rms": 0.03676749124172442,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.19,
+        "trimmed_end_seconds": 0.2801666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 8.37,
+      "audio": "attempts/032__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "032",
+    "status": "checked",
+    "expected_text": "这次路线已经确认，明天清晨我们准时集合，沿着东边山路出发。",
+    "recognized_text": "这次路线已经确认明天清晨我们准时集合沿着东边山路出发",
+    "audio": "audio/032_青年清朗.wav",
+    "audio_sha256": "aec61f07b14f72b6e796b854829b7525a4cd710bba6b24f9c560945b742f8c00",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:43.220825+00:00",
+    "passed": true,
+    "expected_normalized": "这次路线已经确认明天清晨我们准时集合沿着东边山路出发",
+    "recognized_normalized": "这次路线已经确认明天清晨我们准时集合沿着东边山路出发",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 26,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 26,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 26,
+        "text": "这次路线已经确认明天清晨我们准时集合沿着东边山路出发"
+      }
+    ],
+    "elapsed_seconds": 0.5657887081615627,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4"
+        ],
+        [
+          "ci4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "que4"
+        ],
+        [
+          "ren4"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "chen2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "zhun3"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "ji2"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "yan2"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "dong1"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "shan1"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4"
+        ],
+        [
+          "ci4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "que4"
+        ],
+        [
+          "ren4"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "chen2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "zhun3"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "ji2"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "yan2"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "dong1"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "shan1"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

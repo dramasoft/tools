@@ -1,0 +1,286 @@
+{
+  "id": "022",
+  "name": "少女暗绒",
+  "gender": "female",
+  "age_range": "16—17岁",
+  "age_group": "teen",
+  "pitch": "中低",
+  "resonance": "口腔后部柔和，胸腔轻支撑",
+  "texture": "偏暗细腻，柔软绒感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "安静笃定，正常有声说话",
+  "text": "这条路我走过很多次，跟着我就不会迷路。",
+  "voice_description": "16—17岁的少年女声，音高中低，口腔后部柔和，胸腔轻支撑，偏暗细腻，柔软绒感，语速中速。标准普通话，安静笃定，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "青春剧情",
+    "冒险游戏"
+  ],
+  "tags": [
+    "少年",
+    "女声",
+    "中低",
+    "偏暗细腻",
+    "中速"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "这条路我走过很多次，跟着我就不会迷路，过了松林就能看见桥。",
+  "long_text_char_count": 26,
+  "design_text": "这条路我走过很多次，跟着我就不会迷路。",
+  "fingerprint": "a17a83150921cb45f5b92c9e092cfe0e65e0ab1fb6404d0c69ab2acef9899503",
+  "status": "generated",
+  "audio": "audio/022_少女暗绒.wav",
+  "sha256": "27702567c0f0737f2663b35f4b1f2d387d9e1a12304346dfc4f14bb9714273fe",
+  "seed": 20283212,
+  "description_used": "16—17岁的少年女声，音高中低，口腔后部柔和，胸腔轻支撑，偏暗细腻，柔软绒感，语速中速。标准普通话，安静笃定，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 238080,
+    "duration_seconds": 4.96,
+    "active_duration_seconds": 3.95,
+    "active_span_seconds": 4.84,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.3643966317176819,
+    "rms": 0.05903551434068578,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.120166666666667,
+    "original_active_duration_seconds": 3.95,
+    "original_peak": 0.3643966317176819,
+    "original_rms": 0.058104830499096344,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.16016666666666668,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20283212,
+      "description": "16—17岁的少年女声，音高中低，口腔后部柔和，胸腔轻支撑，偏暗细腻，柔软绒感，语速中速。标准普通话，安静笃定，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这条路我走过很多次，跟着我就不会迷路。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 238080,
+        "duration_seconds": 4.96,
+        "active_duration_seconds": 3.95,
+        "active_span_seconds": 4.84,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3643966317176819,
+        "rms": 0.05903551434068578,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.120166666666667,
+        "original_active_duration_seconds": 3.95,
+        "original_peak": 0.3643966317176819,
+        "original_rms": 0.058104830499096344,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.16016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.78,
+      "audio": "attempts/022__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "022",
+    "status": "checked",
+    "expected_text": "这条路我走过很多次，跟着我就不会迷路。",
+    "recognized_text": "这条路我走过很多次跟着我就不会迷路",
+    "audio": "audio/022_少女暗绒.wav",
+    "audio_sha256": "27702567c0f0737f2663b35f4b1f2d387d9e1a12304346dfc4f14bb9714273fe",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:07.279928+00:00",
+    "passed": true,
+    "expected_normalized": "这条路我走过很多次跟着我就不会迷路",
+    "recognized_normalized": "这条路我走过很多次跟着我就不会迷路",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 17,
+        "text": "这条路我走过很多次跟着我就不会迷路"
+      }
+    ],
+    "elapsed_seconds": 0.7460386250168085,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "tiao2"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "duo1"
+        ],
+        [
+          "ci4",
+          "zi1",
+          "ci2"
+        ],
+        [
+          "gen1"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "bu2"
+        ],
+        [
+          "hui4"
+        ],
+        [
+          "mi2",
+          "mi4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "tiao2"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "duo1"
+        ],
+        [
+          "ci4",
+          "zi1",
+          "ci2"
+        ],
+        [
+          "gen1"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "bu2"
+        ],
+        [
+          "hui4"
+        ],
+        [
+          "mi2",
+          "mi4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

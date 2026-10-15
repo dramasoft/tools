@@ -1,0 +1,284 @@
+{
+  "id": "075",
+  "name": "中年女声砂感",
+  "gender": "female",
+  "age_range": "45—54岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "前口腔偏干，胸腔适中",
+  "texture": "细砂沙质，清晰有韧性",
+  "pace": "中速",
+  "accent": "普通话，轻微北方语感",
+  "delivery": "朴实自然，音量稳定",
+  "text": "菜市场今天收得早，剩下的东西明天再买。",
+  "voice_description": "45—54岁的中年女声，音高中低，前口腔偏干，胸腔适中，细砂沙质，清晰有韧性，语速中速。普通话，轻微北方语感，朴实自然，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "经营游戏"
+  ],
+  "tags": [
+    "中年",
+    "女声",
+    "中低",
+    "细砂沙质",
+    "中速"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "菜市场今天收得早，剩下的东西明天再买，家里还有些青菜和鸡蛋。",
+  "long_text_char_count": 27,
+  "design_text": "菜市场今天收得早，剩下的东西明天再买。",
+  "fingerprint": "863601dfcd57543967345f33e6e61fbacd357650dfbbe38508f21264c9abce75",
+  "status": "generated",
+  "audio": "audio/075_中年女声砂感.wav",
+  "sha256": "5f44f6c48a8dd6e3542a29cb6517aa020be78fbd24f31ba4c41fc129360716b2",
+  "seed": 20336689,
+  "description_used": "45—54岁的中年女声，音高中低，前口腔偏干，胸腔适中，细砂沙质，清晰有韧性，语速中速。普通话，轻微北方语感，朴实自然，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 192960,
+    "duration_seconds": 4.02,
+    "active_duration_seconds": 3.32,
+    "active_span_seconds": 3.82,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.20422647401349941,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.480166666666666,
+    "original_active_duration_seconds": 3.32,
+    "original_peak": 0.9945617914199829,
+    "original_rms": 0.2025285249404193,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.2,
+    "trimmed_end_seconds": 0.26016666666666666,
+    "gain": 0.9551945471820711
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20336689,
+      "description": "45—54岁的中年女声，音高中低，前口腔偏干，胸腔适中，细砂沙质，清晰有韧性，语速中速。普通话，轻微北方语感，朴实自然，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "菜市场今天收得早，剩下的东西明天再买。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 192960,
+        "duration_seconds": 4.02,
+        "active_duration_seconds": 3.32,
+        "active_span_seconds": 3.82,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.20422647401349941,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.480166666666666,
+        "original_active_duration_seconds": 3.32,
+        "original_peak": 0.9945617914199829,
+        "original_rms": 0.2025285249404193,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.2,
+        "trimmed_end_seconds": 0.26016666666666666,
+        "gain": 0.9551945471820711
+      },
+      "elapsed_seconds": 5.18,
+      "audio": "attempts/075__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "075",
+    "status": "checked",
+    "expected_text": "菜市场今天收得早，剩下的东西明天再买。",
+    "recognized_text": "菜市场今天收得早剩下的东西明天再买",
+    "audio": "audio/075_中年女声砂感.wav",
+    "audio_sha256": "5f44f6c48a8dd6e3542a29cb6517aa020be78fbd24f31ba4c41fc129360716b2",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:05.381007+00:00",
+    "passed": true,
+    "expected_normalized": "菜市场今天收得早剩下的东西明天再买",
+    "recognized_normalized": "菜市场今天收得早剩下的东西明天再买",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 17,
+        "text": "菜市场今天收得早剩下的东西明天再买"
+      }
+    ],
+    "elapsed_seconds": 0.5035629579797387,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "cai4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "chang3"
+        ],
+        [
+          "jin1"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "de2",
+          "de5",
+          "dei3"
+        ],
+        [
+          "zao3"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "dong1"
+        ],
+        [
+          "xi1"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "mai3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "cai4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "chang3"
+        ],
+        [
+          "jin1"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "de2",
+          "de5",
+          "dei3"
+        ],
+        [
+          "zao3"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "dong1"
+        ],
+        [
+          "xi1"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "mai3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

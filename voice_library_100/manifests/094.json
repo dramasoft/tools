@@ -1,0 +1,309 @@
+{
+  "id": "094",
+  "name": "长者女声软砂",
+  "gender": "female",
+  "age_range": "65—73岁",
+  "age_group": "senior",
+  "pitch": "中低",
+  "resonance": "口腔柔和，胸腔轻共鸣",
+  "texture": "柔软沙质，细微颗粒",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "温和自然，字尾完整",
+  "text": "这件毛衣织得慢，好在天冷之前能做完。",
+  "voice_description": "65—73岁的老年女声，音高中低，口腔柔和，胸腔轻共鸣，柔软沙质，细微颗粒，语速中速稍慢。标准普通话，温和自然，字尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "故事短视频",
+    "家庭游戏"
+  ],
+  "tags": [
+    "老年",
+    "女声",
+    "中低",
+    "柔软沙质",
+    "中速稍慢"
+  ],
+  "text_char_count": 16,
+  "target_duration_seconds": 5.0,
+  "long_text": "这件毛衣织得慢，好在天冷之前能做完，袖口再收两针就好。",
+  "long_text_char_count": 24,
+  "design_text": "这件毛衣织得慢，好在天冷之前能做完。",
+  "fingerprint": "113d10d5d43893732414bee04819ad70622eb3488031deff248cabad62f885e3",
+  "status": "generated",
+  "audio": "audio/094_长者女声软砂.wav",
+  "sha256": "5ead3595cf1f0ecdc2af8ff0d9c19779fbf76cd6977973de0e3cfe92d776a9aa",
+  "seed": 20355860,
+  "description_used": "65—73岁的老年女声，音高中低，口腔柔和，胸腔轻共鸣，柔软沙质，细微颗粒，语速中速稍慢。标准普通话，温和自然，字尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 284168,
+    "duration_seconds": 5.920166666666667,
+    "active_duration_seconds": 5.76,
+    "active_span_seconds": 5.83,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.09016666666666667,
+    "peak": 0.7043766379356384,
+    "rms": 0.09870649880444472,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.920166666666667,
+    "original_active_duration_seconds": 5.76,
+    "original_peak": 0.7043766379356384,
+    "original_rms": 0.09870649880444472,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20355860,
+      "description": "65—73岁的老年女声，音高中低，口腔柔和，胸腔轻共鸣，柔软沙质，细微颗粒，语速中速稍慢。标准普通话，温和自然，字尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这件毛衣织得慢，好在天冷之前能做完。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 284168,
+        "duration_seconds": 5.920166666666667,
+        "active_duration_seconds": 5.76,
+        "active_span_seconds": 5.83,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.09016666666666667,
+        "peak": 0.7043766379356384,
+        "rms": 0.09870649880444472,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.920166666666667,
+        "original_active_duration_seconds": 5.76,
+        "original_peak": 0.7043766379356384,
+        "original_rms": 0.09870649880444472,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.63,
+      "audio": "attempts/094__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "094",
+    "status": "checked",
+    "expected_text": "这件毛衣织得慢，好在天冷之前能做完。",
+    "recognized_text": "这件毛衣支的慢好在天冷之前能做完",
+    "audio": "audio/094_长者女声软砂.wav",
+    "audio_sha256": "5ead3595cf1f0ecdc2af8ff0d9c19779fbf76cd6977973de0e3cfe92d776a9aa",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:14.294142+00:00",
+    "passed": true,
+    "expected_normalized": "这件毛衣织得慢好在天冷之前能做完",
+    "recognized_normalized": "这件毛衣支的慢好在天冷之前能做完",
+    "expected_characters": 16,
+    "recognized_characters": 16,
+    "levenshtein_distance": 2,
+    "substitutions": 2,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 14,
+    "cer": 0.125,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.875,
+    "sequence_matching_characters": 14,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 4,
+        "text": "这件毛衣"
+      },
+      {
+        "expected_start": 6,
+        "recognized_start": 6,
+        "length": 10,
+        "text": "慢好在天冷之前能做完"
+      }
+    ],
+    "elapsed_seconds": 0.5094428327865899,
+    "pass_basis": "tone_compatible_homophones",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ],
+        [
+          "mao2",
+          "mao4"
+        ],
+        [
+          "yi1",
+          "yi4"
+        ],
+        [
+          "zhi1"
+        ],
+        [
+          "de2",
+          "de5",
+          "dei3"
+        ],
+        [
+          "man4",
+          "man2"
+        ],
+        [
+          "hao3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "leng3",
+          "ling2",
+          "ling3"
+        ],
+        [
+          "zhi1",
+          "zhu1",
+          "zhi4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wan2",
+          "kuan1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ],
+        [
+          "mao2",
+          "mao4"
+        ],
+        [
+          "yi1",
+          "yi4"
+        ],
+        [
+          "zhi1",
+          "zhi4",
+          "qi2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "man4",
+          "man2"
+        ],
+        [
+          "hao3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "leng3",
+          "ling2",
+          "ling3"
+        ],
+        [
+          "zhi1",
+          "zhu1",
+          "zhi4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wan2",
+          "kuan1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

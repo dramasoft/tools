@@ -1,0 +1,308 @@
+{
+  "id": "096",
+  "name": "长者女声干木",
+  "gender": "female",
+  "age_range": "70—80岁",
+  "age_group": "senior",
+  "pitch": "中音偏低",
+  "resonance": "口腔靠前，胸腔轻支撑",
+  "texture": "干燥木质，明显年龄纹理",
+  "pace": "偏慢",
+  "accent": "普通话，轻微中原语感",
+  "delivery": "平实清楚，发声不挤压",
+  "text": "小院重新铺过砖，下雨天也不用绕着走。",
+  "voice_description": "70—80岁的老年女声，音高中音偏低，口腔靠前，胸腔轻支撑，干燥木质，明显年龄纹理，语速偏慢。普通话，轻微中原语感，平实清楚，发声不挤压。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "乡土短视频",
+    "探索游戏"
+  ],
+  "tags": [
+    "老年",
+    "女声",
+    "中音偏低",
+    "干燥木质",
+    "偏慢"
+  ],
+  "text_char_count": 16,
+  "target_duration_seconds": 5.0,
+  "fingerprint": "8a165fad5395c5fd98555f2b0abdf98345083d815ba722398424f19411cdce94",
+  "status": "generated",
+  "audio": "audio/096_长者女声干木.wav",
+  "sha256": "6c9682b52b74c614450dbee0ab32479649c2c6bcc12209c6b20f0621abd51c9f",
+  "seed": 20462607,
+  "description_used": "70—80岁的老年女声，音高中音偏低，口腔靠前，胸腔轻支撑，干燥木质，明显年龄纹理，语速偏慢。普通话，轻微中原语感，平实清楚，发声不挤压。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 235680,
+    "duration_seconds": 4.91,
+    "active_duration_seconds": 4.2,
+    "active_span_seconds": 4.8,
+    "leading_silence_seconds": 0.01,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.5035414099693298,
+    "rms": 0.058922152074152835,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 4.2,
+    "original_peak": 0.5035414099693298,
+    "original_rms": 0.05681925817559592,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.37016666666666664,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20357878,
+      "description": "70—80岁的老年女声，音高中音偏低，口腔靠前，胸腔轻支撑，干燥木质，明显年龄纹理，语速偏慢。普通话，轻微中原语感，平实清楚，发声不挤压。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 180480,
+        "duration_seconds": 3.76,
+        "active_duration_seconds": 3.66,
+        "active_span_seconds": 3.66,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.4106319844722748,
+        "rms": 0.06341242362114341,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.66,
+        "original_peak": 0.4106319844722748,
+        "original_rms": 0.06274703922020014,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.08016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.81,
+      "audio": "attempts/096__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20462607,
+      "description": "70—80岁的老年女声，音高中音偏低，口腔靠前，胸腔轻支撑，干燥木质，明显年龄纹理，语速偏慢。普通话，轻微中原语感，平实清楚，发声不挤压。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 235680,
+        "duration_seconds": 4.91,
+        "active_duration_seconds": 4.2,
+        "active_span_seconds": 4.8,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5035414099693298,
+        "rms": 0.058922152074152835,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 4.2,
+        "original_peak": 0.5035414099693298,
+        "original_rms": 0.05681925817559592,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.37016666666666664,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.61,
+      "audio": "attempts/096__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "096",
+    "status": "checked",
+    "expected_text": "小院重新铺过砖，下雨天也不用绕着走。",
+    "recognized_text": "小院重新铺过砖下雨天也不用绕着走",
+    "audio": "audio/096_长者女声干木.wav",
+    "audio_sha256": "6c9682b52b74c614450dbee0ab32479649c2c6bcc12209c6b20f0621abd51c9f",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:17.146414+00:00",
+    "passed": true,
+    "expected_normalized": "小院重新铺过砖下雨天也不用绕着走",
+    "recognized_normalized": "小院重新铺过砖下雨天也不用绕着走",
+    "expected_characters": 16,
+    "recognized_characters": 16,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 16,
+        "text": "小院重新铺过砖下雨天也不用绕着走"
+      }
+    ],
+    "elapsed_seconds": 0.9150741249322891,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xiao3"
+        ],
+        [
+          "yuan4"
+        ],
+        [
+          "chong2"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "pu4",
+          "pu1"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "zhuan1"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yu3"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "ye3",
+          "yi2"
+        ],
+        [
+          "bu4"
+        ],
+        [
+          "yong4"
+        ],
+        [
+          "rao4",
+          "rao3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "zou3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xiao3"
+        ],
+        [
+          "yuan4"
+        ],
+        [
+          "chong2"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "pu4",
+          "pu1"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "zhuan1"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yu3"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "ye3",
+          "yi2"
+        ],
+        [
+          "bu4"
+        ],
+        [
+          "yong4"
+        ],
+        [
+          "rao4",
+          "rao3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "zou3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

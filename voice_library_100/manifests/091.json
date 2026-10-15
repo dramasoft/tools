@@ -1,0 +1,378 @@
+{
+  "id": "091",
+  "name": "长者清润",
+  "gender": "male",
+  "age_range": "55—62岁",
+  "age_group": "senior",
+  "pitch": "中低",
+  "resonance": "口腔舒展，头胸均衡",
+  "texture": "温润清晰，轻微年龄纹理",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "从容清楚，轻度认真",
+  "text": "书里的批注还留着，翻到后面你就能看见。",
+  "voice_description": "55—62岁的老年男声，音高中低，口腔舒展，头胸均衡，温润清晰，轻微年龄纹理，语速中速稍慢。标准普通话，从容清楚，轻度认真。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识旁白",
+    "探索游戏"
+  ],
+  "tags": [
+    "老年",
+    "男声",
+    "中低",
+    "温润清晰",
+    "中速稍慢"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "书里的批注还留着，翻到后面你就能看见，几处生字我都圈出来了。",
+  "long_text_char_count": 27,
+  "design_text": "书里的批注还留着，翻到后面你就能看见。",
+  "fingerprint": "913309f09b5f21d45fe24d6cd8f69505c1bcd9e95a456b902e0bfffae0e64259",
+  "status": "generated",
+  "audio": "audio/091_长者清润.wav",
+  "sha256": "a665d18957f5c7917055af84027a3f8574d8b294677b85db30ede63b83c0a958",
+  "seed": 20562291,
+  "description_used": "55—62岁的老年男声，音高中低，口腔舒展，头胸均衡，温润清晰，轻微年龄纹理，语速中速稍慢。标准普通话，从容清楚，轻度认真。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 194400,
+    "duration_seconds": 4.05,
+    "active_duration_seconds": 3.35,
+    "active_span_seconds": 3.85,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.7009034752845764,
+    "rms": 0.10155396283105962,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.480166666666666,
+    "original_active_duration_seconds": 3.35,
+    "original_peak": 0.7009034752845764,
+    "original_rms": 0.09655557465052285,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.21,
+    "trimmed_end_seconds": 0.22016666666666668,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20352833,
+      "description": "55—62岁的老年男声，音高中低，口腔舒展，头胸均衡，温润清晰，轻微年龄纹理，语速中速稍慢。标准普通话，从容清楚，轻度认真。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "书里的批注还留着，翻到后面你就能看见。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 161280,
+        "duration_seconds": 3.36,
+        "active_duration_seconds": 3.01,
+        "active_span_seconds": 3.25,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.1163661677981926,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 3.01,
+        "original_peak": 0.9878603219985962,
+        "original_rms": 0.1182188412560093,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.16016666666666668,
+        "gain": 0.9616744177739633
+      },
+      "elapsed_seconds": 3.98,
+      "audio": "attempts/091__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20457562,
+      "description": "55—62岁的老年男声，音高中低，口腔舒展，头胸均衡，温润清晰，轻微年龄纹理，语速中速稍慢。标准普通话，从容清楚，轻度认真。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "书里的批注还留着，翻到后面你就能看见，几处生字我都圈出来了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 299528,
+        "duration_seconds": 6.240166666666667,
+        "active_duration_seconds": 5.4,
+        "active_span_seconds": 6.09,
+        "leading_silence_seconds": 0.07,
+        "trailing_silence_seconds": 0.08016666666666666,
+        "peak": 0.95,
+        "rms": 0.14260017688120874,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.240166666666667,
+        "original_active_duration_seconds": 5.4,
+        "original_peak": 0.9941138029098511,
+        "original_rms": 0.14922189908946928,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 0.9556249970770686
+      },
+      "elapsed_seconds": 7.04,
+      "audio": "attempts/091__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20562291,
+      "description": "55—62岁的老年男声，音高中低，口腔舒展，头胸均衡，温润清晰，轻微年龄纹理，语速中速稍慢。标准普通话，从容清楚，轻度认真。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "书里的批注还留着，翻到后面你就能看见。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 194400,
+        "duration_seconds": 4.05,
+        "active_duration_seconds": 3.35,
+        "active_span_seconds": 3.85,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7009034752845764,
+        "rms": 0.10155396283105962,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.480166666666666,
+        "original_active_duration_seconds": 3.35,
+        "original_peak": 0.7009034752845764,
+        "original_rms": 0.09655557465052285,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.22016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.09,
+      "audio": "attempts/091__3.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "091",
+    "status": "checked",
+    "expected_text": "书里的批注还留着，翻到后面你就能看见。",
+    "recognized_text": "书里的批柱还留着翻到后面你就能看见",
+    "audio": "audio/091_长者清润.wav",
+    "audio_sha256": "a665d18957f5c7917055af84027a3f8574d8b294677b85db30ede63b83c0a958",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:12.718616+00:00",
+    "passed": true,
+    "expected_normalized": "书里的批注还留着翻到后面你就能看见",
+    "recognized_normalized": "书里的批柱还留着翻到后面你就能看见",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.058823529411764705,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9411764705882353,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 4,
+        "text": "书里的批"
+      },
+      {
+        "expected_start": 5,
+        "recognized_start": 5,
+        "length": 12,
+        "text": "还留着翻到后面你就能看见"
+      }
+    ],
+    "elapsed_seconds": 0.506847542244941,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "shu1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "pi1",
+          "pi2"
+        ],
+        [
+          "zhu4",
+          "zhou4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "fan1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "jian4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "shu1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "pi1",
+          "pi2"
+        ],
+        [
+          "zhu4",
+          "zhu3"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "fan1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "jian4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

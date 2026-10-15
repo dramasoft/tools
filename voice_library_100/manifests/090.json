@@ -1,0 +1,356 @@
+{
+  "id": "090",
+  "name": "长者鼻腔暖声",
+  "gender": "male",
+  "age_range": "58—66岁",
+  "age_group": "senior",
+  "pitch": "中音",
+  "resonance": "鼻腔温暖，口腔靠前",
+  "texture": "紧实略干，轻鼻音",
+  "pace": "中速",
+  "accent": "普通话，轻微西南语感",
+  "delivery": "亲切自然，轻微笑意",
+  "text": "茶叶是今年山里新采的，你闻闻这股清香。",
+  "voice_description": "58—66岁的老年男声，音高中音，鼻腔温暖，口腔靠前，紧实略干，轻鼻音，语速中速。普通话，轻微西南语感，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "经营游戏"
+  ],
+  "tags": [
+    "老年",
+    "男声",
+    "中音",
+    "紧实略干",
+    "中速"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "茶叶是今年山里新采的，你闻闻这股清香，泡第二遍味道也很好。",
+  "long_text_char_count": 26,
+  "design_text": "茶叶是今年山里新采的，你闻闻这股清香。",
+  "fingerprint": "ee812bcdac93e2fd9d73fd450bbd8ccf05f03373c5c8f8f1e8744a79d13bbabc",
+  "status": "generated",
+  "audio": "audio/090_长者鼻腔暖声.wav",
+  "sha256": "68ff5ac030f3ba218181216d1dd06c16c29dea365108352b0c2d994d965376a1",
+  "seed": 20561282,
+  "description_used": "58—66岁的老年男声，音高中音，鼻腔温暖，口腔靠前，紧实略干，轻鼻音，语速中速。普通话，轻微西南语感，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 239040,
+    "duration_seconds": 4.98,
+    "active_duration_seconds": 4.15,
+    "active_span_seconds": 4.78,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.7085643410682678,
+    "rms": 0.057802538232880375,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.6001666666666665,
+    "original_active_duration_seconds": 4.15,
+    "original_peak": 0.7085643410682678,
+    "original_rms": 0.05450826506807488,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.17,
+    "trimmed_end_seconds": 0.45016666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20351824,
+      "description": "58—66岁的老年男声，音高中音，鼻腔温暖，口腔靠前，紧实略干，轻鼻音，语速中速。普通话，轻微西南语感，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "茶叶是今年山里新采的，你闻闻这股清香。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 182400,
+        "duration_seconds": 3.8,
+        "active_duration_seconds": 3.61,
+        "active_span_seconds": 3.61,
+        "leading_silence_seconds": 0.09,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.30845972895622253,
+        "rms": 0.053507289213532816,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.61,
+        "original_peak": 0.30845972895622253,
+        "original_rms": 0.0532267208061509,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.04016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.34,
+      "audio": "attempts/090__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20456553,
+      "description": "58—66岁的老年男声，音高中音，鼻腔温暖，口腔靠前，紧实略干，轻鼻音，语速中速。普通话，轻微西南语感，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "茶叶是今年山里新采的，你闻闻这股清香，泡第二遍味道也很好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 360960,
+        "duration_seconds": 7.52,
+        "active_duration_seconds": 6.97,
+        "active_span_seconds": 7.41,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.918491542339325,
+        "rms": 0.10861747324728142,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 7.520166666666666,
+        "original_active_duration_seconds": 6.97,
+        "original_peak": 0.918491542339325,
+        "original_rms": 0.10861626961622219,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.00016666666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 8.44,
+      "audio": "attempts/090__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20561282,
+      "description": "58—66岁的老年男声，音高中音，鼻腔温暖，口腔靠前，紧实略干，轻鼻音，语速中速。普通话，轻微西南语感，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "茶叶是今年山里新采的，你闻闻这股清香。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 239040,
+        "duration_seconds": 4.98,
+        "active_duration_seconds": 4.15,
+        "active_span_seconds": 4.78,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7085643410682678,
+        "rms": 0.057802538232880375,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.6001666666666665,
+        "original_active_duration_seconds": 4.15,
+        "original_peak": 0.7085643410682678,
+        "original_rms": 0.05450826506807488,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.17,
+        "trimmed_end_seconds": 0.45016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.32,
+      "audio": "attempts/090__3.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "090",
+    "status": "checked",
+    "expected_text": "茶叶是今年山里新采的，你闻闻这股清香。",
+    "recognized_text": "茶叶是今年山里新采的你闻闻这股清香",
+    "audio": "audio/090_长者鼻腔暖声.wav",
+    "audio_sha256": "68ff5ac030f3ba218181216d1dd06c16c29dea365108352b0c2d994d965376a1",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:12.221499+00:00",
+    "passed": true,
+    "expected_normalized": "茶叶是今年山里新采的你闻闻这股清香",
+    "recognized_normalized": "茶叶是今年山里新采的你闻闻这股清香",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 17,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 17,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 17,
+        "text": "茶叶是今年山里新采的你闻闻这股清香"
+      }
+    ],
+    "elapsed_seconds": 0.4943720418959856,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "cha2"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "shi4",
+          "ti2"
+        ],
+        [
+          "jin1"
+        ],
+        [
+          "nian2",
+          "ning4"
+        ],
+        [
+          "shan1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "cai3",
+          "cai4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "wen2"
+        ],
+        [
+          "wen2"
+        ],
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "gu3"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "xiang1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "cha2"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "shi4",
+          "ti2"
+        ],
+        [
+          "jin1"
+        ],
+        [
+          "nian2",
+          "ning4"
+        ],
+        [
+          "shan1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "cai3",
+          "cai4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "wen2"
+        ],
+        [
+          "wen2"
+        ],
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "gu3"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "xiang1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "id": "061",
+  "name": "中年深磁",
+  "gender": "male",
+  "age_range": "35—42岁",
+  "age_group": "middle_aged",
+  "pitch": "偏低",
+  "resonance": "深胸腔，口腔饱满",
+  "texture": "厚实磁性，暗而清楚",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "沉稳自然，语气克制",
+  "text": "先把情况说清楚，剩下的问题我们一起处理。",
+  "voice_description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识旁白",
+    "剧情游戏"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "偏低",
+    "厚实磁性",
+    "中速稍慢"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "先把情况说清楚，剩下的问题我们一起处理，该核实的地方别漏掉。",
+  "long_text_char_count": 27,
+  "design_text": "先把情况说清楚，剩下的问题我们一起处理。",
+  "fingerprint": "6eb64a11010c61590aee2416b4d9b8a66b19c3e28a9ab780622c08c2f36e8867",
+  "status": "generated",
+  "audio": "audio/061_中年深磁.wav",
+  "sha256": "e32d0c4495fc691db4b9035eb0951658b338aea4347b77adc0414a91f4cb419a",
+  "seed": 20741479,
+  "description_used": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 222728,
+    "duration_seconds": 4.6401666666666666,
+    "active_duration_seconds": 4.31,
+    "active_span_seconds": 4.59,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.050166666666666665,
+    "peak": 0.2579352557659149,
+    "rms": 0.025050682939585706,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.6401666666666666,
+    "original_active_duration_seconds": 4.31,
+    "original_peak": 0.2579352557659149,
+    "original_rms": 0.025050682939585706,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20322563,
+      "description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 152160,
+        "duration_seconds": 3.17,
+        "active_duration_seconds": 2.81,
+        "active_span_seconds": 3.07,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.4888787865638733,
+        "rms": 0.05826475801634326,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.2001666666666666,
+        "original_active_duration_seconds": 2.81,
+        "original_peak": 0.4888787865638733,
+        "original_rms": 0.057989488713536666,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.030166666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.02,
+      "audio": "attempts/061__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20427292,
+      "description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 152160,
+        "duration_seconds": 3.17,
+        "active_duration_seconds": 2.5,
+        "active_span_seconds": 2.97,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.11257814379592172,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.5,
+        "original_peak": 0.993155300617218,
+        "original_rms": 0.1092304158088398,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.22,
+        "trimmed_end_seconds": 0.2901666666666667,
+        "gain": 0.9565472785672108
+      },
+      "elapsed_seconds": 4.59,
+      "audio": "attempts/061__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20532021,
+      "description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 161760,
+        "duration_seconds": 3.37,
+        "active_duration_seconds": 2.93,
+        "active_span_seconds": 3.27,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6497063636779785,
+        "rms": 0.08466223692009389,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 2.93,
+        "original_peak": 0.6497063636779785,
+        "original_rms": 0.08283675491722367,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.15016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.38,
+      "audio": "attempts/061__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20636750,
+      "description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "先把情况说清楚，剩下的问题我们一起处理，该核实的地方别漏掉。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 297120,
+        "duration_seconds": 6.19,
+        "active_duration_seconds": 6.08,
+        "active_span_seconds": 6.09,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7179672718048096,
+        "rms": 0.055340526964379244,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.240166666666667,
+        "original_active_duration_seconds": 6.08,
+        "original_peak": 0.7179672718048096,
+        "original_rms": 0.055117628109457105,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.050166666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.26,
+      "audio": "attempts/061__4.wav"
+    },
+    {
+      "attempt": 5,
+      "seed": 20741479,
+      "description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "先把情况说清楚，剩下的问题我们一起处理。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 222728,
+        "duration_seconds": 4.6401666666666666,
+        "active_duration_seconds": 4.31,
+        "active_span_seconds": 4.59,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.050166666666666665,
+        "peak": 0.2579352557659149,
+        "rms": 0.025050682939585706,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.6401666666666666,
+        "original_active_duration_seconds": 4.31,
+        "original_peak": 0.2579352557659149,
+        "original_rms": 0.025050682939585706,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.39,
+      "audio": "attempts/061__5.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "061",
+    "status": "checked",
+    "expected_text": "先把情况说清楚，剩下的问题我们一起处理。",
+    "recognized_text": "先把情况说清楚剩下的问题我们一起处理",
+    "audio": "audio/061_中年深磁.wav",
+    "audio_sha256": "e32d0c4495fc691db4b9035eb0951658b338aea4347b77adc0414a91f4cb419a",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:58.468357+00:00",
+    "passed": true,
+    "expected_normalized": "先把情况说清楚剩下的问题我们一起处理",
+    "recognized_normalized": "先把情况说清楚剩下的问题我们一起处理",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "先把情况说清楚剩下的问题我们一起处理"
+      }
+    ],
+    "elapsed_seconds": 0.4838970829732716,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xian1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "qing2"
+        ],
+        [
+          "kuang4"
+        ],
+        [
+          "shuo1"
+        ],
+        [
+          "qing1"
+        ],
+        [
+          "chu3"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "wen4"
+        ],
+        [
+          "ti2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "chu3"
+        ],
+        [
+          "li3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xian1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "qing2"
+        ],
+        [
+          "kuang4"
+        ],
+        [
+          "shuo1"
+        ],
+        [
+          "qing1"
+        ],
+        [
+          "chu3"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "wen4"
+        ],
+        [
+          "ti2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "chu3"
+        ],
+        [
+          "li3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

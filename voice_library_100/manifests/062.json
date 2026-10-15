@@ -1,0 +1,470 @@
+{
+  "id": "062",
+  "name": "中年暖木",
+  "gender": "male",
+  "age_range": "40—48岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "胸腔温实，口腔圆润",
+  "texture": "温暖木质，略带自然纹理",
+  "pace": "中速",
+  "accent": "普通话，轻微北方语感",
+  "delivery": "朴实亲切，正常音量",
+  "text": "院门的合页修好了，推起来已经没有响声，门边的旧锁也换掉了。",
+  "voice_description": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "经营游戏"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "中低",
+    "温暖木质",
+    "中速"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "院门的合页修好了，推起来已经没有响声，门边的旧锁也换掉了。",
+  "long_text_char_count": 26,
+  "design_text": "院门的合页修好了，推起来已经没有响声了。",
+  "fingerprint": "3397964cb9d1393893891c97c9104cb98354d670ea74283b0c1458baac2629ed",
+  "status": "generated",
+  "audio": "audio/062_中年暖木.wav",
+  "sha256": "b19dceb08295119cd6edd70a1e6cf9531376c3a4dc43383475a317467ba8eeac",
+  "seed": 20637759,
+  "description_used": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 254400,
+    "duration_seconds": 5.3,
+    "active_duration_seconds": 4.3,
+    "active_span_seconds": 5.1,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.9487742781639099,
+    "rms": 0.15026684714292543,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.760166666666667,
+    "original_active_duration_seconds": 4.3,
+    "original_peak": 0.9487742781639099,
+    "original_rms": 0.1441396981042813,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.22,
+    "trimmed_end_seconds": 0.24016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20323572,
+      "description": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "院门的合页修好了，推起来已经没有响声了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 168480,
+        "duration_seconds": 3.51,
+        "active_duration_seconds": 3.22,
+        "active_span_seconds": 3.41,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.4772561192512512,
+        "rms": 0.10953249773524894,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.22,
+        "original_peak": 0.4772561192512512,
+        "original_rms": 0.1069702000000098,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.17016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.3,
+      "audio": "attempts/062__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20428301,
+      "description": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "院门的合页修好了，推起来已经没有响声，门边的旧锁也换掉了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 296640,
+        "duration_seconds": 6.18,
+        "active_duration_seconds": 5.3,
+        "active_span_seconds": 5.98,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6852256655693054,
+        "rms": 0.10154509529083194,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.5601666666666665,
+        "original_active_duration_seconds": 5.3,
+        "original_peak": 0.6852256655693054,
+        "original_rms": 0.09855889381498772,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.19,
+        "trimmed_end_seconds": 0.19016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.65,
+      "audio": "attempts/062__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20533030,
+      "description": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "院门的合页修好了，推起来已经没有响声了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 165600,
+        "duration_seconds": 3.45,
+        "active_duration_seconds": 2.97,
+        "active_span_seconds": 3.35,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7270495295524597,
+        "rms": 0.0769785484301816,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.97,
+        "original_peak": 0.7270495295524597,
+        "original_rms": 0.07453248520311948,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.23016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.38,
+      "audio": "attempts/062__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20637759,
+      "description": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "院门的合页修好了，推起来已经没有响声，门边的旧锁也换掉了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 254400,
+        "duration_seconds": 5.3,
+        "active_duration_seconds": 4.3,
+        "active_span_seconds": 5.1,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.9487742781639099,
+        "rms": 0.15026684714292543,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.760166666666667,
+        "original_active_duration_seconds": 4.3,
+        "original_peak": 0.9487742781639099,
+        "original_rms": 0.1441396981042813,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.22,
+        "trimmed_end_seconds": 0.24016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.71,
+      "audio": "attempts/062__4.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "062",
+    "status": "checked",
+    "expected_text": "院门的合页修好了，推起来已经没有响声，门边的旧锁也换掉了。",
+    "recognized_text": "院门的荷叶修好了,推起来已经没有响声,门边的救所也换掉了。",
+    "audio": "audio/062_中年暖木.wav",
+    "audio_sha256": "b19dceb08295119cd6edd70a1e6cf9531376c3a4dc43383475a317467ba8eeac",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:58.955020+00:00",
+    "passed": true,
+    "expected_normalized": "院门的合页修好了推起来已经没有响声门边的旧锁也换掉了",
+    "recognized_normalized": "院门的荷叶修好了推起来已经没有响声门边的救所也换掉了",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 4,
+    "substitutions": 4,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 22,
+    "cer": 0.15384615384615385,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.8461538461538461,
+    "sequence_matching_characters": 22,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 3,
+        "text": "院门的"
+      },
+      {
+        "expected_start": 5,
+        "recognized_start": 5,
+        "length": 15,
+        "text": "修好了推起来已经没有响声门边的"
+      },
+      {
+        "expected_start": 22,
+        "recognized_start": 22,
+        "length": 4,
+        "text": "也换掉了"
+      }
+    ],
+    "elapsed_seconds": 0.5276397909037769,
+    "pass_basis": "tone_compatible_homophones",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "yuan4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "xiu1"
+        ],
+        [
+          "hao3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "tui1"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "xiang3"
+        ],
+        [
+          "sheng1",
+          "qing4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "suo3"
+        ],
+        [
+          "ye3",
+          "yi2"
+        ],
+        [
+          "huan4"
+        ],
+        [
+          "diao4",
+          "nuo2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "yuan4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "xiu1"
+        ],
+        [
+          "hao3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "tui1"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "xiang3"
+        ],
+        [
+          "sheng1",
+          "qing4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "jiu4",
+          "jiu1"
+        ],
+        [
+          "suo3"
+        ],
+        [
+          "ye3",
+          "yi2"
+        ],
+        [
+          "huan4"
+        ],
+        [
+          "diao4",
+          "nuo2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

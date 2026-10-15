@@ -1,0 +1,386 @@
+{
+  "id": "056",
+  "name": "青年女声珠圆",
+  "gender": "female",
+  "age_range": "22—27岁",
+  "age_group": "young_adult",
+  "pitch": "中高偏中",
+  "resonance": "口腔圆润，头胸均衡",
+  "texture": "珠圆清晰，细密有弹性",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "明快端正，表情轻淡",
+  "text": "预约时间是下午三点，我会提前十分钟到场，带齐需要签字的文件。",
+  "voice_description": "22—27岁的青年女声，音高中高偏中，口腔圆润，头胸均衡，珠圆清晰，细密有弹性，语速中速。标准普通话，明快端正，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识短视频",
+    "服务提示"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中高偏中",
+    "珠圆清晰",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "预约时间是下午三点，我会提前十分钟到场，带齐需要签字的文件。",
+  "long_text_char_count": 27,
+  "design_text": "预约时间是下午三点，我会提前十分钟到场。",
+  "fingerprint": "dc3f645312577995c4975f055677c7d82211dda79000ecbad2aa9129ef9fca90",
+  "status": "generated",
+  "audio": "audio/056_青年女声珠圆.wav",
+  "sha256": "e12a7766427cd527b4b8a6e4b4ae08e1b718a705d302144c9199d9bdd69468c2",
+  "seed": 20422247,
+  "description_used": "22—27岁的青年女声，音高中高偏中，口腔圆润，头胸均衡，珠圆清晰，细密有弹性，语速中速。标准普通话，明快端正，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 257760,
+    "duration_seconds": 5.37,
+    "active_duration_seconds": 4.23,
+    "active_span_seconds": 5.17,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.15677680705431973,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.920166666666667,
+    "original_active_duration_seconds": 4.23,
+    "original_peak": 0.9684310555458069,
+    "original_rms": 0.15221138568453388,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.23,
+    "trimmed_end_seconds": 0.32016666666666665,
+    "gain": 0.9809681283553849
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20317518,
+      "description": "22—27岁的青年女声，音高中高偏中，口腔圆润，头胸均衡，珠圆清晰，细密有弹性，语速中速。标准普通话，明快端正，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "预约时间是下午三点，我会提前十分钟到场。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 174720,
+        "duration_seconds": 3.64,
+        "active_duration_seconds": 3.06,
+        "active_span_seconds": 3.44,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6779338121414185,
+        "rms": 0.10672660819562,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.160166666666667,
+        "original_active_duration_seconds": 3.06,
+        "original_peak": 0.6779338121414185,
+        "original_rms": 0.09983165555898497,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.22,
+        "trimmed_end_seconds": 0.3001666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.87,
+      "audio": "attempts/056__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20422247,
+      "description": "22—27岁的青年女声，音高中高偏中，口腔圆润，头胸均衡，珠圆清晰，细密有弹性，语速中速。标准普通话，明快端正，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "预约时间是下午三点，我会提前十分钟到场，带齐需要签字的文件。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 257760,
+        "duration_seconds": 5.37,
+        "active_duration_seconds": 4.23,
+        "active_span_seconds": 5.17,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.15677680705431973,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.920166666666667,
+        "original_active_duration_seconds": 4.23,
+        "original_peak": 0.9684310555458069,
+        "original_rms": 0.15221138568453388,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.23,
+        "trimmed_end_seconds": 0.32016666666666665,
+        "gain": 0.9809681283553849
+      },
+      "elapsed_seconds": 7.04,
+      "audio": "attempts/056__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "056",
+    "status": "checked",
+    "expected_text": "预约时间是下午三点，我会提前十分钟到场，带齐需要签字的文件。",
+    "recognized_text": "约约时间是下午三点我会提前十分钟到场戴琪需要签字的文件",
+    "audio": "audio/056_青年女声珠圆.wav",
+    "audio_sha256": "e12a7766427cd527b4b8a6e4b4ae08e1b718a705d302144c9199d9bdd69468c2",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:55.591604+00:00",
+    "passed": true,
+    "expected_normalized": "预约时间是下午三点我会提前十分钟到场带齐需要签字的文件",
+    "recognized_normalized": "约约时间是下午三点我会提前十分钟到场戴琪需要签字的文件",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 3,
+    "substitutions": 3,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 24,
+    "cer": 0.1111111111111111,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.8888888888888888,
+    "sequence_matching_characters": 24,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 1,
+        "recognized_start": 1,
+        "length": 17,
+        "text": "约时间是下午三点我会提前十分钟到场"
+      },
+      {
+        "expected_start": 20,
+        "recognized_start": 20,
+        "length": 7,
+        "text": "需要签字的文件"
+      }
+    ],
+    "elapsed_seconds": 0.6228222921490669,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": false,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "yu4"
+        ],
+        [
+          "yue1"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "jian1"
+        ],
+        [
+          "shi4",
+          "ti2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "wu3"
+        ],
+        [
+          "san1"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "hui4",
+          "kuai4"
+        ],
+        [
+          "ti2"
+        ],
+        [
+          "qian2"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "fen1"
+        ],
+        [
+          "zhong1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "chang3"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "qi2",
+          "ji4"
+        ],
+        [
+          "xu1"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "qian1"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "wen2"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "yue1",
+          "yao1"
+        ],
+        [
+          "yue1",
+          "yao1"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "jian1"
+        ],
+        [
+          "shi4",
+          "ti2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "wu3"
+        ],
+        [
+          "san1"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "hui4",
+          "kuai4"
+        ],
+        [
+          "ti2"
+        ],
+        [
+          "qian2"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "fen1"
+        ],
+        [
+          "zhong1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "chang3"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "qi2"
+        ],
+        [
+          "xu1"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "qian1"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "wen2"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

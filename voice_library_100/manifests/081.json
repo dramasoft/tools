@@ -1,0 +1,302 @@
+{
+  "id": "081",
+  "name": "中年女声微哑",
+  "gender": "female",
+  "age_range": "46—54岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "胸腔适中，前口腔偏暖",
+  "texture": "柔韧微哑，带轻微颗粒",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "平实从容，句尾收稳",
+  "text": "这本相册放了很多年，翻的时候动作轻一点。",
+  "voice_description": "46—54岁的中年女声，音高中低，胸腔适中，前口腔偏暖，柔韧微哑，带轻微颗粒，语速中速。标准普通话，平实从容，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "故事短视频",
+    "探索游戏"
+  ],
+  "tags": [
+    "中年",
+    "女声",
+    "中低",
+    "柔韧微哑",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "这本相册放了很多年，翻的时候动作轻一点，里面有几页已经松了。",
+  "long_text_char_count": 27,
+  "design_text": "这本相册放了很多年，翻的时候动作轻一点。",
+  "fingerprint": "f8e2305340cf52982ad2db9e36aa92d984afdd099a83007ac4653db834dd3235",
+  "status": "generated",
+  "audio": "audio/081_中年女声微哑.wav",
+  "sha256": "cbc0a1eaaef53a8cb26798cfe01023b4f1f67a3de301d5446b2a3a9c829c949c",
+  "seed": 20342743,
+  "description_used": "46—54岁的中年女声，音高中低，胸腔适中，前口腔偏暖，柔韧微哑，带轻微颗粒，语速中速。标准普通话，平实从容，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 199200,
+    "duration_seconds": 4.15,
+    "active_duration_seconds": 3.75,
+    "active_span_seconds": 4.0,
+    "leading_silence_seconds": 0.05,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.5107103586196899,
+    "rms": 0.10005243276908198,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 3.75,
+    "original_peak": 0.5107103586196899,
+    "original_rms": 0.09806219154753132,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.17016666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20342743,
+      "description": "46—54岁的中年女声，音高中低，胸腔适中，前口腔偏暖，柔韧微哑，带轻微颗粒，语速中速。标准普通话，平实从容，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这本相册放了很多年，翻的时候动作轻一点。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 199200,
+        "duration_seconds": 4.15,
+        "active_duration_seconds": 3.75,
+        "active_span_seconds": 4.0,
+        "leading_silence_seconds": 0.05,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5107103586196899,
+        "rms": 0.10005243276908198,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 3.75,
+        "original_peak": 0.5107103586196899,
+        "original_rms": 0.09806219154753132,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.17016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.0,
+      "audio": "attempts/081__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "081",
+    "status": "checked",
+    "expected_text": "这本相册放了很多年，翻的时候动作轻一点。",
+    "recognized_text": "这本相册放了很多年,翻的时候动作轻一点。",
+    "audio": "audio/081_中年女声微哑.wav",
+    "audio_sha256": "cbc0a1eaaef53a8cb26798cfe01023b4f1f67a3de301d5446b2a3a9c829c949c",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:08.592062+00:00",
+    "passed": true,
+    "expected_normalized": "这本相册放了很多年翻的时候动作轻一点",
+    "recognized_normalized": "这本相册放了很多年翻的时候动作轻一点",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "这本相册放了很多年翻的时候动作轻一点"
+      }
+    ],
+    "elapsed_seconds": 0.5118321250192821,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "ben3"
+        ],
+        [
+          "xiang4"
+        ],
+        [
+          "ce4",
+          "zha4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "duo1"
+        ],
+        [
+          "nian2",
+          "ning4"
+        ],
+        [
+          "fan1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "dong4"
+        ],
+        [
+          "zuo4",
+          "zuo1",
+          "zuo2"
+        ],
+        [
+          "qing1"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "ben3"
+        ],
+        [
+          "xiang4"
+        ],
+        [
+          "ce4",
+          "zha4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "duo1"
+        ],
+        [
+          "nian2",
+          "ning4"
+        ],
+        [
+          "fan1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "dong4"
+        ],
+        [
+          "zuo4",
+          "zuo1",
+          "zuo2"
+        ],
+        [
+          "qing1"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

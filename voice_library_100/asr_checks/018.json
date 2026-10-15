@@ -1,0 +1,49 @@
+{
+  "id": "018",
+  "status": "checked",
+  "expected_text": "山谷里传来一阵铃声，听起来就在那片树林。",
+  "recognized_text": "山谷里传来一阵铃声听起来就在那片树林",
+  "audio": "audio/018_少年空灵实声.wav",
+  "audio_sha256": "11bdabf898af6b1615c98d8b7003dda42aeb580d729fc091f0fe600df78c8e1b",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T09:28:03.522386+00:00",
+  "passed": true,
+  "expected_normalized": "山谷里传来一阵铃声听起来就在那片树林",
+  "recognized_normalized": "山谷里传来一阵铃声听起来就在那片树林",
+  "expected_characters": 18,
+  "recognized_characters": 18,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 18,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 18,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 18,
+      "text": "山谷里传来一阵铃声听起来就在那片树林"
+    }
+  ],
+  "elapsed_seconds": 0.9976323749870062
+}

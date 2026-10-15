@@ -1,0 +1,16 @@
+{
+  "audio_count": 100,
+  "transcript_count": 100,
+  "format": "48kHz, mono, 16-bit PCM WAV",
+  "duration_min_seconds": 4.01,
+  "duration_max_seconds": 5.920166666666667,
+  "duration_mean_seconds": 4.853031666666666,
+  "unique_waveform_sha256": 100,
+  "signal_checks_passed": 100,
+  "machine_asr_checks_passed": 100,
+  "speaker_features_checked": 100,
+  "pairwise_speaker_comparisons": 4950,
+  "similar_pairs_for_listening": 0,
+  "real_clone_tests": 3,
+  "human_listening_review_completed": false
+}

@@ -1,0 +1,391 @@
+{
+  "id": "072",
+  "name": "中年女声暖厚",
+  "gender": "female",
+  "age_range": "35—42岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "胸腔温厚，口腔圆润",
+  "texture": "暖而饱满，轻微磁性",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "亲切可靠，语气自然",
+  "text": "水果已经洗好了，你先尝尝甜不甜，我把厨房里的饭菜端上来。",
+  "voice_description": "35—42岁的中年女声，音高中低，胸腔温厚，口腔圆润，暖而饱满，轻微磁性，语速中速。标准普通话，亲切可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "家庭游戏"
+  ],
+  "tags": [
+    "中年",
+    "女声",
+    "中低",
+    "暖而饱满",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "水果已经洗好了，你先尝尝甜不甜，我把厨房里的饭菜端上来。",
+  "long_text_char_count": 25,
+  "design_text": "水果已经洗好了，你先尝尝，我把饭菜端上来。",
+  "fingerprint": "c940e8dbafb51dc40c18bdff1fd8829b541055bd319a7aac9df8d93c8890aa48",
+  "status": "generated",
+  "audio": "audio/072_中年女声暖厚.wav",
+  "sha256": "012a1fe0ddadb05cd92536b808a800faf7fc8fad767b8928f9f16a2548136052",
+  "seed": 20438391,
+  "description_used": "35—42岁的中年女声，音高中低，胸腔温厚，口腔圆润，暖而饱满，轻微磁性，语速中速。标准普通话，亲切可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 253448,
+    "duration_seconds": 5.280166666666666,
+    "active_duration_seconds": 4.21,
+    "active_span_seconds": 5.22,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.06016666666666667,
+    "peak": 0.36946263909339905,
+    "rms": 0.0331352000916775,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 4.21,
+    "original_peak": 0.36946263909339905,
+    "original_rms": 0.0331352000916775,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20333662,
+      "description": "35—42岁的中年女声，音高中低，胸腔温厚，口腔圆润，暖而饱满，轻微磁性，语速中速。标准普通话，亲切可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "水果已经洗好了，你先尝尝，我把饭菜端上来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 176648,
+        "duration_seconds": 3.6801666666666666,
+        "active_duration_seconds": 2.71,
+        "active_span_seconds": 3.59,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.09016666666666667,
+        "peak": 0.6432433724403381,
+        "rms": 0.08915812720052613,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.71,
+        "original_peak": 0.6432433724403381,
+        "original_rms": 0.08915812720052613,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.29,
+      "audio": "attempts/072__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20438391,
+      "description": "35—42岁的中年女声，音高中低，胸腔温厚，口腔圆润，暖而饱满，轻微磁性，语速中速。标准普通话，亲切可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "水果已经洗好了，你先尝尝甜不甜，我把厨房里的饭菜端上来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 253448,
+        "duration_seconds": 5.280166666666666,
+        "active_duration_seconds": 4.21,
+        "active_span_seconds": 5.22,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.06016666666666667,
+        "peak": 0.36946263909339905,
+        "rms": 0.0331352000916775,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 4.21,
+        "original_peak": 0.36946263909339905,
+        "original_rms": 0.0331352000916775,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.13,
+      "audio": "attempts/072__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "072",
+    "status": "checked",
+    "expected_text": "水果已经洗好了，你先尝尝甜不甜，我把厨房里的饭菜端上来。",
+    "recognized_text": "水果已经洗好了你先尝尝甜不甜我把厨房里的饭菜端上来",
+    "audio": "audio/072_中年女声暖厚.wav",
+    "audio_sha256": "012a1fe0ddadb05cd92536b808a800faf7fc8fad767b8928f9f16a2548136052",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:04.335874+00:00",
+    "passed": true,
+    "expected_normalized": "水果已经洗好了你先尝尝甜不甜我把厨房里的饭菜端上来",
+    "recognized_normalized": "水果已经洗好了你先尝尝甜不甜我把厨房里的饭菜端上来",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "水果已经洗好了你先尝尝甜不甜我把厨房里的饭菜端上来"
+      }
+    ],
+    "elapsed_seconds": 0.5630641663447022,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "shui3"
+        ],
+        [
+          "guo3",
+          "luo3",
+          "guan4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "xi3",
+          "xian3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "chang2"
+        ],
+        [
+          "chang2"
+        ],
+        [
+          "tian2"
+        ],
+        [
+          "bu4",
+          "fou3",
+          "fou1",
+          "fu1",
+          "bu2"
+        ],
+        [
+          "tian2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "chu2"
+        ],
+        [
+          "fang2",
+          "pang2"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "fan4"
+        ],
+        [
+          "cai4"
+        ],
+        [
+          "duan1"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "shui3"
+        ],
+        [
+          "guo3",
+          "luo3",
+          "guan4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "xi3",
+          "xian3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "chang2"
+        ],
+        [
+          "chang2"
+        ],
+        [
+          "tian2"
+        ],
+        [
+          "bu4",
+          "fou3",
+          "fou1",
+          "fu1",
+          "bu2"
+        ],
+        [
+          "tian2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "chu2"
+        ],
+        [
+          "fang2",
+          "pang2"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "fan4"
+        ],
+        [
+          "cai4"
+        ],
+        [
+          "duan1"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

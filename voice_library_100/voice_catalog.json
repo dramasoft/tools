@@ -1,0 +1,3034 @@
+{
+  "schema_version": 1,
+  "title": "100种原创中文克隆参考音色",
+  "language": "zh-CN",
+  "target_duration_seconds": 5.0,
+  "duration_acceptance_seconds": {
+    "min": 4.0,
+    "max": 6.0
+  },
+  "notes": [
+    "音色描述是生成目标，实际音质、年龄感、区分度和时长需要在生成后验收。",
+    "每条是单一说话人的自然短句，保持稳定音色与轻度表情，不使用戏腔、尖叫、耳语或音效。",
+    "地域项均为轻微普通话语感；保留清楚字音，适合跨场景复用。",
+    "自然语音由多个声学维度组合；名称仅帮助浏览，不代表实测分类。",
+    "long_text是同场景的较长备选，仅在原text生成短于4秒时重新生成使用；最终参考文本须对应实际使用的台词。"
+  ],
+  "coverage": {
+    "count": 100,
+    "gender": {
+      "male": 44,
+      "female": 44,
+      "neutral": 12
+    },
+    "age_group": {
+      "child": 12,
+      "teen": 16,
+      "young_adult": 32,
+      "middle_aged": 24,
+      "senior": 16
+    }
+  },
+  "voices": [
+    {
+      "id": "001",
+      "name": "稚亮圆润",
+      "gender": "male",
+      "age_range": "8—10岁",
+      "age_group": "child",
+      "pitch": "偏高",
+      "resonance": "头腔明亮，口腔圆润",
+      "texture": "清亮，声线细而有实体",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "轻快自然，句尾收稳",
+      "text": "我把蓝色积木搭好了，你看窗边还有一座小桥。",
+      "voice_description": "8—10岁的儿童男声，音高偏高，头腔明亮，口腔圆润，清亮，声线细而有实体，语速中速。标准普通话，轻快自然，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "儿童剧情",
+        "益智游戏"
+      ],
+      "tags": [
+        "儿童",
+        "男声",
+        "偏高",
+        "清亮",
+        "中速"
+      ],
+      "text_char_count": 19,
+      "target_duration_seconds": 5.0,
+      "long_text": "我把蓝色积木搭好了，窗边还有一座小桥，桥上站着两个小人。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "002",
+      "name": "稚声小鼻腔",
+      "gender": "male",
+      "age_range": "10—12岁",
+      "age_group": "child",
+      "pitch": "中高",
+      "resonance": "靠前，轻微鼻腔共鸣",
+      "texture": "明亮紧实，带一点天然鼻音",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "平实认真，咬字利落",
+      "text": "钥匙就在书包侧面，我们先去楼下等哥哥。",
+      "voice_description": "10—12岁的儿童男声，音高中高，靠前，轻微鼻腔共鸣，明亮紧实，带一点天然鼻音，语速中速稍快。标准普通话，平实认真，咬字利落。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园短视频",
+        "冒险游戏"
+      ],
+      "tags": [
+        "儿童",
+        "男声",
+        "中高",
+        "明亮紧实",
+        "中速稍快"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "钥匙就在书包侧面，我们先去楼下等哥哥，免得错过出发时间。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "003",
+      "name": "轻薄童声",
+      "gender": "male",
+      "age_range": "4—6岁",
+      "age_group": "child",
+      "pitch": "偏高",
+      "resonance": "轻盈头声，口腔空间小",
+      "texture": "细薄柔软，少量自然气感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "柔和自然，发声有声带实体",
+      "text": "院子里的风车转起来了，我想走近一点看看。",
+      "voice_description": "4—6岁的幼童男声，音高偏高，轻盈头声，口腔空间小，细薄柔软，少量自然气感，语速中速。标准普通话，柔和自然，发声有声带实体。幼童自然清楚发声，正常音量、不夸张婴儿音，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "亲子短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "儿童",
+        "男声",
+        "偏高",
+        "细薄柔软",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "院子里的风车转起来了，我想走近一点，看看是谁把它挂上去的。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "004",
+      "name": "木质童声",
+      "gender": "male",
+      "age_range": "11—12岁",
+      "age_group": "child",
+      "pitch": "中高偏中",
+      "resonance": "口腔为主，轻微胸腔支撑",
+      "texture": "干净偏暖，有淡淡木质感",
+      "pace": "中速",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "从容自然，短停顿",
+      "text": "小船已经靠岸了，拿好背包，我们慢慢下去。",
+      "voice_description": "11—12岁的儿童男声，音高中高偏中，口腔为主，轻微胸腔支撑，干净偏暖，有淡淡木质感，语速中速。普通话，轻微北方语感，从容自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "少年剧情",
+        "探索游戏"
+      ],
+      "tags": [
+        "儿童",
+        "男声",
+        "中高偏中",
+        "干净偏暖",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "小船已经靠岸了，拿好背包慢慢下去，岸边的台阶还有一点滑。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "005",
+      "name": "童声细颗粒",
+      "gender": "male",
+      "age_range": "9—11岁",
+      "age_group": "child",
+      "pitch": "中高",
+      "resonance": "前口腔集中",
+      "texture": "清脆，带轻微干燥颗粒",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "有一点好奇，整体音量平稳",
+      "text": "这个按钮会发光，你站远一点，我来试试看。",
+      "voice_description": "9—11岁的儿童男声，音高中高，前口腔集中，清脆，带轻微干燥颗粒，语速中速稍快。标准普通话，有一点好奇，整体音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "科普短视频",
+        "互动游戏"
+      ],
+      "tags": [
+        "儿童",
+        "男声",
+        "中高",
+        "清脆",
+        "中速稍快"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这个按钮会发光，你先站到旁边，我试试能不能打开前面的门。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "006",
+      "name": "玻璃感童声",
+      "gender": "female",
+      "age_range": "8—10岁",
+      "age_group": "child",
+      "pitch": "偏高",
+      "resonance": "明亮头腔，位置靠前",
+      "texture": "通透明净，轻巧的玻璃感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "清楚自然，轻微欣喜",
+      "text": "我找到那张地图了，红色圆圈就在河的旁边。",
+      "voice_description": "8—10岁的儿童女声，音高偏高，明亮头腔，位置靠前，通透明净，轻巧的玻璃感，语速中速。标准普通话，清楚自然，轻微欣喜。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "儿童剧情",
+        "寻宝游戏"
+      ],
+      "tags": [
+        "儿童",
+        "女声",
+        "偏高",
+        "通透明净",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "我找到那张地图了，红色圆圈就在河边，我们可以从小桥过去。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "007",
+      "name": "暖鼻腔童声",
+      "gender": "female",
+      "age_range": "10—12岁",
+      "age_group": "child",
+      "pitch": "中高",
+      "resonance": "鼻腔轻共鸣，口腔圆润",
+      "texture": "偏暖细密，轻微绵软鼻音",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "亲切自然，语调不过分上扬",
+      "text": "奶奶留了两块饼干，你先挑，我把牛奶拿来。",
+      "voice_description": "10—12岁的儿童女声，音高中高，鼻腔轻共鸣，口腔圆润，偏暖细密，轻微绵软鼻音，语速中速。标准普通话，亲切自然，语调不过分上扬。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "家庭游戏"
+      ],
+      "tags": [
+        "儿童",
+        "女声",
+        "中高",
+        "偏暖细密",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "奶奶留了两块饼干，你先挑喜欢的那块，我去把热牛奶拿过来。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "008",
+      "name": "柔软气感童声",
+      "gender": "female",
+      "age_range": "5—7岁",
+      "age_group": "child",
+      "pitch": "偏高",
+      "resonance": "头声轻，口腔舒展",
+      "texture": "轻薄柔软，有少量均匀气感",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温柔自然，正常音量",
+      "text": "小猫躲在长椅下面，我们放轻脚步过去吧。",
+      "voice_description": "5—7岁的幼童女声，音高偏高，头声轻，口腔舒展，轻薄柔软，有少量均匀气感，语速中速稍慢。标准普通话，温柔自然，正常音量。幼童自然清楚发声，正常音量、不夸张婴儿音，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "温馨短视频",
+        "治愈游戏"
+      ],
+      "tags": [
+        "儿童",
+        "女声",
+        "偏高",
+        "轻薄柔软",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "小猫躲在长椅下面，我们放轻脚步过去，看看它的爪子受伤没有。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "009",
+      "name": "清脆童声",
+      "gender": "female",
+      "age_range": "11—12岁",
+      "age_group": "child",
+      "pitch": "中高",
+      "resonance": "前口腔集中，头腔明亮",
+      "texture": "清脆利落，带轻微金属亮边",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "笃定自然，字头清楚",
+      "text": "车票和水杯都带齐了，现在可以出发了吧。",
+      "voice_description": "11—12岁的儿童女声，音高中高，前口腔集中，头腔明亮，清脆利落，带轻微金属亮边，语速中速稍快。标准普通话，笃定自然，字头清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园剧情",
+        "任务提示"
+      ],
+      "tags": [
+        "儿童",
+        "女声",
+        "中高",
+        "清脆利落",
+        "中速稍快"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "车票和水杯都已经带齐了，出发前再看看，窗户是不是关好了。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "010",
+      "name": "奶油感童声",
+      "gender": "female",
+      "age_range": "9—11岁",
+      "age_group": "child",
+      "pitch": "中高偏中",
+      "resonance": "口腔圆润，明暗均衡",
+      "texture": "绵密平滑，奶油般柔和",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "轻松自然，连读柔顺",
+      "text": "雨停以后路面很亮，我想穿上新鞋出去走走。",
+      "voice_description": "9—11岁的儿童女声，音高中高偏中，口腔圆润，明暗均衡，绵密平滑，奶油般柔和，语速中速。普通话，轻微江南语感，轻松自然，连读柔顺。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "儿童",
+        "女声",
+        "中高偏中",
+        "绵密平滑",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "雨停以后路面很亮，我想穿上新鞋出去，沿着院墙找几只蜗牛。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "011",
+      "name": "中性细亮童声",
+      "gender": "neutral",
+      "age_range": "8—10岁",
+      "age_group": "child",
+      "pitch": "偏高",
+      "resonance": "前腔明亮，少量鼻腔共鸣",
+      "texture": "细亮紧致，略带鼻音",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "自然叙述，表情轻淡",
+      "text": "白色纸飞机飞过树梢，最后落在了小池塘边。",
+      "voice_description": "8—10岁的儿童中性声，音高偏高，前腔明亮，少量鼻腔共鸣，细亮紧致，略带鼻音，语速中速。标准普通话，自然叙述，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "儿童旁白",
+        "拼图游戏"
+      ],
+      "tags": [
+        "儿童",
+        "中性声",
+        "偏高",
+        "细亮紧致",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "白色纸飞机飞过树梢，最后落在小池塘边，我想拿根竹竿捞回来。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "012",
+      "name": "中性柔哑童声",
+      "gender": "neutral",
+      "age_range": "11—12岁",
+      "age_group": "child",
+      "pitch": "中高",
+      "resonance": "口腔为主，头腔柔和",
+      "texture": "柔软偏干，极轻微沙质",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "安稳自然，发声不压喉",
+      "text": "后门的小灯还亮着，我们去问问有没有人吧。",
+      "voice_description": "11—12岁的儿童中性声，音高中高，口腔为主，头腔柔和，柔软偏干，极轻微沙质，语速中速。标准普通话，安稳自然，发声不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "少年剧情",
+        "探索游戏"
+      ],
+      "tags": [
+        "儿童",
+        "中性声",
+        "中高",
+        "柔软偏干",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "后门的小灯还亮着，我们去问问有没有人，顺便看看是谁忘了锁门。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "013",
+      "name": "少年清透",
+      "gender": "male",
+      "age_range": "14—16岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "头腔清亮，前口腔集中",
+      "texture": "清透轻盈，薄而不虚",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "坦然自然，字尾干净",
+      "text": "操场边的灯已经亮了，我陪你走到路口再回去。",
+      "voice_description": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园短视频",
+        "青春游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中高",
+        "清透轻盈",
+        "中速"
+      ],
+      "text_char_count": 19,
+      "target_duration_seconds": 5.0,
+      "long_text": "操场边的灯已经亮了，我陪你走到路口，等你上车以后再回去。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "014",
+      "name": "少年暖木",
+      "gender": "male",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中低",
+      "resonance": "口腔饱满，胸腔轻支撑",
+      "texture": "温暖柔实，淡木质纹理",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平和可靠，正常音量",
+      "text": "外套先放在椅子上，我去把车窗关好就回来。",
+      "voice_description": "16—17岁的少年男声，音高中低，口腔饱满，胸腔轻支撑，温暖柔实，淡木质纹理，语速中速。标准普通话，平和可靠，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "青春剧情",
+        "冒险游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中低",
+        "温暖柔实",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "外套先放在椅子上，我去把车窗关好，免得夜里下雨淋湿座位。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "015",
+      "name": "少年明亮鼻腔",
+      "gender": "male",
+      "age_range": "13—15岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "靠前，鼻腔共鸣较明显",
+      "texture": "亮而有弹性，轻微鼻音",
+      "pace": "中速稍快",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "爽利自然，轻度活泼",
+      "text": "原来入口在桥的右边，我还以为要绕一大圈。",
+      "voice_description": "13—15岁的少年男声，音高中高，靠前，鼻腔共鸣较明显，亮而有弹性，轻微鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻度活泼。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园短视频",
+        "解谜游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中高",
+        "亮而有弹性",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "原来入口在桥的右边，顺着台阶下去就到，根本不用再绕一大圈。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "016",
+      "name": "少年干砂",
+      "gender": "male",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中低",
+      "resonance": "口腔靠前，胸声轻",
+      "texture": "干净偏暗，微细沙质",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "冷静自然，短句收束",
+      "text": "路口已经清空了，等信号变绿，我们一起过去。",
+      "voice_description": "16—17岁的少年男声，音高中低，口腔靠前，胸声轻，干净偏暗，微细沙质，语速中速。标准普通话，冷静自然，短句收束。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "剧情短视频",
+        "战术游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中低",
+        "干净偏暗",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "路口已经清空了，等信号变绿我们一起过去，车子就停在对面。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "017",
+      "name": "少年银亮",
+      "gender": "male",
+      "age_range": "15—17岁",
+      "age_group": "teen",
+      "pitch": "中音",
+      "resonance": "前口腔集中，头腔亮",
+      "texture": "紧致清晰，轻微金属感",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "清楚果断，音量平稳",
+      "text": "定位已经更新了，沿着蓝色标记走就能找到。",
+      "voice_description": "15—17岁的少年男声，音高中音，前口腔集中，头腔亮，紧致清晰，轻微金属感，语速中速稍快。标准普通话，清楚果断，音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "科技短视频",
+        "科幻游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中音",
+        "紧致清晰",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "定位已经更新了，沿着蓝色标记往前走，就能找到失踪的队友。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "018",
+      "name": "少年空灵实声",
+      "gender": "male",
+      "age_range": "13—16岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "头腔通透，口腔开阔",
+      "texture": "轻薄清润，带少量空气感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "舒展自然，保持清晰实声",
+      "text": "山谷里传来一阵铃声，听起来就在那片树林。",
+      "voice_description": "13—16岁的少年男声，音高中高，头腔通透，口腔开阔，轻薄清润，带少量空气感，语速中速。标准普通话，舒展自然，保持清晰实声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "幻想短视频",
+        "探索游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中高",
+        "轻薄清润",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "山谷里传来一阵铃声，听起来就在那片树林，我们去石桥上听听。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "019",
+      "name": "少年柔绒",
+      "gender": "male",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中音",
+      "resonance": "口腔柔和，胸腔轻共鸣",
+      "texture": "偏暗平滑，细绒感",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温和认真，语调克制",
+      "text": "不用马上回答我，等你把事情想清楚再说。",
+      "voice_description": "16—17岁的少年男声，音高中音，口腔柔和，胸腔轻共鸣，偏暗平滑，细绒感，语速中速稍慢。标准普通话，温和认真，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "青春剧情",
+        "剧情游戏"
+      ],
+      "tags": [
+        "少年",
+        "男声",
+        "中音",
+        "偏暗平滑",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "不用马上回答我，等你把事情想清楚再说，这几天我都会在这里。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "020",
+      "name": "少女清亮",
+      "gender": "female",
+      "age_range": "14—16岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "明亮头腔，口腔靠前",
+      "texture": "清亮洁净，声线纤细",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "坦率自然，表情轻淡",
+      "text": "窗台上的花开了，明天上学时带一枝给你。",
+      "voice_description": "14—16岁的少年女声，音高中高，明亮头腔，口腔靠前，清亮洁净，声线纤细，语速中速。标准普通话，坦率自然，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园短视频",
+        "青春游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "中高",
+        "清亮洁净",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "窗台上的花开了，明天上学时带一枝给你，放在你的书桌旁边。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "021",
+      "name": "少女蜂蜜感",
+      "gender": "female",
+      "age_range": "15—17岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "圆润口腔，轻鼻腔共鸣",
+      "texture": "细密温暖，柔滑甜润",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "亲切自然，甜感适度",
+      "text": "围巾忘在教室里了，我陪你回去拿一下吧。",
+      "voice_description": "15—17岁的少年女声，音高中高，圆润口腔，轻鼻腔共鸣，细密温暖，柔滑甜润，语速中速。标准普通话，亲切自然，甜感适度。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "恋爱游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "中高",
+        "细密温暖",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "围巾忘在教室里了，我陪你回去拿一下，趁门卫还没有锁大门。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "022",
+      "name": "少女暗绒",
+      "gender": "female",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中低",
+      "resonance": "口腔后部柔和，胸腔轻支撑",
+      "texture": "偏暗细腻，柔软绒感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "安静笃定，正常有声说话",
+      "text": "这条路我走过很多次，跟着我就不会迷路。",
+      "voice_description": "16—17岁的少年女声，音高中低，口腔后部柔和，胸腔轻支撑，偏暗细腻，柔软绒感，语速中速。标准普通话，安静笃定，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "青春剧情",
+        "冒险游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "中低",
+        "偏暗细腻",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这条路我走过很多次，跟着我就不会迷路，过了松林就能看见桥。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "023",
+      "name": "少女细银",
+      "gender": "female",
+      "age_range": "13—15岁",
+      "age_group": "teen",
+      "pitch": "偏高",
+      "resonance": "头腔明亮，前腔纤细",
+      "texture": "薄而清脆，银亮边缘",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "轻盈自然，咬字清楚",
+      "text": "快看，风把云推开了，远处的山顶露出来了。",
+      "voice_description": "13—15岁的少年女声，音高偏高，头腔明亮，前腔纤细，薄而清脆，银亮边缘，语速中速稍快。标准普通话，轻盈自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "旅行短视频",
+        "幻想游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "偏高",
+        "薄而清脆",
+        "中速稍快"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "风把云慢慢推开了，远处的山顶露出来了，我们在这里拍张照片。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "024",
+      "name": "少女轻颗粒",
+      "gender": "female",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中音",
+      "resonance": "前口腔，明暗均衡",
+      "texture": "偏干清晰，带极细颗粒",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "轻松自然，轻微笑意",
+      "text": "报名表已经交好了，接下来只要等通知就行。",
+      "voice_description": "16—17岁的少年女声，音高中音，前口腔，明暗均衡，偏干清晰，带极细颗粒，语速中速。标准普通话，轻松自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "中音",
+        "偏干清晰",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "报名表已经交好了，接下来只要等通知，联系方式也都留齐了。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "025",
+      "name": "少女圆厚",
+      "gender": "female",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中音",
+      "resonance": "圆润口腔，轻胸腔共鸣",
+      "texture": "饱满柔实，厚度适中",
+      "pace": "中速",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "大方平实，气息稳定",
+      "text": "晚饭还有一会儿，你先坐下，我把热水倒好。",
+      "voice_description": "16—17岁的少年女声，音高中音，圆润口腔，轻胸腔共鸣，饱满柔实，厚度适中，语速中速。普通话，轻微中原语感，大方平实，气息稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "中音",
+        "饱满柔实",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "晚饭还有一会儿，你先坐下把书包放好，我去给你倒一杯热水。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "026",
+      "name": "少女水润",
+      "gender": "female",
+      "age_range": "14—16岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "口腔舒展，头腔通透",
+      "texture": "水润平滑，少量气感",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "自然舒缓，句尾不拖长",
+      "text": "河边的柳树发芽了，周末一起去拍几张照片。",
+      "voice_description": "14—16岁的少年女声，音高中高，口腔舒展，头腔通透，水润平滑，少量气感，语速中速。普通话，轻微江南语感，自然舒缓，句尾不拖长。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "少年",
+        "女声",
+        "中高",
+        "水润平滑",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "河边的柳树发芽了，周末一起去拍几张照片，顺路看看新修的桥。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "027",
+      "name": "中性少年清木",
+      "gender": "neutral",
+      "age_range": "14—16岁",
+      "age_group": "teen",
+      "pitch": "中高",
+      "resonance": "前口腔清楚，头胸均衡",
+      "texture": "清淡木质，薄厚适中",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平静自然，轻微好奇",
+      "text": "门上的图案好像变了，你记得昨天是什么吗。",
+      "voice_description": "14—16岁的少年中性声，音高中高，前口腔清楚，头胸均衡，清淡木质，薄厚适中，语速中速。标准普通话，平静自然，轻微好奇。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "悬疑短视频",
+        "解谜游戏"
+      ],
+      "tags": [
+        "少年",
+        "中性声",
+        "中高",
+        "清淡木质",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "门上的图案好像变了，你记得昨天画的什么吗，我想再核对一次。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "028",
+      "name": "中性少年软砂",
+      "gender": "neutral",
+      "age_range": "16—17岁",
+      "age_group": "teen",
+      "pitch": "中音",
+      "resonance": "口腔偏暖，少量鼻腔共鸣",
+      "texture": "柔软偏干，细小沙质",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "朴实自然，字头轻而清楚",
+      "text": "广播说末班车快到了，我们收好东西去站台。",
+      "voice_description": "16—17岁的少年中性声，音高中音，口腔偏暖，少量鼻腔共鸣，柔软偏干，细小沙质，语速中速。标准普通话，朴实自然，字头轻而清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "校园短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "少年",
+        "中性声",
+        "中音",
+        "柔软偏干",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "广播说末班车快到了，我们收好东西去站台，别把外套落在椅子上。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "029",
+      "name": "青年亮薄",
+      "gender": "male",
+      "age_range": "18—22岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "前口腔明亮，头腔轻",
+      "texture": "清亮偏薄，干净无毛边",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "自然爽利，句尾清楚",
+      "text": "新开的那家店就在前面，穿过街角就能看见。",
+      "voice_description": "18—22岁的青年男声，音高中高，前口腔明亮，头腔轻，清亮偏薄，干净无毛边，语速中速稍快。标准普通话，自然爽利，句尾清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "城市游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中高",
+        "清亮偏薄",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "新开的那家店就在前面，穿过街角就能看见，门口挂着黄色招牌。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "030",
+      "name": "青年暖磁",
+      "gender": "male",
+      "age_range": "23—28岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "胸腔柔实，口腔圆润",
+      "texture": "温暖平滑，磁性适中",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "亲切沉稳，正常近讲",
+      "text": "行李我已经放好了，你坐稳，我们马上出发。",
+      "voice_description": "23—28岁的青年男声，音高中低，胸腔柔实，口腔圆润，温暖平滑，磁性适中，语速中速。标准普通话，亲切沉稳，正常近讲。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中低",
+        "温暖平滑",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "行李我已经放好了，你坐稳再系上安全带，我们马上就要出发。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "031",
+      "name": "青年深胸",
+      "gender": "male",
+      "age_range": "28—34岁",
+      "age_group": "young_adult",
+      "pitch": "偏低",
+      "resonance": "胸腔深厚，口腔开阔",
+      "texture": "厚实偏暗，低频饱满",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "沉着自然，不刻意压低",
+      "text": "前方的石门打开了，确认安全以后再进去。",
+      "voice_description": "28—34岁的青年男声，音高偏低，胸腔深厚，口腔开阔，厚实偏暗，低频饱满，语速中速稍慢。标准普通话，沉着自然，不刻意压低。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "剧情旁白",
+        "冒险游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "偏低",
+        "厚实偏暗",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "前方的石门打开了，先看清里面有没有机关，确认安全以后再进去。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "032",
+      "name": "青年清朗",
+      "gender": "male",
+      "age_range": "20—25岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "口腔通透，头胸均衡",
+      "texture": "明亮清晰，薄厚均衡",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "自然笃定，吐字舒展",
+      "text": "这次路线已经确认，明天清晨我们准时集合。",
+      "voice_description": "20—25岁的青年男声，音高中音，口腔通透，头胸均衡，明亮清晰，薄厚均衡，语速中速。标准普通话，自然笃定，吐字舒展。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "任务提示"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中音",
+        "明亮清晰",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "这次路线已经确认，明天清晨我们准时集合，沿着东边山路出发。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "033",
+      "name": "青年细砂",
+      "gender": "male",
+      "age_range": "25—30岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "前口腔集中，胸腔适中",
+      "texture": "干燥细砂，轻微颗粒",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平实冷静，音量均匀",
+      "text": "桌上留了一张收据，上面的日期是昨天下午。",
+      "voice_description": "25—30岁的青年男声，音高中低，前口腔集中，胸腔适中，干燥细砂，轻微颗粒，语速中速。标准普通话，平实冷静，音量均匀。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "悬疑短视频",
+        "侦探游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中低",
+        "干燥细砂",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "桌上留了一张收据，上面的日期是昨天下午，背面还写着一个地址。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "034",
+      "name": "青年鼻腔亮声",
+      "gender": "male",
+      "age_range": "19—24岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "鼻腔轻亮，前口腔靠前",
+      "texture": "紧实明亮，天然轻鼻音",
+      "pace": "中速稍快",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "松弛自然，咬字利索",
+      "text": "导航让我们先左转，再过两个路口就到了。",
+      "voice_description": "19—24岁的青年男声，音高中高，鼻腔轻亮，前口腔靠前，紧实明亮，天然轻鼻音，语速中速稍快。普通话，轻微北方语感，松弛自然，咬字利索。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中高",
+        "紧实明亮",
+        "中速稍快"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "导航让我们先左转，再过两个路口就到了，停车场入口在右手边。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "035",
+      "name": "青年软气声",
+      "gender": "male",
+      "age_range": "22—27岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "口腔柔和，胸腔轻共鸣",
+      "texture": "柔软细润，均匀少量气感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "温和自然，保持正常有声",
+      "text": "先喝一点温水，等外面雨小些，我送你去车站。",
+      "voice_description": "22—27岁的青年男声，音高中音，口腔柔和，胸腔轻共鸣，柔软细润，均匀少量气感，语速中速。标准普通话，温和自然，保持正常有声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感短视频",
+        "恋爱游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中音",
+        "柔软细润",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "先喝一点温水，等外面雨小些我送你去车站，伞已经放在门口。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "036",
+      "name": "青年金属亮边",
+      "gender": "male",
+      "age_range": "24—29岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "前口腔集中，头腔明亮",
+      "texture": "紧致有亮边，轻金属质感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "清楚直接，轻度坚定",
+      "text": "能源读数恢复正常，下一道舱门可以开启了。",
+      "voice_description": "24—29岁的青年男声，音高中音，前口腔集中，头腔明亮，紧致有亮边，轻金属质感，语速中速。标准普通话，清楚直接，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "科技短视频",
+        "科幻游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中音",
+        "紧致有亮边",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "能源读数恢复正常，下一道舱门可以开启了，先让探测器进去看看。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "037",
+      "name": "青年干木",
+      "gender": "male",
+      "age_range": "27—33岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "口腔靠后，胸腔适中",
+      "texture": "干燥温暖，木质纹理",
+      "pace": "中速",
+      "accent": "普通话，轻微西南语感",
+      "delivery": "松弛平实，停顿简短",
+      "text": "老板把钥匙留给我了，我们先进去把灯打开。",
+      "voice_description": "27—33岁的青年男声，音高中低，口腔靠后，胸腔适中，干燥温暖，木质纹理，语速中速。普通话，轻微西南语感，松弛平实，停顿简短。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中低",
+        "干燥温暖",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "老板把钥匙留给我了，我们先进去把灯打开，看看货架都摆在哪里。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "038",
+      "name": "青年暗丝绒",
+      "gender": "male",
+      "age_range": "26—32岁",
+      "age_group": "young_adult",
+      "pitch": "偏低",
+      "resonance": "胸腔温润，后口腔柔和",
+      "texture": "偏暗细密，丝绒般平滑",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "克制温和，字尾完整",
+      "text": "那盏灯一直为你留着，回来以后先歇一会儿。",
+      "voice_description": "26—32岁的青年男声，音高偏低，胸腔温润，后口腔柔和，偏暗细密，丝绒般平滑，语速中速稍慢。标准普通话，克制温和，字尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "偏低",
+        "偏暗细密",
+        "中速稍慢"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "那盏灯一直为你留着，回来以后先歇一会儿，桌上的茶还是热的。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "039",
+      "name": "青年粗颗粒",
+      "gender": "male",
+      "age_range": "28—34岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "胸腔结实，口腔集中",
+      "texture": "厚实，明显但自然的颗粒",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "朴实有力，不喊叫",
+      "text": "工具已经检查过了，戴好手套，我们开始吧。",
+      "voice_description": "28—34岁的青年男声，音高中低，胸腔结实，口腔集中，厚实，明显但自然的颗粒，语速中速。标准普通话，朴实有力，不喊叫。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "技能短视频",
+        "生存游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中低",
+        "厚实",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "工具已经检查过了，戴好手套以后再开始，先把松动的螺丝卸下来。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "040",
+      "name": "青年清润",
+      "gender": "male",
+      "age_range": "21—26岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "口腔舒展，头腔通透",
+      "texture": "清润圆滑，明暗均衡",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "平和自然，连读流畅",
+      "text": "小河边新修了一条步道，傍晚去走走很舒服。",
+      "voice_description": "21—26岁的青年男声，音高中音，口腔舒展，头腔通透，清润圆滑，明暗均衡，语速中速。普通话，轻微江南语感，平和自然，连读流畅。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "旅行短视频",
+        "生活游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中音",
+        "清润圆滑",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "小河边新修了一条步道，傍晚去走走很舒服，还能看见水鸟归巢。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "041",
+      "name": "青年微哑",
+      "gender": "male",
+      "age_range": "24—30岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "前口腔，胸腔轻支撑",
+      "texture": "略哑偏干，保留清晰声线",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "淡然自然，轻微疲倦感",
+      "text": "昨晚那封邮件我看过了，见面以后再细说吧。",
+      "voice_description": "24—30岁的青年男声，音高中低，前口腔，胸腔轻支撑，略哑偏干，保留清晰声线，语速中速。标准普通话，淡然自然，轻微疲倦感。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "都市剧情",
+        "侦探游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中低",
+        "略哑偏干",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "昨晚那封邮件我看过了，见面以后再细说吧，有些事情得当面确认。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "042",
+      "name": "青年厚亮",
+      "gender": "male",
+      "age_range": "30—34岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "胸腔饱满，口腔明亮",
+      "texture": "厚而不闷，声音结实",
+      "pace": "中速",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "大方自然，轻度鼓励",
+      "text": "结果已经比上次好了，按这个节奏继续练吧。",
+      "voice_description": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "训练游戏"
+      ],
+      "tags": [
+        "青年",
+        "男声",
+        "中音",
+        "厚而不闷",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "结果已经比上次好了，按这个节奏继续练，先把最后两个动作做好。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "043",
+      "name": "青年女声清甜",
+      "gender": "female",
+      "age_range": "18—22岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "前口腔明亮，头腔清",
+      "texture": "清甜通透，声线纤细",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "轻快自然，甜感克制",
+      "text": "新的展览今天开门，带上相机，我们一起去吧。",
+      "voice_description": "18—22岁的青年女声，音高中高，前口腔明亮，头腔清，清甜通透，声线纤细，语速中速稍快。标准普通话，轻快自然，甜感克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中高",
+        "清甜通透",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "新的展览今天开门，带上相机我们一起去吧，听说还有木雕展区。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "044",
+      "name": "青年女声暖圆",
+      "gender": "female",
+      "age_range": "24—29岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "口腔圆润，轻胸腔共鸣",
+      "texture": "柔实温暖，圆滑饱满",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "亲切自然，轻微笑意",
+      "text": "热汤已经盛好了，先吃一点，再慢慢整理行李。",
+      "voice_description": "24—29岁的青年女声，音高中音，口腔圆润，轻胸腔共鸣，柔实温暖，圆滑饱满，语速中速。标准普通话，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "美食短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中音",
+        "柔实温暖",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "热汤已经盛好了，先吃一点再慢慢整理行李，下午出门还来得及。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "045",
+      "name": "青年女声低绒",
+      "gender": "female",
+      "age_range": "27—34岁",
+      "age_group": "young_adult",
+      "pitch": "偏低",
+      "resonance": "胸腔温厚，口腔后部柔和",
+      "texture": "偏暗细密，低音丝绒感",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "沉静自然，保持声带实体",
+      "text": "这份记录我会保管好，你放心去做剩下的事。",
+      "voice_description": "27—34岁的青年女声，音高偏低，胸腔温厚，口腔后部柔和，偏暗细密，低音丝绒感，语速中速稍慢。标准普通话，沉静自然，保持声带实体。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "剧情旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "偏低",
+        "偏暗细密",
+        "中速稍慢"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "这份记录我会保管好，你放心去做剩下的事，有消息我就联系你。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "046",
+      "name": "青年女声银亮",
+      "gender": "female",
+      "age_range": "21—26岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "头腔清亮，前口腔集中",
+      "texture": "紧致清脆，银亮质感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "清楚爽利，轻度坚定",
+      "text": "扫描结果已经出来，目标就在走廊尽头的房间。",
+      "voice_description": "21—26岁的青年女声，音高中高，头腔清亮，前口腔集中，紧致清脆，银亮质感，语速中速。标准普通话，清楚爽利，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "科技短视频",
+        "科幻游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中高",
+        "紧致清脆",
+        "中速"
+      ],
+      "text_char_count": 19,
+      "target_duration_seconds": 5.0,
+      "long_text": "扫描结果已经出来，目标就在走廊尽头，房间的门锁还没有被打开。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "047",
+      "name": "青年女声细砂",
+      "gender": "female",
+      "age_range": "25—31岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "前口腔清楚，胸腔轻",
+      "texture": "偏干细腻，有细砂颗粒",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "淡然自然，语调克制",
+      "text": "照片背面写着一个名字，我想先去查查来历。",
+      "voice_description": "25—31岁的青年女声，音高中音，前口腔清楚，胸腔轻，偏干细腻，有细砂颗粒，语速中速。标准普通话，淡然自然，语调克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "悬疑短视频",
+        "解谜游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中音",
+        "偏干细腻",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "照片背面写着一个名字，我想先去查查来历，再找旧报纸核对一下。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "048",
+      "name": "青年女声轻气感",
+      "gender": "female",
+      "age_range": "22—28岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "头腔轻盈，口腔柔和",
+      "texture": "轻薄水润，少量均匀气感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "温柔自然，正常音量",
+      "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+      "voice_description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "恋爱游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中高",
+        "轻薄水润",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "把窗帘拉开一点吧，清晨的阳光刚好照进来，桌上的花也该换水了。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "049",
+      "name": "青年女声亮鼻腔",
+      "gender": "female",
+      "age_range": "19—24岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "鼻腔轻亮，前口腔靠前",
+      "texture": "明亮纤细，天然轻鼻音",
+      "pace": "中速稍快",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "爽朗自然，轻微笑意",
+      "text": "我把票放在手机壳里了，到了门口直接扫码。",
+      "voice_description": "19—24岁的青年女声，音高中高，鼻腔轻亮，前口腔靠前，明亮纤细，天然轻鼻音，语速中速稍快。普通话，轻微北方语感，爽朗自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "城市游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中高",
+        "明亮纤细",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "我把票放在手机壳里了，到了门口直接扫码，进场以后再找座位。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "050",
+      "name": "青年女声暖木",
+      "gender": "female",
+      "age_range": "28—34岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "口腔偏暖，胸腔适中",
+      "texture": "柔韧结实，温暖木质感",
+      "pace": "中速",
+      "accent": "普通话，轻微西南语感",
+      "delivery": "从容自然，短停顿",
+      "text": "今天这批材料都验过了，下午就能送到仓库。",
+      "voice_description": "28—34岁的青年女声，音高中低，口腔偏暖，胸腔适中，柔韧结实，温暖木质感，语速中速。普通话，轻微西南语感，从容自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "职业短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中低",
+        "柔韧结实",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "今天这批材料都验过了，下午就能送到仓库，清单放在文件夹里。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "051",
+      "name": "青年女声水润",
+      "gender": "female",
+      "age_range": "23—28岁",
+      "age_group": "young_adult",
+      "pitch": "中高",
+      "resonance": "口腔舒展，头腔通透",
+      "texture": "平滑清润，细而不虚",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "舒展自然，轻度愉悦",
+      "text": "沿河的灯一盏盏亮了，我们再往前走一小段。",
+      "voice_description": "23—28岁的青年女声，音高中高，口腔舒展，头腔通透，平滑清润，细而不虚，语速中速。普通话，轻微江南语感，舒展自然，轻度愉悦。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "旅行短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中高",
+        "平滑清润",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "沿河的灯一盏盏亮了，我们再往前走一小段，那边的小桥也开灯了。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "052",
+      "name": "青年女声冷清",
+      "gender": "female",
+      "age_range": "26—32岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "前口腔集中，头腔清晰",
+      "texture": "清透偏冷，轮廓利落",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "冷静平实，音量稳定",
+      "text": "任务清单还有两项，核对完毕就可以离开了。",
+      "voice_description": "26—32岁的青年女声，音高中音，前口腔集中，头腔清晰，清透偏冷，轮廓利落，语速中速。标准普通话，冷静平实，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "策略游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中音",
+        "清透偏冷",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "任务清单还有两项，核对完毕就可以离开，交接记录记得一并上传。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "053",
+      "name": "青年女声厚亮",
+      "gender": "female",
+      "age_range": "29—34岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "胸腔饱满，口腔明亮",
+      "texture": "厚实明朗，轻微磁性",
+      "pace": "中速",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "大方可靠，语气自然",
+      "text": "设备已经重新接好了，现在请你再试一次。",
+      "voice_description": "29—34岁的青年女声，音高中低，胸腔饱满，口腔明亮，厚实明朗，轻微磁性，语速中速。普通话，轻微中原语感，大方可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "教程短视频",
+        "任务提示"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中低",
+        "厚实明朗",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "设备已经重新接好了，现在请你再试一次，看看指示灯有没有亮。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "054",
+      "name": "青年女声软颗粒",
+      "gender": "female",
+      "age_range": "24—30岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "口腔柔和，少量鼻腔共鸣",
+      "texture": "柔软带细颗粒，明暗适中",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平和自然，轻微好奇",
+      "text": "盒子里还有一封旧信，封口上画着一片叶子。",
+      "voice_description": "24—30岁的青年女声，音高中音，口腔柔和，少量鼻腔共鸣，柔软带细颗粒，明暗适中，语速中速。标准普通话，平和自然，轻微好奇。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "故事短视频",
+        "解谜游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中音",
+        "柔软带细颗粒",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "盒子里还有一封旧信，封口上画着一片叶子，里面似乎夹着一张照片。",
+      "long_text_char_count": 28
+    },
+    {
+      "id": "055",
+      "name": "青年女声微哑",
+      "gender": "female",
+      "age_range": "27—33岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "前口腔偏暖，胸腔轻支撑",
+      "texture": "轻微沙哑，声线柔韧",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "松弛自然，不压喉",
+      "text": "咖啡先放在这里吧，我收完最后几页就过来。",
+      "voice_description": "27—33岁的青年女声，音高中低，前口腔偏暖，胸腔轻支撑，轻微沙哑，声线柔韧，语速中速。标准普通话，松弛自然，不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "都市短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中低",
+        "轻微沙哑",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "咖啡先放在这里吧，我收完最后几页就过来，桌边还给你留了位置。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "056",
+      "name": "青年女声珠圆",
+      "gender": "female",
+      "age_range": "22—27岁",
+      "age_group": "young_adult",
+      "pitch": "中高偏中",
+      "resonance": "口腔圆润，头胸均衡",
+      "texture": "珠圆清晰，细密有弹性",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "明快端正，表情轻淡",
+      "text": "预约时间是下午三点，我会提前十分钟到场。",
+      "voice_description": "22—27岁的青年女声，音高中高偏中，口腔圆润，头胸均衡，珠圆清晰，细密有弹性，语速中速。标准普通话，明快端正，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "服务提示"
+      ],
+      "tags": [
+        "青年",
+        "女声",
+        "中高偏中",
+        "珠圆清晰",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "预约时间是下午三点，我会提前十分钟到场，带齐需要签字的文件。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "057",
+      "name": "中性青年清冷",
+      "gender": "neutral",
+      "age_range": "20—25岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "前口腔集中，头腔通透",
+      "texture": "清透偏冷，薄厚适中",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "冷静自然，句尾平稳",
+      "text": "通行权限已经确认，请沿着地面灯光往前走。",
+      "voice_description": "20—25岁的青年中性声，音高中音，前口腔集中，头腔通透，清透偏冷，薄厚适中，语速中速。标准普通话，冷静自然，句尾平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "科技短视频",
+        "科幻游戏"
+      ],
+      "tags": [
+        "青年",
+        "中性声",
+        "中音",
+        "清透偏冷",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "通行权限已经确认，请沿着地面灯光往前走，出口就在第二道门后。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "058",
+      "name": "中性青年暖绒",
+      "gender": "neutral",
+      "age_range": "25—30岁",
+      "age_group": "young_adult",
+      "pitch": "中低",
+      "resonance": "口腔温润，轻胸腔共鸣",
+      "texture": "柔实细绒，明暗均衡",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "温和自然，表情克制",
+      "text": "这里还有一个空位，你先坐，我去拿张地图。",
+      "voice_description": "25—30岁的青年中性声，音高中低，口腔温润，轻胸腔共鸣，柔实细绒，明暗均衡，语速中速。标准普通话，温和自然，表情克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "青年",
+        "中性声",
+        "中低",
+        "柔实细绒",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这里还有一个空位，你先坐下来歇一会儿，我去拿张地图看看路线。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "059",
+      "name": "中性青年干脆",
+      "gender": "neutral",
+      "age_range": "22—28岁",
+      "age_group": "young_adult",
+      "pitch": "中高偏中",
+      "resonance": "前口腔清楚，少量鼻腔共鸣",
+      "texture": "偏干清脆，细颗粒",
+      "pace": "中速稍快",
+      "accent": "标准普通话",
+      "delivery": "自然利落，短停顿",
+      "text": "数据已经同步完成，重新打开页面就能看到。",
+      "voice_description": "22—28岁的青年中性声，音高中高偏中，前口腔清楚，少量鼻腔共鸣，偏干清脆，细颗粒，语速中速稍快。标准普通话，自然利落，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "教程短视频",
+        "系统提示"
+      ],
+      "tags": [
+        "青年",
+        "中性声",
+        "中高偏中",
+        "偏干清脆",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "数据已经同步完成，重新打开页面就能看到，刚才的修改都保存了。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "060",
+      "name": "中性青年软木",
+      "gender": "neutral",
+      "age_range": "28—34岁",
+      "age_group": "young_adult",
+      "pitch": "中音",
+      "resonance": "口腔偏后，轻胸腔支撑",
+      "texture": "柔韧微哑，淡木质感",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "平静自然，连读柔顺",
+      "text": "这一页折了很久，看来有人经常翻到这里。",
+      "voice_description": "28—34岁的青年中性声，音高中音，口腔偏后，轻胸腔支撑，柔韧微哑，淡木质感，语速中速。普通话，轻微江南语感，平静自然，连读柔顺。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "故事短视频",
+        "探索游戏"
+      ],
+      "tags": [
+        "青年",
+        "中性声",
+        "中音",
+        "柔韧微哑",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这一页折了很久，看来有人经常翻到这里，旁边还有一行铅笔批注。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "061",
+      "name": "中年深磁",
+      "gender": "male",
+      "age_range": "35—42岁",
+      "age_group": "middle_aged",
+      "pitch": "偏低",
+      "resonance": "深胸腔，口腔饱满",
+      "texture": "厚实磁性，暗而清楚",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "沉稳自然，语气克制",
+      "text": "先把情况说清楚，剩下的问题我们一起处理。",
+      "voice_description": "35—42岁的中年男声，音高偏低，深胸腔，口腔饱满，厚实磁性，暗而清楚，语速中速稍慢。标准普通话，沉稳自然，语气克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "偏低",
+        "厚实磁性",
+        "中速稍慢"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "先把情况说清楚，剩下的问题我们一起处理，该核实的地方别漏掉。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "062",
+      "name": "中年暖木",
+      "gender": "male",
+      "age_range": "40—48岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "胸腔温实，口腔圆润",
+      "texture": "温暖木质，略带自然纹理",
+      "pace": "中速",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "朴实亲切，正常音量",
+      "text": "院门的合页修好了，推起来已经没有响声了。",
+      "voice_description": "40—48岁的中年男声，音高中低，胸腔温实，口腔圆润，温暖木质，略带自然纹理，语速中速。普通话，轻微北方语感，朴实亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中低",
+        "温暖木质",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "院门的合页修好了，推起来已经没有响声，门边的旧锁也换掉了。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "063",
+      "name": "中年干砂",
+      "gender": "male",
+      "age_range": "43—50岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "前口腔集中，胸腔扎实",
+      "texture": "干燥沙质，颗粒较明显",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平静直接，字头结实",
+      "text": "这个零件还能继续用，清理以后再装回原位。",
+      "voice_description": "43—50岁的中年男声，音高中低，前口腔集中，胸腔扎实，干燥沙质，颗粒较明显，语速中速。标准普通话，平静直接，字头结实。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "技能短视频",
+        "生存游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中低",
+        "干燥沙质",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "这个零件还能继续用，清理以后再装回原位，注意别碰坏旁边的线。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "064",
+      "name": "中年亮厚",
+      "gender": "male",
+      "age_range": "36—44岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "胸腔饱满，口腔明亮",
+      "texture": "厚实明亮，边缘清晰",
+      "pace": "中速",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "坦然自然，轻度鼓励",
+      "text": "今天的进度很顺利，大家收好工具就回去吧。",
+      "voice_description": "36—44岁的中年男声，音高中音，胸腔饱满，口腔明亮，厚实明亮，边缘清晰，语速中速。普通话，轻微中原语感，坦然自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "职业短视频",
+        "任务提示"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中音",
+        "厚实明亮",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "今天的进度很顺利，大家收好工具就回去吧，剩下的明早接着做。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "065",
+      "name": "中年冷金属",
+      "gender": "male",
+      "age_range": "39—47岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "前口腔紧致，胸腔适中",
+      "texture": "偏冷坚实，轻金属边缘",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "冷静准确，短停顿",
+      "text": "现场已经完成检查，所有入口都要保持畅通。",
+      "voice_description": "39—47岁的中年男声，音高中低，前口腔紧致，胸腔适中，偏冷坚实，轻金属边缘，语速中速。标准普通话，冷静准确，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "策略游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中低",
+        "偏冷坚实",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "现场已经完成检查，所有入口都要保持畅通，警示标志别随意挪动。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "066",
+      "name": "中年软绒",
+      "gender": "male",
+      "age_range": "45—54岁",
+      "age_group": "middle_aged",
+      "pitch": "偏低",
+      "resonance": "后口腔柔和，胸腔温润",
+      "texture": "暗暖平滑，厚丝绒感",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温和从容，不刻意低沉",
+      "text": "饭还在锅里温着，回来以后记得先吃一点。",
+      "voice_description": "45—54岁的中年男声，音高偏低，后口腔柔和，胸腔温润，暗暖平滑，厚丝绒感，语速中速稍慢。标准普通话，温和从容，不刻意低沉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活旁白",
+        "家庭游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "偏低",
+        "暗暖平滑",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "饭还在锅里温着，回来以后记得先吃一点，碗筷都放在桌子上了。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "067",
+      "name": "中年鼻腔暖声",
+      "gender": "male",
+      "age_range": "38—46岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "鼻腔共鸣适中，口腔靠前",
+      "texture": "温暖紧实，轻微鼻音",
+      "pace": "中速",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "松弛自然，轻微笑意",
+      "text": "这条街我熟得很，顺着茶馆旁边的小路走。",
+      "voice_description": "38—46岁的中年男声，音高中音，鼻腔共鸣适中，口腔靠前，温暖紧实，轻微鼻音，语速中速。普通话，轻微北方语感，松弛自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "城市游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中音",
+        "温暖紧实",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这条街我熟得很，顺着茶馆旁边的小路走，拐过去就能看见车站。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "068",
+      "name": "中年粗木",
+      "gender": "male",
+      "age_range": "46—54岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "深胸腔，口腔开阔",
+      "texture": "粗实木质，明显自然颗粒",
+      "pace": "中速稍慢",
+      "accent": "普通话，轻微西南语感",
+      "delivery": "朴实稳重，发声不挤压",
+      "text": "木板都晾干了，明早可以把窗框重新装上。",
+      "voice_description": "46—54岁的中年男声，音高中低，深胸腔，口腔开阔，粗实木质，明显自然颗粒，语速中速稍慢。普通话，轻微西南语感，朴实稳重，发声不挤压。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "匠人短视频",
+        "生存游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中低",
+        "粗实木质",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "木板都已经晾干了，明早可以把窗框重新装上，钉子也都备齐了。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "069",
+      "name": "中年清润",
+      "gender": "male",
+      "age_range": "35—43岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "口腔舒展，头胸均衡",
+      "texture": "清润柔实，明暗适中",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "从容清楚，表情轻淡",
+      "text": "会议室在二楼，资料已经放到每个人的座位上。",
+      "voice_description": "35—43岁的中年男声，音高中音，口腔舒展，头胸均衡，清润柔实，明暗适中，语速中速。标准普通话，从容清楚，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "职业短视频",
+        "服务提示"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中音",
+        "清润柔实",
+        "中速"
+      ],
+      "text_char_count": 19,
+      "target_duration_seconds": 5.0,
+      "long_text": "会议室就在二楼，资料已经放到各位的座位上，缺的那份我来补齐。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "070",
+      "name": "中年微哑",
+      "gender": "male",
+      "age_range": "42—50岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "前口腔偏暗，胸腔适中",
+      "texture": "自然微哑，干燥而不破",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平静认真，句尾完整",
+      "text": "账本最后一页有改动，等他回来再核对一次。",
+      "voice_description": "42—50岁的中年男声，音高中低，前口腔偏暗，胸腔适中，自然微哑，干燥而不破，语速中速。标准普通话，平静认真，句尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "悬疑短视频",
+        "侦探游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "中低",
+        "自然微哑",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "账本最后一页有改动，等他回来再核对一次，先别把原来的记录划掉。",
+      "long_text_char_count": 28
+    },
+    {
+      "id": "071",
+      "name": "中年低柔气感",
+      "gender": "male",
+      "age_range": "37—45岁",
+      "age_group": "middle_aged",
+      "pitch": "偏低",
+      "resonance": "胸腔轻共鸣，口腔柔和",
+      "texture": "柔润偏暗，少量均匀气感",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温和安稳，正常有声说话",
+      "text": "车里备了一条毯子，路上冷了就拿来盖上。",
+      "voice_description": "37—45岁的中年男声，音高偏低，胸腔轻共鸣，口腔柔和，柔润偏暗，少量均匀气感，语速中速稍慢。标准普通话，温和安稳，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "中年",
+        "男声",
+        "偏低",
+        "柔润偏暗",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "车里备了一条毯子，路上冷了就拿来盖上，到了山里风会更大些。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "072",
+      "name": "中年女声暖厚",
+      "gender": "female",
+      "age_range": "35—42岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "胸腔温厚，口腔圆润",
+      "texture": "暖而饱满，轻微磁性",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "亲切可靠，语气自然",
+      "text": "水果已经洗好了，你先尝尝，我把饭菜端上来。",
+      "voice_description": "35—42岁的中年女声，音高中低，胸腔温厚，口腔圆润，暖而饱满，轻微磁性，语速中速。标准普通话，亲切可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "家庭游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中低",
+        "暖而饱满",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "水果已经洗好了，你先尝尝甜不甜，我把厨房里的饭菜端上来。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "073",
+      "name": "中年女声清朗",
+      "gender": "female",
+      "age_range": "36—44岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "前口腔明亮，头胸均衡",
+      "texture": "清晰明朗，薄厚适中",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "大方端正，短停顿",
+      "text": "新的方案已经发给大家，请先看第三页的说明。",
+      "voice_description": "36—44岁的中年女声，音高中音，前口腔明亮，头胸均衡，清晰明朗，薄厚适中，语速中速。标准普通话，大方端正，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "任务提示"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中音",
+        "清晰明朗",
+        "中速"
+      ],
+      "text_char_count": 19,
+      "target_duration_seconds": 5.0,
+      "long_text": "新的方案已经发给大家，请先看第三页的说明，预算调整都标在上面。",
+      "long_text_char_count": 28
+    },
+    {
+      "id": "074",
+      "name": "中年女声暗绒",
+      "gender": "female",
+      "age_range": "42—50岁",
+      "age_group": "middle_aged",
+      "pitch": "偏低",
+      "resonance": "后口腔柔和，胸腔饱满",
+      "texture": "深暖细绒，低音平滑",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "从容自然，表情克制",
+      "text": "那件旧外套还留着，换季的时候我替你收好。",
+      "voice_description": "42—50岁的中年女声，音高偏低，后口腔柔和，胸腔饱满，深暖细绒，低音平滑，语速中速稍慢。标准普通话，从容自然，表情克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "偏低",
+        "深暖细绒",
+        "中速稍慢"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "那件旧外套还留着，换季的时候我替你收好，口袋里的信也没有动。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "075",
+      "name": "中年女声砂感",
+      "gender": "female",
+      "age_range": "45—54岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "前口腔偏干，胸腔适中",
+      "texture": "细砂沙质，清晰有韧性",
+      "pace": "中速",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "朴实自然，音量稳定",
+      "text": "菜市场今天收得早，剩下的东西明天再买。",
+      "voice_description": "45—54岁的中年女声，音高中低，前口腔偏干，胸腔适中，细砂沙质，清晰有韧性，语速中速。普通话，轻微北方语感，朴实自然，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中低",
+        "细砂沙质",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "菜市场今天收得早，剩下的东西明天再买，家里还有些青菜和鸡蛋。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "076",
+      "name": "中年女声亮鼻腔",
+      "gender": "female",
+      "age_range": "37—45岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "靠前，鼻腔共鸣适中",
+      "texture": "明亮紧实，轻鼻音",
+      "pace": "中速稍快",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "爽利自然，轻微笑意",
+      "text": "你的包裹放在前台了，出门的时候顺手带上。",
+      "voice_description": "37—45岁的中年女声，音高中音，靠前，鼻腔共鸣适中，明亮紧实，轻鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "城市游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中音",
+        "明亮紧实",
+        "中速稍快"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "你的包裹放在前台了，出门时记得带上，里面还有你上周订的书。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "077",
+      "name": "中年女声圆木",
+      "gender": "female",
+      "age_range": "43—51岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "口腔圆润，胸腔扎实",
+      "texture": "温润木质，厚度均衡",
+      "pace": "中速",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "稳妥自然，咬字清楚",
+      "text": "仓库的门已经锁好了，钥匙就放在抽屉里面。",
+      "voice_description": "43—51岁的中年女声，音高中低，口腔圆润，胸腔扎实，温润木质，厚度均衡，语速中速。普通话，轻微中原语感，稳妥自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "职业短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中低",
+        "温润木质",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "仓库的门已经锁好了，钥匙就放在抽屉里面，走前再检查一下电源。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "078",
+      "name": "中年女声冷亮",
+      "gender": "female",
+      "age_range": "35—43岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "前口腔集中，头腔明亮",
+      "texture": "偏冷清亮，轻金属感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "冷静笃定，语调平稳",
+      "text": "身份信息核验通过，请到右侧窗口领取材料。",
+      "voice_description": "35—43岁的中年女声，音高中音，前口腔集中，头腔明亮，偏冷清亮，轻金属感，语速中速。标准普通话，冷静笃定，语调平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识短视频",
+        "科幻游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中音",
+        "偏冷清亮",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "身份信息核验通过，请到右侧窗口领取材料，签完字以后再交回来。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "079",
+      "name": "中年女声柔气感",
+      "gender": "female",
+      "age_range": "40—48岁",
+      "age_group": "middle_aged",
+      "pitch": "中音偏低",
+      "resonance": "口腔柔和，胸腔轻支撑",
+      "texture": "细润柔软，少量自然气感",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温和清楚，正常音量",
+      "text": "先别忙着收拾了，坐下来喝杯热茶再说。",
+      "voice_description": "40—48岁的中年女声，音高中音偏低，口腔柔和，胸腔轻支撑，细润柔软，少量自然气感，语速中速稍慢。标准普通话，温和清楚，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中音偏低",
+        "细润柔软",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "先别忙着收拾了，坐下来喝杯热茶，桌上的东西等会儿再整理。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "080",
+      "name": "中年女声清润",
+      "gender": "female",
+      "age_range": "38—46岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "口腔舒展，头腔通透",
+      "texture": "水润清晰，细密柔韧",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "舒缓自然，连读平顺",
+      "text": "湖边的步道修好了，下班以后可以过去走走。",
+      "voice_description": "38—46岁的中年女声，音高中音，口腔舒展，头腔通透，水润清晰，细密柔韧，语速中速。普通话，轻微江南语感，舒缓自然，连读平顺。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "旅行短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中音",
+        "水润清晰",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "湖边的步道修好了，下班以后可以去走走，走累了就在亭子里歇歇。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "081",
+      "name": "中年女声微哑",
+      "gender": "female",
+      "age_range": "46—54岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "胸腔适中，前口腔偏暖",
+      "texture": "柔韧微哑，带轻微颗粒",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "平实从容，句尾收稳",
+      "text": "这本相册放了很多年，翻的时候动作轻一点。",
+      "voice_description": "46—54岁的中年女声，音高中低，胸腔适中，前口腔偏暖，柔韧微哑，带轻微颗粒，语速中速。标准普通话，平实从容，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "故事短视频",
+        "探索游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中低",
+        "柔韧微哑",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "这本相册放了很多年，翻的时候动作轻一点，里面有几页已经松了。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "082",
+      "name": "中年女声结实亮声",
+      "gender": "female",
+      "age_range": "41—49岁",
+      "age_group": "middle_aged",
+      "pitch": "中音",
+      "resonance": "口腔明亮，胸腔饱满",
+      "texture": "结实清脆，声线有实体",
+      "pace": "中速",
+      "accent": "普通话，轻微西南语感",
+      "delivery": "坦然自然，轻度鼓励",
+      "text": "第一步已经做对了，照着图纸继续往下装。",
+      "voice_description": "41—49岁的中年女声，音高中音，口腔明亮，胸腔饱满，结实清脆，声线有实体，语速中速。普通话，轻微西南语感，坦然自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "教程短视频",
+        "训练游戏"
+      ],
+      "tags": [
+        "中年",
+        "女声",
+        "中音",
+        "结实清脆",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "第一步已经做对了，照着图纸继续往下装，小的零件先放在旁边。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "083",
+      "name": "中性中年厚木",
+      "gender": "neutral",
+      "age_range": "37—45岁",
+      "age_group": "middle_aged",
+      "pitch": "中低",
+      "resonance": "胸腔温实，口腔开阔",
+      "texture": "厚度适中，干净木质感",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "稳重平实，语调自然",
+      "text": "登记册就在柜台上，填好名字以后交给我。",
+      "voice_description": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "职业短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "中年",
+        "中性声",
+        "中低",
+        "厚度适中",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "登记册就在柜台上，填好名字以后交给我，证件也请一起准备好。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "084",
+      "name": "中性中年细绒",
+      "gender": "neutral",
+      "age_range": "46—54岁",
+      "age_group": "middle_aged",
+      "pitch": "中音偏低",
+      "resonance": "口腔柔和，鼻腔轻共鸣",
+      "texture": "细绒偏暗，轻微自然鼻音",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "从容亲切，正常音量",
+      "text": "这把伞你先带着，晚些时候可能还会下雨。",
+      "voice_description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "中年",
+        "中性声",
+        "中音偏低",
+        "细绒偏暗",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这把伞你先带着，晚些可能下雨，到家以后给我打个电话。",
+      "long_text_char_count": 23
+    },
+    {
+      "id": "085",
+      "name": "长者深木",
+      "gender": "male",
+      "age_range": "58—65岁",
+      "age_group": "senior",
+      "pitch": "偏低",
+      "resonance": "胸腔深厚，口腔圆润",
+      "texture": "厚实木质，轻微年龄纹理",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "稳健自然，吐字完整",
+      "text": "旧钟还走得很准，每天清晨我都会给它上弦。",
+      "voice_description": "58—65岁的老年男声，音高偏低，胸腔深厚，口腔圆润，厚实木质，轻微年龄纹理，语速中速稍慢。标准普通话，稳健自然，吐字完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "故事旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "偏低",
+        "厚实木质",
+        "中速稍慢"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "旧钟还走得很准，每天清晨我都会给它上弦，这个习惯留了多年。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "086",
+      "name": "长者干砂",
+      "gender": "male",
+      "age_range": "65—72岁",
+      "age_group": "senior",
+      "pitch": "中低",
+      "resonance": "口腔靠前，胸腔轻",
+      "texture": "偏干沙质，细密颗粒",
+      "pace": "中速稍慢",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "朴实清楚，短停顿",
+      "text": "这条小路我走过多年，闭着眼也认得方向。",
+      "voice_description": "65—72岁的老年男声，音高中低，口腔靠前，胸腔轻，偏干沙质，细密颗粒，语速中速稍慢。普通话，轻微北方语感，朴实清楚，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "乡土短视频",
+        "探索游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "中低",
+        "偏干沙质",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "这条小路我走过多年，闭着眼也认得方向，再往前就是村里的井。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "087",
+      "name": "长者亮薄",
+      "gender": "male",
+      "age_range": "60—68岁",
+      "age_group": "senior",
+      "pitch": "中高偏中",
+      "resonance": "头腔略亮，前口腔清楚",
+      "texture": "偏薄清亮，轻微鼻音",
+      "pace": "中速",
+      "accent": "标准普通话",
+      "delivery": "精神自然，不夸张颤抖",
+      "text": "你们先去河边等着，我拿上鱼竿马上就来。",
+      "voice_description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "中高偏中",
+        "偏薄清亮",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "你们先去河边等着，我拿上鱼竿和竹筐，马上就来。",
+      "long_text_char_count": 20
+    },
+    {
+      "id": "088",
+      "name": "长者低绒",
+      "gender": "male",
+      "age_range": "62—70岁",
+      "age_group": "senior",
+      "pitch": "偏低",
+      "resonance": "胸腔温润，后口腔柔和",
+      "texture": "暗暖柔绒，细微自然颗粒",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温厚从容，气息稳定",
+      "text": "坐近一点吧，这张照片里还有你小时候。",
+      "voice_description": "62—70岁的老年男声，音高偏低，胸腔温润，后口腔柔和，暗暖柔绒，细微自然颗粒，语速中速稍慢。标准普通话，温厚从容，气息稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感旁白",
+        "家庭游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "偏低",
+        "暗暖柔绒",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "坐近一点吧，这张照片里还有你小时候，旁边那个是你表哥。",
+      "long_text_char_count": 24
+    },
+    {
+      "id": "089",
+      "name": "长者粗木",
+      "gender": "male",
+      "age_range": "70—78岁",
+      "age_group": "senior",
+      "pitch": "中低",
+      "resonance": "胸腔扎实，口腔开阔",
+      "texture": "粗木纹理，适量自然沙哑",
+      "pace": "偏慢",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "稳妥朴实，保持清晰实声",
+      "text": "院里的老树还在，春天照样长满新叶子。",
+      "voice_description": "70—78岁的老年男声，音高中低，胸腔扎实，口腔开阔，粗木纹理，适量自然沙哑，语速偏慢。普通话，轻微中原语感，稳妥朴实，保持清晰实声。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "故事短视频",
+        "剧情游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "中低",
+        "粗木纹理",
+        "偏慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "院里的老树还在，春天照样长满新叶子，树下的石凳也没挪过。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "090",
+      "name": "长者鼻腔暖声",
+      "gender": "male",
+      "age_range": "58—66岁",
+      "age_group": "senior",
+      "pitch": "中音",
+      "resonance": "鼻腔温暖，口腔靠前",
+      "texture": "紧实略干，轻鼻音",
+      "pace": "中速",
+      "accent": "普通话，轻微西南语感",
+      "delivery": "亲切自然，轻微笑意",
+      "text": "茶叶是今年山里新采的，你闻闻这股清香。",
+      "voice_description": "58—66岁的老年男声，音高中音，鼻腔温暖，口腔靠前，紧实略干，轻鼻音，语速中速。普通话，轻微西南语感，亲切自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "中音",
+        "紧实略干",
+        "中速"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "茶叶是今年山里新采的，你闻闻这股清香，泡第二遍味道也很好。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "091",
+      "name": "长者清润",
+      "gender": "male",
+      "age_range": "55—62岁",
+      "age_group": "senior",
+      "pitch": "中低",
+      "resonance": "口腔舒展，头胸均衡",
+      "texture": "温润清晰，轻微年龄纹理",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "从容清楚，轻度认真",
+      "text": "书里的批注还留着，翻到后面你就能看见。",
+      "voice_description": "55—62岁的老年男声，音高中低，口腔舒展，头胸均衡，温润清晰，轻微年龄纹理，语速中速稍慢。标准普通话，从容清楚，轻度认真。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识旁白",
+        "探索游戏"
+      ],
+      "tags": [
+        "老年",
+        "男声",
+        "中低",
+        "温润清晰",
+        "中速稍慢"
+      ],
+      "text_char_count": 17,
+      "target_duration_seconds": 5.0,
+      "long_text": "书里的批注还留着，翻到后面你就能看见，几处生字我都圈出来了。",
+      "long_text_char_count": 27
+    },
+    {
+      "id": "092",
+      "name": "长者女声暖圆",
+      "gender": "female",
+      "age_range": "58—65岁",
+      "age_group": "senior",
+      "pitch": "中音偏低",
+      "resonance": "口腔圆润，胸腔温实",
+      "texture": "温暖饱满，轻微年龄纹理",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "亲切自然，短停顿",
+      "text": "粥还在小火煮着，你先把桌上的碗摆好。",
+      "voice_description": "58—65岁的老年女声，音高中音偏低，口腔圆润，胸腔温实，温暖饱满，轻微年龄纹理，语速中速稍慢。标准普通话，亲切自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "家庭游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "中音偏低",
+        "温暖饱满",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "粥还在小火煮着，你先把桌上的碗摆好，咸菜就放在窗边。",
+      "long_text_char_count": 23
+    },
+    {
+      "id": "093",
+      "name": "长者女声亮鼻腔",
+      "gender": "female",
+      "age_range": "60—68岁",
+      "age_group": "senior",
+      "pitch": "中高",
+      "resonance": "前口腔明亮，鼻腔共鸣适中",
+      "texture": "明亮偏薄，天然轻鼻音",
+      "pace": "中速",
+      "accent": "普通话，轻微北方语感",
+      "delivery": "爽利亲切，不夸张尖细",
+      "text": "阳台上的衣服已经干了，我收下来给你放好。",
+      "voice_description": "60—68岁的老年女声，音高中高，前口腔明亮，鼻腔共鸣适中，明亮偏薄，天然轻鼻音，语速中速。普通话，轻微北方语感，爽利亲切，不夸张尖细。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "经营游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "中高",
+        "明亮偏薄",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "阳台上的衣服已经干了，我收下来给你放好，晚上回来就能穿。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "094",
+      "name": "长者女声软砂",
+      "gender": "female",
+      "age_range": "65—73岁",
+      "age_group": "senior",
+      "pitch": "中低",
+      "resonance": "口腔柔和，胸腔轻共鸣",
+      "texture": "柔软沙质，细微颗粒",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "温和自然，字尾完整",
+      "text": "这件毛衣织得慢，好在天冷之前能做完。",
+      "voice_description": "65—73岁的老年女声，音高中低，口腔柔和，胸腔轻共鸣，柔软沙质，细微颗粒，语速中速稍慢。标准普通话，温和自然，字尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "故事短视频",
+        "家庭游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "中低",
+        "柔软沙质",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "这件毛衣织得慢，好在天冷之前能做完，袖口再收两针就好。",
+      "long_text_char_count": 24
+    },
+    {
+      "id": "095",
+      "name": "长者女声暗绒",
+      "gender": "female",
+      "age_range": "62—70岁",
+      "age_group": "senior",
+      "pitch": "偏低",
+      "resonance": "后口腔偏暖，胸腔适中",
+      "texture": "低柔细绒，轻微自然沙哑",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "安稳从容，正常音量",
+      "text": "门边留着一双拖鞋，你进屋以后换上吧。",
+      "voice_description": "62—70岁的老年女声，音高偏低，后口腔偏暖，胸腔适中，低柔细绒，轻微自然沙哑，语速中速稍慢。标准普通话，安稳从容，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "偏低",
+        "低柔细绒",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "门边留着一双拖鞋，你进屋以后换上，鞋柜下面还有新袜子。",
+      "long_text_char_count": 24
+    },
+    {
+      "id": "096",
+      "name": "长者女声干木",
+      "gender": "female",
+      "age_range": "70—80岁",
+      "age_group": "senior",
+      "pitch": "中音偏低",
+      "resonance": "口腔靠前，胸腔轻支撑",
+      "texture": "干燥木质，明显年龄纹理",
+      "pace": "偏慢",
+      "accent": "普通话，轻微中原语感",
+      "delivery": "平实清楚，发声不挤压",
+      "text": "小院重新铺过砖，下雨天也不用绕着走。",
+      "voice_description": "70—80岁的老年女声，音高中音偏低，口腔靠前，胸腔轻支撑，干燥木质，明显年龄纹理，语速偏慢。普通话，轻微中原语感，平实清楚，发声不挤压。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "乡土短视频",
+        "探索游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "中音偏低",
+        "干燥木质",
+        "偏慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "小院重新铺过砖，下雨天也不用绕着走，门口的积水也少了。",
+      "long_text_char_count": 24
+    },
+    {
+      "id": "097",
+      "name": "长者女声清亮",
+      "gender": "female",
+      "age_range": "55—62岁",
+      "age_group": "senior",
+      "pitch": "中高偏中",
+      "resonance": "头腔清亮，口腔通透",
+      "texture": "清脆柔韧，细密有实体",
+      "pace": "中速",
+      "accent": "普通话，轻微江南语感",
+      "delivery": "轻松自然，轻微笑意",
+      "text": "今天院里的花开得真好，等会儿给你剪两枝。",
+      "voice_description": "55—62岁的老年女声，音高中高偏中，头腔清亮，口腔通透，清脆柔韧，细密有实体，语速中速。普通话，轻微江南语感，轻松自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活短视频",
+        "休闲游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "中高偏中",
+        "清脆柔韧",
+        "中速"
+      ],
+      "text_char_count": 18,
+      "target_duration_seconds": 5.0,
+      "long_text": "今天院里的花开得真好，等会儿给你剪两枝，带回家插在瓶子里。",
+      "long_text_char_count": 26
+    },
+    {
+      "id": "098",
+      "name": "长者女声厚暖",
+      "gender": "female",
+      "age_range": "58—66岁",
+      "age_group": "senior",
+      "pitch": "中低",
+      "resonance": "胸腔饱满，口腔圆润",
+      "texture": "厚暖结实，轻微磁性",
+      "pace": "中速稍慢",
+      "accent": "普通话，轻微西南语感",
+      "delivery": "大方自然，气息平稳",
+      "text": "柜子里还有些点心，饿了就自己拿着吃。",
+      "voice_description": "58—66岁的老年女声，音高中低，胸腔饱满，口腔圆润，厚暖结实，轻微磁性，语速中速稍慢。普通话，轻微西南语感，大方自然，气息平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "生活旁白",
+        "家庭游戏"
+      ],
+      "tags": [
+        "老年",
+        "女声",
+        "中低",
+        "厚暖结实",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "柜子里还有些点心，饿了就自己拿着吃，左边那盒是新买的。",
+      "long_text_char_count": 24
+    },
+    {
+      "id": "099",
+      "name": "中性长者清砂",
+      "gender": "neutral",
+      "age_range": "60—68岁",
+      "age_group": "senior",
+      "pitch": "中音",
+      "resonance": "前口腔清楚，头胸均衡",
+      "texture": "清薄微砂，轻微年龄纹理",
+      "pace": "中速稍慢",
+      "accent": "标准普通话",
+      "delivery": "平静自然，表情克制",
+      "text": "桥头的站牌换了，坐车前记得再看一眼。",
+      "voice_description": "60—68岁的老年中性声，音高中音，前口腔清楚，头胸均衡，清薄微砂，轻微年龄纹理，语速中速稍慢。标准普通话，平静自然，表情克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "知识旁白",
+        "城市游戏"
+      ],
+      "tags": [
+        "老年",
+        "中性声",
+        "中音",
+        "清薄微砂",
+        "中速稍慢"
+      ],
+      "text_char_count": 16,
+      "target_duration_seconds": 5.0,
+      "long_text": "桥头的站牌换了，坐车前记得再看一眼，别像上回那样坐反了。",
+      "long_text_char_count": 25
+    },
+    {
+      "id": "100",
+      "name": "中性长者柔木",
+      "gender": "neutral",
+      "age_range": "68—76岁",
+      "age_group": "senior",
+      "pitch": "中低",
+      "resonance": "口腔温润，胸腔轻共鸣",
+      "texture": "柔和木质，细微自然颗粒",
+      "pace": "偏慢",
+      "accent": "标准普通话",
+      "delivery": "温厚从容，吐字清楚",
+      "text": "慢慢来，东西都在，收拾妥当再出门吧。",
+      "voice_description": "68—76岁的老年中性声，音高中低，口腔温润，胸腔轻共鸣，柔和木质，细微自然颗粒，语速偏慢。标准普通话，温厚从容，吐字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "use_cases": [
+        "情感旁白",
+        "剧情游戏"
+      ],
+      "tags": [
+        "老年",
+        "中性声",
+        "中低",
+        "柔和木质",
+        "偏慢"
+      ],
+      "text_char_count": 15,
+      "target_duration_seconds": 5.0,
+      "long_text": "慢慢来东西都在，收拾妥当再出门，车站离这里也不算很远。",
+      "long_text_char_count": 24
+    }
+  ]
+}

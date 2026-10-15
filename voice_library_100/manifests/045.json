@@ -1,0 +1,304 @@
+{
+  "id": "045",
+  "name": "青年女声低绒",
+  "gender": "female",
+  "age_range": "27—34岁",
+  "age_group": "young_adult",
+  "pitch": "偏低",
+  "resonance": "胸腔温厚，口腔后部柔和",
+  "texture": "偏暗细密，低音丝绒感",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "沉静自然，保持声带实体",
+  "text": "这份记录我会保管好，你放心去做剩下的事。",
+  "voice_description": "27—34岁的青年女声，音高偏低，胸腔温厚，口腔后部柔和，偏暗细密，低音丝绒感，语速中速稍慢。标准普通话，沉静自然，保持声带实体。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "剧情旁白",
+    "剧情游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "偏低",
+    "偏暗细密",
+    "中速稍慢"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "fingerprint": "0423995fa4fdc419bb6b503b0304f2af4da3f27c7443e6509cd2d266cd864380",
+  "status": "generated",
+  "audio": "audio/045_青年女声低绒.wav",
+  "sha256": "bf09c60b4768ac58fa5932260da81a6861b2a818e187a97a75327d38df039b96",
+  "seed": 20306419,
+  "description_used": "27—34岁的青年女声，音高偏低，胸腔温厚，口腔后部柔和，偏暗细密，低音丝绒感，语速中速稍慢。标准普通话，沉静自然，保持声带实体。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 197280,
+    "duration_seconds": 4.11,
+    "active_duration_seconds": 3.49,
+    "active_span_seconds": 3.91,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.5906699299812317,
+    "rms": 0.07058526975182249,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 3.49,
+    "original_peak": 0.5906699299812317,
+    "original_rms": 0.06884696666103497,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.2,
+    "trimmed_end_seconds": 0.010166666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20306419,
+      "description": "27—34岁的青年女声，音高偏低，胸腔温厚，口腔后部柔和，偏暗细密，低音丝绒感，语速中速稍慢。标准普通话，沉静自然，保持声带实体。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 197280,
+        "duration_seconds": 4.11,
+        "active_duration_seconds": 3.49,
+        "active_span_seconds": 3.91,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5906699299812317,
+        "rms": 0.07058526975182249,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 3.49,
+        "original_peak": 0.5906699299812317,
+        "original_rms": 0.06884696666103497,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.2,
+        "trimmed_end_seconds": 0.010166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.8,
+      "audio": "attempts/045__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": true
+  },
+  "asr": {
+    "id": "045",
+    "status": "checked",
+    "expected_text": "这份记录我会保管好，你放心去做剩下的事。",
+    "recognized_text": "这份记录我会保管好你放心去做剩下的事",
+    "audio": "audio/045_青年女声低绒.wav",
+    "audio_sha256": "bf09c60b4768ac58fa5932260da81a6861b2a818e187a97a75327d38df039b96",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:14.772200+00:00",
+    "passed": true,
+    "expected_normalized": "这份记录我会保管好你放心去做剩下的事",
+    "recognized_normalized": "这份记录我会保管好你放心去做剩下的事",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "这份记录我会保管好你放心去做剩下的事"
+      }
+    ],
+    "elapsed_seconds": 0.7521553337574005,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "fen4",
+          "bin1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "hui4",
+          "kuai4"
+        ],
+        [
+          "bao3"
+        ],
+        [
+          "guan3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shi4",
+          "zi4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "fen4",
+          "bin1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "hui4",
+          "kuai4"
+        ],
+        [
+          "bao3"
+        ],
+        [
+          "guan3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shi4",
+          "zi4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  },
+  "clone_check": {
+    "audio": "clone_checks/audio/045.wav",
+    "text": "清晨的风吹过窗台，我们准备沿着河边出发了。",
+    "source_sha256": "bf09c60b4768ac58fa5932260da81a6861b2a818e187a97a75327d38df039b96",
+    "signal": true,
+    "transcript": true,
+    "speaker_similarity_listening_verified": false
+  }
+}

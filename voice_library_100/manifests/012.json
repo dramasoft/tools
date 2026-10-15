@@ -1,0 +1,308 @@
+{
+  "id": "012",
+  "name": "中性柔哑童声",
+  "gender": "neutral",
+  "age_range": "11—12岁",
+  "age_group": "child",
+  "pitch": "中高",
+  "resonance": "口腔为主，头腔柔和",
+  "texture": "柔软偏干，极轻微沙质",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "安稳自然，发声不压喉",
+  "text": "后门的小灯还亮着，我们去问问有没有人吧。",
+  "voice_description": "11—12岁的儿童中性声，音高中高，口腔为主，头腔柔和，柔软偏干，极轻微沙质，语速中速。标准普通话，安稳自然，发声不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "少年剧情",
+    "探索游戏"
+  ],
+  "tags": [
+    "儿童",
+    "中性声",
+    "中高",
+    "柔软偏干",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "后门的小灯还亮着，我们去问问有没有人，顺便看看是谁忘了锁门。",
+  "long_text_char_count": 27,
+  "design_text": "后门的小灯还亮着，我们去问问有没有人吧。",
+  "fingerprint": "0b7fc8c9588851ecd64c28e3bd69b21cf5b9fc4552b92e567a482d0465695167",
+  "status": "generated",
+  "audio": "audio/012_中性柔哑童声.wav",
+  "sha256": "6f3696fa1aa0645de9f1476e13cc13518ce44c874b7da9ad3d7fca3338afdf62",
+  "seed": 20273122,
+  "description_used": "11—12岁的儿童中性声，音高中高，口腔为主，头腔柔和，柔软偏干，极轻微沙质，语速中速。标准普通话，安稳自然，发声不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 234240,
+    "duration_seconds": 4.88,
+    "active_duration_seconds": 4.19,
+    "active_span_seconds": 4.76,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.30879372358322144,
+    "rms": 0.03954979424483694,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.440166666666666,
+    "original_active_duration_seconds": 4.19,
+    "original_peak": 0.30879372358322144,
+    "original_rms": 0.037458298908350715,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.5601666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20273122,
+      "description": "11—12岁的儿童中性声，音高中高，口腔为主，头腔柔和，柔软偏干，极轻微沙质，语速中速。标准普通话，安稳自然，发声不压喉。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "后门的小灯还亮着，我们去问问有没有人吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 234240,
+        "duration_seconds": 4.88,
+        "active_duration_seconds": 4.19,
+        "active_span_seconds": 4.76,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.30879372358322144,
+        "rms": 0.03954979424483694,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.440166666666666,
+        "original_active_duration_seconds": 4.19,
+        "original_peak": 0.30879372358322144,
+        "original_rms": 0.037458298908350715,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.5601666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.48,
+      "audio": "attempts/012__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "012",
+    "status": "checked",
+    "expected_text": "后门的小灯还亮着，我们去问问有没有人吧。",
+    "recognized_text": "后门的小灯还亮着,我们去问问有没有人吧。",
+    "audio": "audio/012_中性柔哑童声.wav",
+    "audio_sha256": "6f3696fa1aa0645de9f1476e13cc13518ce44c874b7da9ad3d7fca3338afdf62",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:57.802447+00:00",
+    "passed": true,
+    "expected_normalized": "后门的小灯还亮着我们去问问有没有人吧",
+    "recognized_normalized": "后门的小灯还亮着我们去问问有没有人吧",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "后门的小灯还亮着我们去问问有没有人吧"
+      }
+    ],
+    "elapsed_seconds": 0.839840792119503,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "hou4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "wen4"
+        ],
+        [
+          "wen4"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "ren2"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "hou4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "wen4"
+        ],
+        [
+          "wen4"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "ren2"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

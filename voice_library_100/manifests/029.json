@@ -1,0 +1,419 @@
+{
+  "id": "029",
+  "name": "青年亮薄",
+  "gender": "male",
+  "age_range": "18—22岁",
+  "age_group": "young_adult",
+  "pitch": "中高",
+  "resonance": "前口腔明亮，头腔轻",
+  "texture": "清亮偏薄，干净无毛边",
+  "pace": "中速稍快",
+  "accent": "标准普通话",
+  "delivery": "自然爽利，句尾清楚",
+  "text": "新开的那家店就在前面，穿过街角就能看见，门口挂着黄色招牌。",
+  "voice_description": "18—22岁的青年男声，音高中高，前口腔明亮，头腔轻，清亮偏薄，干净无毛边，语速中速稍快。标准普通话，自然爽利，句尾清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "城市游戏"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中高",
+    "清亮偏薄",
+    "中速稍快"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "新开的那家店就在前面，穿过街角就能看见，门口挂着黄色招牌。",
+  "long_text_char_count": 26,
+  "design_text": "新开的那家店就在前面，穿过街角就能看见。",
+  "fingerprint": "e7a29284eb765fd158252adf8711e98f2727c8f88701041d2382e1ce8354ab76",
+  "status": "generated",
+  "audio": "audio/029_青年亮薄.wav",
+  "sha256": "a3656b3712c3d00903ee586742c9884c0ca0fb0ad2752804abe021aa739d5aa4",
+  "seed": 20395004,
+  "description_used": "18—22岁的青年男声，音高中高，前口腔明亮，头腔轻，清亮偏薄，干净无毛边，语速中速稍快。标准普通话，自然爽利，句尾清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 268808,
+    "duration_seconds": 5.6001666666666665,
+    "active_duration_seconds": 4.78,
+    "active_span_seconds": 5.58,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.020166666666666666,
+    "peak": 0.742597758769989,
+    "rms": 0.08989451422029375,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.6001666666666665,
+    "original_active_duration_seconds": 4.78,
+    "original_peak": 0.742597758769989,
+    "original_rms": 0.08989451422029375,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20290275,
+      "description": "18—22岁的青年男声，音高中高，前口腔明亮，头腔轻，清亮偏薄，干净无毛边，语速中速稍快。标准普通话，自然爽利，句尾清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "新开的那家店就在前面，穿过街角就能看见。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 127200,
+        "duration_seconds": 2.65,
+        "active_duration_seconds": 2.21,
+        "active_span_seconds": 2.55,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.17369877239309237,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 2.7201666666666666,
+        "original_active_duration_seconds": 2.21,
+        "original_peak": 0.9942725896835327,
+        "original_rms": 0.17943361046958525,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.07016666666666667,
+        "gain": 0.9554723823799424
+      },
+      "elapsed_seconds": 4.71,
+      "audio": "attempts/029__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20395004,
+      "description": "18—22岁的青年男声，音高中高，前口腔明亮，头腔轻，清亮偏薄，干净无毛边，语速中速稍快。标准普通话，自然爽利，句尾清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "新开的那家店就在前面，穿过街角就能看见，门口挂着黄色招牌。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 268808,
+        "duration_seconds": 5.6001666666666665,
+        "active_duration_seconds": 4.78,
+        "active_span_seconds": 5.58,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.020166666666666666,
+        "peak": 0.742597758769989,
+        "rms": 0.08989451422029375,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.6001666666666665,
+        "original_active_duration_seconds": 4.78,
+        "original_peak": 0.742597758769989,
+        "original_rms": 0.08989451422029375,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 9.31,
+      "audio": "attempts/029__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "029",
+    "status": "checked",
+    "expected_text": "新开的那家店就在前面，穿过街角就能看见，门口挂着黄色招牌。",
+    "recognized_text": "新开的那家店就在前面穿过街角就能看见门口挂着黄色招牌",
+    "audio": "audio/029_青年亮薄.wav",
+    "audio_sha256": "a3656b3712c3d00903ee586742c9884c0ca0fb0ad2752804abe021aa739d5aa4",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:13.016291+00:00",
+    "passed": true,
+    "expected_normalized": "新开的那家店就在前面穿过街角就能看见门口挂着黄色招牌",
+    "recognized_normalized": "新开的那家店就在前面穿过街角就能看见门口挂着黄色招牌",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 26,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 26,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 26,
+        "text": "新开的那家店就在前面穿过街角就能看见门口挂着黄色招牌"
+      }
+    ],
+    "elapsed_seconds": 0.9642829168587923,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xin1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "jia1",
+          "jia5",
+          "jia4",
+          "jie5",
+          "gu1"
+        ],
+        [
+          "dian4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "chuan1",
+          "chuan4",
+          "yuan1"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "jie1"
+        ],
+        [
+          "jiao3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "jian4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "gua4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "huang2"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "zhao1",
+          "qiao2",
+          "shao2"
+        ],
+        [
+          "pai2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xin1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "jia1",
+          "jia5",
+          "jia4",
+          "jie5",
+          "gu1"
+        ],
+        [
+          "dian4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "chuan1",
+          "chuan4",
+          "yuan1"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "jie1"
+        ],
+        [
+          "jiao3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "jian4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "gua4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "huang2"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "zhao1",
+          "qiao2",
+          "shao2"
+        ],
+        [
+          "pai2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

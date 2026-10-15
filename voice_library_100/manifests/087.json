@@ -1,0 +1,520 @@
+{
+  "id": "087",
+  "name": "长者亮薄",
+  "gender": "male",
+  "age_range": "60—68岁",
+  "age_group": "senior",
+  "pitch": "中高偏中",
+  "resonance": "头腔略亮，前口腔清楚",
+  "texture": "偏薄清亮，轻微鼻音",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "精神自然，不夸张颤抖",
+  "text": "你们先去河边等着，我拿上鱼竿和竹筐，马上就来。",
+  "voice_description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "休闲游戏"
+  ],
+  "tags": [
+    "老年",
+    "男声",
+    "中高偏中",
+    "偏薄清亮",
+    "中速"
+  ],
+  "text_char_count": 20,
+  "target_duration_seconds": 5.0,
+  "long_text": "你们先去河边等着，我拿上鱼竿和竹筐，马上就来。",
+  "long_text_char_count": 20,
+  "design_text": "你们先去河边等着，我拿上鱼竿马上就来。",
+  "fingerprint": "9baaa42edcb0251fb392747b96149441cd5ff81fadbbaee5a346c007b8007b3d",
+  "status": "generated",
+  "audio": "audio/087_长者亮薄.wav",
+  "sha256": "d79dd4c34a3ebd40a9663952e33bfe83a1d00a13c66eb8e0d4eec4260486dbaf",
+  "seed": 20977171,
+  "description_used": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 233280,
+    "duration_seconds": 4.86,
+    "active_duration_seconds": 4.73,
+    "active_span_seconds": 4.74,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.6211948990821838,
+    "rms": 0.05796918593171483,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.960166666666667,
+    "original_active_duration_seconds": 4.73,
+    "original_peak": 0.6211948990821838,
+    "original_rms": 0.0573808796342778,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.10016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20348797,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "你们先去河边等着，我拿上鱼竿马上就来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 171360,
+        "duration_seconds": 3.57,
+        "active_duration_seconds": 2.92,
+        "active_span_seconds": 3.37,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.10985043513552191,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.92,
+        "original_peak": 0.9905064702033997,
+        "original_rms": 0.11280696943758896,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.05,
+        "trimmed_end_seconds": 0.06016666666666667,
+        "gain": 0.9591052946932475
+      },
+      "elapsed_seconds": 4.18,
+      "audio": "attempts/087__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20453526,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "你们先去河边等着，我拿上鱼竿马上就来，竹筐还放在后院门边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 301920,
+        "duration_seconds": 6.29,
+        "active_duration_seconds": 4.88,
+        "active_span_seconds": 6.19,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7174251675605774,
+        "rms": 0.09046183382563408,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.400166666666666,
+        "original_active_duration_seconds": 4.88,
+        "original_peak": 0.7174251675605774,
+        "original_rms": 0.08967989031415939,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.11016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.21,
+      "audio": "attempts/087__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20558255,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "你们先去河边等着，我拿上鱼竿马上就来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 176648,
+        "duration_seconds": 3.6801666666666666,
+        "active_duration_seconds": 3.62,
+        "active_span_seconds": 3.62,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.06016666666666667,
+        "peak": 0.5520097613334656,
+        "rms": 0.03334452604607203,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.62,
+        "original_peak": 0.5520097613334656,
+        "original_rms": 0.03334452604607203,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.2,
+      "audio": "attempts/087__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20662984,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "你们先去河边等着，我拿上鱼竿马上就来，竹筐还放在后院门边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 330248,
+        "duration_seconds": 6.880166666666667,
+        "active_duration_seconds": 6.71,
+        "active_span_seconds": 6.84,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.04016666666666667,
+        "peak": 0.4577661156654358,
+        "rms": 0.05513378191331127,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.880166666666667,
+        "original_active_duration_seconds": 6.71,
+        "original_peak": 0.4577661156654358,
+        "original_rms": 0.05513378191331127,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.75,
+      "audio": "attempts/087__4.wav"
+    },
+    {
+      "attempt": 5,
+      "seed": 20767713,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "你们先去河边等着，我拿上鱼竿马上就来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 137760,
+        "duration_seconds": 2.87,
+        "active_duration_seconds": 2.4,
+        "active_span_seconds": 2.67,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6627210378646851,
+        "rms": 0.06853255224048042,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.3601666666666667,
+        "original_active_duration_seconds": 2.4,
+        "original_peak": 0.6627210378646851,
+        "original_rms": 0.06333702105178657,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.2801666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.87,
+      "audio": "attempts/087__5.wav"
+    },
+    {
+      "attempt": 6,
+      "seed": 20872442,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "你们先去河边等着，我拿上鱼竿和竹筐，马上就来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 156960,
+        "duration_seconds": 3.27,
+        "active_duration_seconds": 2.7,
+        "active_span_seconds": 3.14,
+        "leading_silence_seconds": 0.03,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.23053324036635636,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 2.7,
+        "original_peak": 0.994606077671051,
+        "original_rms": 0.23262336662814506,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.25016666666666665,
+        "gain": 0.9551520157854859
+      },
+      "elapsed_seconds": 8.87,
+      "audio": "attempts/087__6.wav"
+    },
+    {
+      "attempt": 7,
+      "seed": 20977171,
+      "description": "60—68岁的老年男声，音高中高偏中，头腔略亮，前口腔清楚，偏薄清亮，轻微鼻音，语速中速。标准普通话，精神自然，不夸张颤抖。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "你们先去河边等着，我拿上鱼竿和竹筐，马上就来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 233280,
+        "duration_seconds": 4.86,
+        "active_duration_seconds": 4.73,
+        "active_span_seconds": 4.74,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6211948990821838,
+        "rms": 0.05796918593171483,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.960166666666667,
+        "original_active_duration_seconds": 4.73,
+        "original_peak": 0.6211948990821838,
+        "original_rms": 0.0573808796342778,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.10016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.79,
+      "audio": "attempts/087__7.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "087",
+    "status": "checked",
+    "expected_text": "你们先去河边等着，我拿上鱼竿和竹筐，马上就来。",
+    "recognized_text": "你们先去河边等着我拿上鱼杆和竹筐马上就来",
+    "audio": "audio/087_长者亮薄.wav",
+    "audio_sha256": "d79dd4c34a3ebd40a9663952e33bfe83a1d00a13c66eb8e0d4eec4260486dbaf",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:09:53.074335+00:00",
+    "passed": true,
+    "expected_normalized": "你们先去河边等着我拿上鱼竿和竹筐马上就来",
+    "recognized_normalized": "你们先去河边等着我拿上鱼杆和竹筐马上就来",
+    "expected_characters": 20,
+    "recognized_characters": 20,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 19,
+    "cer": 0.05,
+    "cer_threshold": 0.12,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "ni3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "yu2"
+        ],
+        [
+          "gan1",
+          "gan4",
+          "gan3"
+        ],
+        [
+          "he2",
+          "he4",
+          "hu2",
+          "huo2",
+          "huo4",
+          "huo5"
+        ],
+        [
+          "zhu2"
+        ],
+        [
+          "kuang1"
+        ],
+        [
+          "ma3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "ni3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "yu2"
+        ],
+        [
+          "gan1",
+          "gan3",
+          "gan4"
+        ],
+        [
+          "he2",
+          "he4",
+          "hu2",
+          "huo2",
+          "huo4",
+          "huo5"
+        ],
+        [
+          "zhu2"
+        ],
+        [
+          "kuang1"
+        ],
+        [
+          "ma3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    },
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.95,
+    "sequence_matching_characters": 19,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 12,
+        "text": "你们先去河边等着我拿上鱼"
+      },
+      {
+        "expected_start": 13,
+        "recognized_start": 13,
+        "length": 7,
+        "text": "和竹筐马上就来"
+      }
+    ],
+    "elapsed_seconds": 0.3640075419098139
+  }
+}

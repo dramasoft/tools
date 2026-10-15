@@ -1,0 +1,298 @@
+{
+  "id": "026",
+  "name": "少女水润",
+  "gender": "female",
+  "age_range": "14—16岁",
+  "age_group": "teen",
+  "pitch": "中高",
+  "resonance": "口腔舒展，头腔通透",
+  "texture": "水润平滑，少量气感",
+  "pace": "中速",
+  "accent": "普通话，轻微江南语感",
+  "delivery": "自然舒缓，句尾不拖长",
+  "text": "河边的柳树发芽了，周末一起去拍几张照片。",
+  "voice_description": "14—16岁的少年女声，音高中高，口腔舒展，头腔通透，水润平滑，少量气感，语速中速。普通话，轻微江南语感，自然舒缓，句尾不拖长。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "休闲游戏"
+  ],
+  "tags": [
+    "少年",
+    "女声",
+    "中高",
+    "水润平滑",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "河边的柳树发芽了，周末一起去拍几张照片，顺路看看新修的桥。",
+  "long_text_char_count": 26,
+  "design_text": "河边的柳树发芽了，周末一起去拍几张照片。",
+  "fingerprint": "bfbe947969f8828bf44b87b9c0013e8135e59beed8ce2b20680ae3151efe1a52",
+  "status": "generated",
+  "audio": "audio/026_少女水润.wav",
+  "sha256": "b61c21a25b665f25d4730fd7e028895b2f80a3c15b3026df6291087a6438c9d3",
+  "seed": 20287248,
+  "description_used": "14—16岁的少年女声，音高中高，口腔舒展，头腔通透，水润平滑，少量气感，语速中速。普通话，轻微江南语感，自然舒缓，句尾不拖长。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 254880,
+    "duration_seconds": 5.31,
+    "active_duration_seconds": 4.69,
+    "active_span_seconds": 5.19,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.35414525866508484,
+    "rms": 0.050945910356325536,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.6001666666666665,
+    "original_active_duration_seconds": 4.69,
+    "original_peak": 0.35414525866508484,
+    "original_rms": 0.04960850186940439,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.2901666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20287248,
+      "description": "14—16岁的少年女声，音高中高，口腔舒展，头腔通透，水润平滑，少量气感，语速中速。普通话，轻微江南语感，自然舒缓，句尾不拖长。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "河边的柳树发芽了，周末一起去拍几张照片。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 254880,
+        "duration_seconds": 5.31,
+        "active_duration_seconds": 4.69,
+        "active_span_seconds": 5.19,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.35414525866508484,
+        "rms": 0.050945910356325536,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.6001666666666665,
+        "original_active_duration_seconds": 4.69,
+        "original_peak": 0.35414525866508484,
+        "original_rms": 0.04960850186940439,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.2901666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 8.45,
+      "audio": "attempts/026__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "026",
+    "status": "checked",
+    "expected_text": "河边的柳树发芽了，周末一起去拍几张照片。",
+    "recognized_text": "河边的柳树发芽了,周末一起去拍几张照片。",
+    "audio": "audio/026_少女水润.wav",
+    "audio_sha256": "b61c21a25b665f25d4730fd7e028895b2f80a3c15b3026df6291087a6438c9d3",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:10.557103+00:00",
+    "passed": true,
+    "expected_normalized": "河边的柳树发芽了周末一起去拍几张照片",
+    "recognized_normalized": "河边的柳树发芽了周末一起去拍几张照片",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "河边的柳树发芽了周末一起去拍几张照片"
+      }
+    ],
+    "elapsed_seconds": 0.8891459577716887,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "he2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "liu3"
+        ],
+        [
+          "shu4"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "ya2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "zhou1"
+        ],
+        [
+          "mo4",
+          "me5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "pai1",
+          "bo2"
+        ],
+        [
+          "ji3",
+          "ji1"
+        ],
+        [
+          "zhang1"
+        ],
+        [
+          "zhao4"
+        ],
+        [
+          "pian1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "he2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "liu3"
+        ],
+        [
+          "shu4"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "ya2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "zhou1"
+        ],
+        [
+          "mo4",
+          "me5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "pai1",
+          "bo2"
+        ],
+        [
+          "ji3",
+          "ji1"
+        ],
+        [
+          "zhang1"
+        ],
+        [
+          "zhao4"
+        ],
+        [
+          "pian1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

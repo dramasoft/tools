@@ -1,0 +1,360 @@
+{
+  "id": "092",
+  "name": "长者女声暖圆",
+  "gender": "female",
+  "age_range": "58—65岁",
+  "age_group": "senior",
+  "pitch": "中音偏低",
+  "resonance": "口腔圆润，胸腔温实",
+  "texture": "温暖饱满，轻微年龄纹理",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "亲切自然，短停顿",
+  "text": "粥还在小火煮着，你先把桌上的碗摆好。",
+  "voice_description": "58—65岁的老年女声，音高中音偏低，口腔圆润，胸腔温实，温暖饱满，轻微年龄纹理，语速中速稍慢。标准普通话，亲切自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "家庭游戏"
+  ],
+  "tags": [
+    "老年",
+    "女声",
+    "中音偏低",
+    "温暖饱满",
+    "中速稍慢"
+  ],
+  "text_char_count": 16,
+  "target_duration_seconds": 5.0,
+  "long_text": "粥还在小火煮着，你先把桌上的碗摆好，咸菜就放在窗边。",
+  "long_text_char_count": 23,
+  "design_text": "粥还在小火煮着，你先把桌上的碗摆好。",
+  "fingerprint": "b196640a159c764f199d8581e3f8add06f85c701829ad12845b15bb67e972197",
+  "status": "generated",
+  "audio": "audio/092_长者女声暖圆.wav",
+  "sha256": "872de28c0f59814532a92df80465575ca84671326455ffa71bd2b9c8c4cb68d5",
+  "seed": 20563300,
+  "description_used": "58—65岁的老年女声，音高中音偏低，口腔圆润，胸腔温实，温暖饱满，轻微年龄纹理，语速中速稍慢。标准普通话，亲切自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 221760,
+    "duration_seconds": 4.62,
+    "active_duration_seconds": 4.2,
+    "active_span_seconds": 4.52,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.640678882598877,
+    "rms": 0.06322563783435807,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.6401666666666666,
+    "original_active_duration_seconds": 4.2,
+    "original_peak": 0.640678882598877,
+    "original_rms": 0.06308809549803633,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.020166666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20353842,
+      "description": "58—65岁的老年女声，音高中音偏低，口腔圆润，胸腔温实，温暖饱满，轻微年龄纹理，语速中速稍慢。标准普通话，亲切自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "粥还在小火煮着，你先把桌上的碗摆好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 175200,
+        "duration_seconds": 3.65,
+        "active_duration_seconds": 3.48,
+        "active_span_seconds": 3.55,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.4741451144218445,
+        "rms": 0.052761081723255825,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.48,
+        "original_peak": 0.4741451144218445,
+        "original_rms": 0.05254439302830774,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.030166666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.17,
+      "audio": "attempts/092__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20458571,
+      "description": "58—65岁的老年女声，音高中音偏低，口腔圆润，胸腔温实，温暖饱满，轻微年龄纹理，语速中速稍慢。标准普通话，亲切自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "粥还在小火煮着，你先把桌上的碗摆好，咸菜就放在窗边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 304320,
+        "duration_seconds": 6.34,
+        "active_duration_seconds": 6.0,
+        "active_span_seconds": 6.24,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.48750847578048706,
+        "rms": 0.04378266309189731,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.400166666666666,
+        "original_active_duration_seconds": 6.0,
+        "original_peak": 0.48750847578048706,
+        "original_rms": 0.043576381194900975,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.06016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.2,
+      "audio": "attempts/092__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20563300,
+      "description": "58—65岁的老年女声，音高中音偏低，口腔圆润，胸腔温实，温暖饱满，轻微年龄纹理，语速中速稍慢。标准普通话，亲切自然，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "粥还在小火煮着，你先把桌上的碗摆好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 221760,
+        "duration_seconds": 4.62,
+        "active_duration_seconds": 4.2,
+        "active_span_seconds": 4.52,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.640678882598877,
+        "rms": 0.06322563783435807,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.6401666666666666,
+        "original_active_duration_seconds": 4.2,
+        "original_peak": 0.640678882598877,
+        "original_rms": 0.06308809549803633,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.020166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.25,
+      "audio": "attempts/092__3.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "092",
+    "status": "checked",
+    "expected_text": "粥还在小火煮着，你先把桌上的碗摆好。",
+    "recognized_text": "粥还在小火煮着,你先把桌上的碗摆好。",
+    "audio": "audio/092_长者女声暖圆.wav",
+    "audio_sha256": "872de28c0f59814532a92df80465575ca84671326455ffa71bd2b9c8c4cb68d5",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:13.228259+00:00",
+    "passed": true,
+    "expected_normalized": "粥还在小火煮着你先把桌上的碗摆好",
+    "recognized_normalized": "粥还在小火煮着你先把桌上的碗摆好",
+    "expected_characters": 16,
+    "recognized_characters": 16,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 16,
+        "text": "粥还在小火煮着你先把桌上的碗摆好"
+      }
+    ],
+    "elapsed_seconds": 0.5089345001615584,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhou1",
+          "yu4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "huo3",
+          "huo1"
+        ],
+        [
+          "zhu3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "zhuo1"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "wan3"
+        ],
+        [
+          "bai3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhou1",
+          "yu4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "huo3",
+          "huo1"
+        ],
+        [
+          "zhu3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "zhuo1"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "wan3"
+        ],
+        [
+          "bai3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

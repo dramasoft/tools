@@ -1,0 +1,389 @@
+{
+  "id": "053",
+  "name": "青年女声厚亮",
+  "gender": "female",
+  "age_range": "29—34岁",
+  "age_group": "young_adult",
+  "pitch": "中低",
+  "resonance": "胸腔饱满，口腔明亮",
+  "texture": "厚实明朗，轻微磁性",
+  "pace": "中速",
+  "accent": "普通话，轻微中原语感",
+  "delivery": "大方可靠，语气自然",
+  "text": "设备已经重新接好了，现在请你再试一次，看看指示灯有没有亮。",
+  "voice_description": "29—34岁的青年女声，音高中低，胸腔饱满，口腔明亮，厚实明朗，轻微磁性，语速中速。普通话，轻微中原语感，大方可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "教程短视频",
+    "任务提示"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中低",
+    "厚实明朗",
+    "中速"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "设备已经重新接好了，现在请你再试一次，看看指示灯有没有亮。",
+  "long_text_char_count": 26,
+  "design_text": "设备已经重新接好了，现在请你再试一次。",
+  "fingerprint": "a4ac4ccc13ffad4d7e273bd247a8031646a2bd1fa39f6766af09ace7c0813208",
+  "status": "generated",
+  "audio": "audio/053_青年女声厚亮.wav",
+  "sha256": "820a135681a9fad42ec6481bfbe9ca5ae2b626b281839c5f802f0d60d2504463",
+  "seed": 20419220,
+  "description_used": "29—34岁的青年女声，音高中低，胸腔饱满，口腔明亮，厚实明朗，轻微磁性，语速中速。普通话，轻微中原语感，大方可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 238088,
+    "duration_seconds": 4.960166666666667,
+    "active_duration_seconds": 4.31,
+    "active_span_seconds": 4.86,
+    "leading_silence_seconds": 0.03,
+    "trailing_silence_seconds": 0.07016666666666667,
+    "peak": 0.4481533467769623,
+    "rms": 0.07045695102490658,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.960166666666667,
+    "original_active_duration_seconds": 4.31,
+    "original_peak": 0.4481533467769623,
+    "original_rms": 0.07045695102490658,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20314491,
+      "description": "29—34岁的青年女声，音高中低，胸腔饱满，口腔明亮，厚实明朗，轻微磁性，语速中速。普通话，轻微中原语感，大方可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "设备已经重新接好了，现在请你再试一次。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 157920,
+        "duration_seconds": 3.29,
+        "active_duration_seconds": 2.81,
+        "active_span_seconds": 3.17,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.1208754671450912,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.3601666666666667,
+        "original_active_duration_seconds": 2.81,
+        "original_peak": 0.9733166694641113,
+        "original_rms": 0.12254236591493621,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.07016666666666667,
+        "gain": 0.9760441075390714
+      },
+      "elapsed_seconds": 3.88,
+      "audio": "attempts/053__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20419220,
+      "description": "29—34岁的青年女声，音高中低，胸腔饱满，口腔明亮，厚实明朗，轻微磁性，语速中速。普通话，轻微中原语感，大方可靠，语气自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "设备已经重新接好了，现在请你再试一次，看看指示灯有没有亮。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 238088,
+        "duration_seconds": 4.960166666666667,
+        "active_duration_seconds": 4.31,
+        "active_span_seconds": 4.86,
+        "leading_silence_seconds": 0.03,
+        "trailing_silence_seconds": 0.07016666666666667,
+        "peak": 0.4481533467769623,
+        "rms": 0.07045695102490658,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.960166666666667,
+        "original_active_duration_seconds": 4.31,
+        "original_peak": 0.4481533467769623,
+        "original_rms": 0.07045695102490658,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.66,
+      "audio": "attempts/053__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "053",
+    "status": "checked",
+    "expected_text": "设备已经重新接好了，现在请你再试一次，看看指示灯有没有亮。",
+    "recognized_text": "设备已经重新接好了,现在请你再试一次看看指示灯有没有亮",
+    "audio": "audio/053_青年女声厚亮.wav",
+    "audio_sha256": "820a135681a9fad42ec6481bfbe9ca5ae2b626b281839c5f802f0d60d2504463",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:53.981313+00:00",
+    "passed": true,
+    "expected_normalized": "设备已经重新接好了现在请你再试一次看看指示灯有没有亮",
+    "recognized_normalized": "设备已经重新接好了现在请你再试一次看看指示灯有没有亮",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 26,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 26,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 26,
+        "text": "设备已经重新接好了现在请你再试一次看看指示灯有没有亮"
+      }
+    ],
+    "elapsed_seconds": 0.5363075421191752,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "she4"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "chong2"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "jie1",
+          "xie2",
+          "sha4",
+          "cha1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "ci4",
+          "zi1",
+          "ci2"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "zhi3"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "deng1"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "she4"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "chong2"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "jie1",
+          "xie2",
+          "sha4",
+          "cha1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "ci4",
+          "zi1",
+          "ci2"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "zhi3"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "deng1"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

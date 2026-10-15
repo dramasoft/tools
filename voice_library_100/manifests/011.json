@@ -1,0 +1,337 @@
+{
+  "id": "011",
+  "name": "中性细亮童声",
+  "gender": "neutral",
+  "age_range": "8—10岁",
+  "age_group": "child",
+  "pitch": "偏高",
+  "resonance": "前腔明亮，少量鼻腔共鸣",
+  "texture": "细亮紧致，略带鼻音",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "自然叙述，表情轻淡",
+  "text": "白色纸飞机飞过树梢，最后落在了小池塘边。",
+  "voice_description": "8—10岁的儿童中性声，音高偏高，前腔明亮，少量鼻腔共鸣，细亮紧致，略带鼻音，语速中速。标准普通话，自然叙述，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "儿童旁白",
+    "拼图游戏"
+  ],
+  "tags": [
+    "儿童",
+    "中性声",
+    "偏高",
+    "细亮紧致",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "白色纸飞机飞过树梢，最后落在小池塘边，我想拿根竹竿捞回来。",
+  "long_text_char_count": 26,
+  "design_text": "白色纸飞机飞过树梢，最后落在了小池塘边。",
+  "fingerprint": "d1bfcd3eab47fc09897357d4628201527104688ac52b10f97eee5c55b2e5c78a",
+  "status": "generated",
+  "audio": "audio/011_中性细亮童声.wav",
+  "sha256": "56213a97f04ff5d8047d496fb4b68389ac4a14815cdb9dab19b754ba3c8ba6c7",
+  "seed": 20376842,
+  "description_used": "8—10岁的儿童中性声，音高偏高，前腔明亮，少量鼻腔共鸣，细亮紧致，略带鼻音，语速中速。标准普通话，自然叙述，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 220320,
+    "duration_seconds": 4.59,
+    "active_duration_seconds": 4.26,
+    "active_span_seconds": 4.47,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.5400635004043579,
+    "rms": 0.08493443891324894,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.800166666666667,
+    "original_active_duration_seconds": 4.26,
+    "original_peak": 0.5400635004043579,
+    "original_rms": 0.08305427789010297,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.21016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20272113,
+      "description": "8—10岁的儿童中性声，音高偏高，前腔明亮，少量鼻腔共鸣，细亮紧致，略带鼻音，语速中速。标准普通话，自然叙述，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "白色纸飞机飞过树梢，最后落在了小池塘边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 288960,
+        "duration_seconds": 6.02,
+        "active_duration_seconds": 5.34,
+        "active_span_seconds": 5.9,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.340409517288208,
+        "rms": 0.06076294706326081,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.400166666666666,
+        "original_active_duration_seconds": 5.34,
+        "original_peak": 0.340409517288208,
+        "original_rms": 0.058930677447108504,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.38016666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.67,
+      "audio": "attempts/011__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20376842,
+      "description": "8—10岁的儿童中性声，音高偏高，前腔明亮，少量鼻腔共鸣，细亮紧致，略带鼻音，语速中速。标准普通话，自然叙述，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "白色纸飞机飞过树梢，最后落在了小池塘边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 220320,
+        "duration_seconds": 4.59,
+        "active_duration_seconds": 4.26,
+        "active_span_seconds": 4.47,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5400635004043579,
+        "rms": 0.08493443891324894,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.800166666666667,
+        "original_active_duration_seconds": 4.26,
+        "original_peak": 0.5400635004043579,
+        "original_rms": 0.08305427789010297,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.21016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.78,
+      "audio": "attempts/011__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "011",
+    "status": "checked",
+    "expected_text": "白色纸飞机飞过树梢，最后落在了小池塘边。",
+    "recognized_text": "白色纸飞机飞过树梢,最后落在了小池塘边。",
+    "audio": "audio/011_中性细亮童声.wav",
+    "audio_sha256": "56213a97f04ff5d8047d496fb4b68389ac4a14815cdb9dab19b754ba3c8ba6c7",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:56.891617+00:00",
+    "passed": true,
+    "expected_normalized": "白色纸飞机飞过树梢最后落在了小池塘边",
+    "recognized_normalized": "白色纸飞机飞过树梢最后落在了小池塘边",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "白色纸飞机飞过树梢最后落在了小池塘边"
+      }
+    ],
+    "elapsed_seconds": 0.9075536248274148,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "bai2",
+          "bo2"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "zhi3"
+        ],
+        [
+          "fei1"
+        ],
+        [
+          "ji1",
+          "wei4"
+        ],
+        [
+          "fei1"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "shu4"
+        ],
+        [
+          "shao1"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "luo4",
+          "la4",
+          "lao4",
+          "luo1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "chi2",
+          "tuo2",
+          "che4"
+        ],
+        [
+          "tang2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "bai2",
+          "bo2"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "zhi3"
+        ],
+        [
+          "fei1"
+        ],
+        [
+          "ji1",
+          "wei4"
+        ],
+        [
+          "fei1"
+        ],
+        [
+          "guo4",
+          "guo1"
+        ],
+        [
+          "shu4"
+        ],
+        [
+          "shao1"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "luo4",
+          "la4",
+          "lao4",
+          "luo1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "chi2",
+          "tuo2",
+          "che4"
+        ],
+        [
+          "tang2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

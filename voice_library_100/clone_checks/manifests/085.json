@@ -1,0 +1,89 @@
+{
+  "id": "085",
+  "name": "长者深木",
+  "status": "generated",
+  "text": "清晨的风吹过窗台，我们准备沿着河边出发了。",
+  "audio": "audio/085.wav",
+  "sha256": "b50b1ee76ae4189408d3243f9cc07b98c5e85d335d2f83e8c2c6b32e73514c4e",
+  "fingerprint": "ce9a598e97e475f232bbf6289f293313ca4a6066cead3bbabd1ad2b8a92dc432",
+  "source_sha256": "c1b929af58392d9b5c9167348082898c93dcd6e0699c942c0e4a7f1610ee7d83",
+  "source_text": "旧钟还走得很准，每天清晨我都会给它上弦。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 211200,
+    "duration_seconds": 4.4,
+    "active_duration_seconds": 3.99,
+    "active_span_seconds": 4.28,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.8424461483955383,
+    "rms": 0.08246624338448208,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.480166666666666,
+    "original_active_duration_seconds": 3.99,
+    "original_peak": 0.8424461483955383,
+    "original_rms": 0.08172511224900092,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.08016666666666666,
+    "gain": 1.0
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false
+  },
+  "note": "Real combined reference+transcript synthesis; speaker similarity requires listening review.",
+  "asr": {
+    "id": "085",
+    "status": "checked",
+    "expected_text": "清晨的风吹过窗台，我们准备沿着河边出发了。",
+    "recognized_text": "清晨的风吹过窗台,我们准备沿着河边出发了",
+    "audio": "audio/085.wav",
+    "audio_sha256": "b50b1ee76ae4189408d3243f9cc07b98c5e85d335d2f83e8c2c6b32e73514c4e",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "none (OpenCC not installed)",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:23:39.405539+00:00",
+    "passed": true,
+    "expected_normalized": "清晨的风吹过窗台我们准备沿着河边出发了",
+    "recognized_normalized": "清晨的风吹过窗台我们准备沿着河边出发了",
+    "expected_characters": 19,
+    "recognized_characters": 19,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 19,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 19,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 19,
+        "text": "清晨的风吹过窗台我们准备沿着河边出发了"
+      }
+    ],
+    "elapsed_seconds": 0.5220750831067562
+  }
+}

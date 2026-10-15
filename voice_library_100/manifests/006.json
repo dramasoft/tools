@@ -1,0 +1,308 @@
+{
+  "id": "006",
+  "name": "玻璃感童声",
+  "gender": "female",
+  "age_range": "8—10岁",
+  "age_group": "child",
+  "pitch": "偏高",
+  "resonance": "明亮头腔，位置靠前",
+  "texture": "通透明净，轻巧的玻璃感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "清楚自然，轻微欣喜",
+  "text": "我找到那张地图了，红色圆圈就在河的旁边。",
+  "voice_description": "8—10岁的儿童女声，音高偏高，明亮头腔，位置靠前，通透明净，轻巧的玻璃感，语速中速。标准普通话，清楚自然，轻微欣喜。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "儿童剧情",
+    "寻宝游戏"
+  ],
+  "tags": [
+    "儿童",
+    "女声",
+    "偏高",
+    "通透明净",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "我找到那张地图了，红色圆圈就在河边，我们可以从小桥过去。",
+  "long_text_char_count": 25,
+  "design_text": "我找到那张地图了，红色圆圈就在河的旁边。",
+  "fingerprint": "62ce73fcd4cc4cde410a2f9e916ab0bad10a295f1c222daabd2dea43ed39833a",
+  "status": "generated",
+  "audio": "audio/006_玻璃感童声.wav",
+  "sha256": "2cc5e896d853a4932cb1903ce26793b19c1df7af985aa3bb823cc5309349cdbb",
+  "seed": 20267068,
+  "description_used": "8—10岁的儿童女声，音高偏高，明亮头腔，位置靠前，通透明净，轻巧的玻璃感，语速中速。标准普通话，清楚自然，轻微欣喜。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 230400,
+    "duration_seconds": 4.8,
+    "active_duration_seconds": 4.21,
+    "active_span_seconds": 4.68,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.32223984599113464,
+    "rms": 0.053259914327920696,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 4.21,
+    "original_peak": 0.32223984599113464,
+    "original_rms": 0.05078053449055451,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.4801666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20267068,
+      "description": "8—10岁的儿童女声，音高偏高，明亮头腔，位置靠前，通透明净，轻巧的玻璃感，语速中速。标准普通话，清楚自然，轻微欣喜。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "我找到那张地图了，红色圆圈就在河的旁边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 230400,
+        "duration_seconds": 4.8,
+        "active_duration_seconds": 4.21,
+        "active_span_seconds": 4.68,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.32223984599113464,
+        "rms": 0.053259914327920696,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 4.21,
+        "original_peak": 0.32223984599113464,
+        "original_rms": 0.05078053449055451,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.4801666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.49,
+      "audio": "attempts/006__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "006",
+    "status": "checked",
+    "expected_text": "我找到那张地图了，红色圆圈就在河的旁边。",
+    "recognized_text": "我找到那张地图了红色圆圈就在河的旁边",
+    "audio": "audio/006_玻璃感童声.wav",
+    "audio_sha256": "2cc5e896d853a4932cb1903ce26793b19c1df7af985aa3bb823cc5309349cdbb",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:52.350202+00:00",
+    "passed": true,
+    "expected_normalized": "我找到那张地图了红色圆圈就在河的旁边",
+    "recognized_normalized": "我找到那张地图了红色圆圈就在河的旁边",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "我找到那张地图了红色圆圈就在河的旁边"
+      }
+    ],
+    "elapsed_seconds": 1.0315516251139343,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "wo3"
+        ],
+        [
+          "zhao3",
+          "hua2"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "zhang1"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "tu2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "hong2"
+        ],
+        [
+          "se4"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "quan1"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "wo3"
+        ],
+        [
+          "zhao3",
+          "hua2"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "na4",
+          "na1",
+          "nuo2",
+          "nuo4",
+          "nei4",
+          "na3",
+          "nei3",
+          "ne2",
+          "nai3",
+          "ne4"
+        ],
+        [
+          "zhang1"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "tu2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "hong2"
+        ],
+        [
+          "se4"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "quan1"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "id": "037",
+  "name": "青年干木",
+  "gender": "male",
+  "age_range": "27—33岁",
+  "age_group": "young_adult",
+  "pitch": "中低",
+  "resonance": "口腔靠后，胸腔适中",
+  "texture": "干燥温暖，木质纹理",
+  "pace": "中速",
+  "accent": "普通话，轻微西南语感",
+  "delivery": "松弛平实，停顿简短",
+  "text": "老板把钥匙留给我了，我们先进去把灯打开，看看货架都摆在哪里。",
+  "voice_description": "27—33岁的青年男声，音高中低，口腔靠后，胸腔适中，干燥温暖，木质纹理，语速中速。普通话，轻微西南语感，松弛平实，停顿简短。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "经营游戏"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中低",
+    "干燥温暖",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "老板把钥匙留给我了，我们先进去把灯打开，看看货架都摆在哪里。",
+  "long_text_char_count": 27,
+  "design_text": "老板把钥匙留给我了，我们先进去把灯打开。",
+  "fingerprint": "42ddad89ba982389dd545c2f1b0e9b14adba25a894ea6ef788851b07964b54f9",
+  "status": "generated",
+  "audio": "audio/037_青年干木.wav",
+  "sha256": "0b4d49bf039a4cddbf82a78bba547ff4916644178461a6696c91217698b502a0",
+  "seed": 20403076,
+  "description_used": "27—33岁的青年男声，音高中低，口腔靠后，胸腔适中，干燥温暖，木质纹理，语速中速。普通话，轻微西南语感，松弛平实，停顿简短。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 273120,
+    "duration_seconds": 5.69,
+    "active_duration_seconds": 4.3,
+    "active_span_seconds": 5.49,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.6140974164009094,
+    "rms": 0.06326788150129002,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 6.080166666666667,
+    "original_active_duration_seconds": 4.3,
+    "original_peak": 0.6140974164009094,
+    "original_rms": 0.061204279530436514,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.21,
+    "trimmed_end_seconds": 0.18016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20298347,
+      "description": "27—33岁的青年男声，音高中低，口腔靠后，胸腔适中，干燥温暖，木质纹理，语速中速。普通话，轻微西南语感，松弛平实，停顿简短。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "老板把钥匙留给我了，我们先进去把灯打开。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 131520,
+        "duration_seconds": 2.74,
+        "active_duration_seconds": 2.01,
+        "active_span_seconds": 2.54,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.8122459053993225,
+        "rms": 0.08786419921928844,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.2001666666666666,
+        "original_active_duration_seconds": 2.01,
+        "original_peak": 0.8122459053993225,
+        "original_rms": 0.08130194633272583,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.25016666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.35,
+      "audio": "attempts/037__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20403076,
+      "description": "27—33岁的青年男声，音高中低，口腔靠后，胸腔适中，干燥温暖，木质纹理，语速中速。普通话，轻微西南语感，松弛平实，停顿简短。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "老板把钥匙留给我了，我们先进去把灯打开，看看货架都摆在哪里。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 273120,
+        "duration_seconds": 5.69,
+        "active_duration_seconds": 4.3,
+        "active_span_seconds": 5.49,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6140974164009094,
+        "rms": 0.06326788150129002,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 6.080166666666667,
+        "original_active_duration_seconds": 4.3,
+        "original_peak": 0.6140974164009094,
+        "original_rms": 0.061204279530436514,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.18016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 8.19,
+      "audio": "attempts/037__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "037",
+    "status": "checked",
+    "expected_text": "老板把钥匙留给我了，我们先进去把灯打开，看看货架都摆在哪里。",
+    "recognized_text": "老板把钥匙留给我了我们先进去把灯打开看看货架都摆在哪里",
+    "audio": "audio/037_青年干木.wav",
+    "audio_sha256": "0b4d49bf039a4cddbf82a78bba547ff4916644178461a6696c91217698b502a0",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:45.922926+00:00",
+    "passed": true,
+    "expected_normalized": "老板把钥匙留给我了我们先进去把灯打开看看货架都摆在哪里",
+    "recognized_normalized": "老板把钥匙留给我了我们先进去把灯打开看看货架都摆在哪里",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 27,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 27,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 27,
+        "text": "老板把钥匙留给我了我们先进去把灯打开看看货架都摆在哪里"
+      }
+    ],
+    "elapsed_seconds": 0.5860520000569522,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "lao3"
+        ],
+        [
+          "ban3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "shi5"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "gei3",
+          "ji3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "da3"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "huo4"
+        ],
+        [
+          "jia4"
+        ],
+        [
+          "dou1",
+          "du1"
+        ],
+        [
+          "bai3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "na3"
+        ],
+        [
+          "li3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "lao3"
+        ],
+        [
+          "ban3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "shi5"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "gei3",
+          "ji3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "da3"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "huo4"
+        ],
+        [
+          "jia4"
+        ],
+        [
+          "dou1",
+          "du1"
+        ],
+        [
+          "bai3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "na3"
+        ],
+        [
+          "li3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

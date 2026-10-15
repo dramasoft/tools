@@ -1,0 +1,306 @@
+{
+  "id": "049",
+  "name": "青年女声亮鼻腔",
+  "gender": "female",
+  "age_range": "19—24岁",
+  "age_group": "young_adult",
+  "pitch": "中高",
+  "resonance": "鼻腔轻亮，前口腔靠前",
+  "texture": "明亮纤细，天然轻鼻音",
+  "pace": "中速稍快",
+  "accent": "普通话，轻微北方语感",
+  "delivery": "爽朗自然，轻微笑意",
+  "text": "我把票放在手机壳里了，到了门口直接扫码。",
+  "voice_description": "19—24岁的青年女声，音高中高，鼻腔轻亮，前口腔靠前，明亮纤细，天然轻鼻音，语速中速稍快。普通话，轻微北方语感，爽朗自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "城市游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中高",
+    "明亮纤细",
+    "中速稍快"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "我把票放在手机壳里了，到了门口直接扫码，进场以后再找座位。",
+  "long_text_char_count": 26,
+  "design_text": "我把票放在手机壳里了，到了门口直接扫码。",
+  "fingerprint": "cac482d2209697f234115eb132248e0d02c514bfd21732cf2a18e57fc9ba47f4",
+  "status": "generated",
+  "audio": "audio/049_青年女声亮鼻腔.wav",
+  "sha256": "c8552ed817fcc76a7fe5f42b52f83adf2bb081c1766d0f700d17eaf87cdbce6c",
+  "seed": 20310455,
+  "description_used": "19—24岁的青年女声，音高中高，鼻腔轻亮，前口腔靠前，明亮纤细，天然轻鼻音，语速中速稍快。普通话，轻微北方语感，爽朗自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 261128,
+    "duration_seconds": 5.440166666666666,
+    "active_duration_seconds": 5.29,
+    "active_span_seconds": 5.39,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.050166666666666665,
+    "peak": 0.3710593581199646,
+    "rms": 0.04276882467701599,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.440166666666666,
+    "original_active_duration_seconds": 5.29,
+    "original_peak": 0.3710593581199646,
+    "original_rms": 0.04276882467701599,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20310455,
+      "description": "19—24岁的青年女声，音高中高，鼻腔轻亮，前口腔靠前，明亮纤细，天然轻鼻音，语速中速稍快。普通话，轻微北方语感，爽朗自然，轻微笑意。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "我把票放在手机壳里了，到了门口直接扫码。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 261128,
+        "duration_seconds": 5.440166666666666,
+        "active_duration_seconds": 5.29,
+        "active_span_seconds": 5.39,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.050166666666666665,
+        "peak": 0.3710593581199646,
+        "rms": 0.04276882467701599,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.440166666666666,
+        "original_active_duration_seconds": 5.29,
+        "original_peak": 0.3710593581199646,
+        "original_rms": 0.04276882467701599,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.2,
+      "audio": "attempts/049__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "049",
+    "status": "checked",
+    "expected_text": "我把票放在手机壳里了，到了门口直接扫码。",
+    "recognized_text": "我把票放在手机壳里了,到了门口直接扫码。",
+    "audio": "audio/049_青年女声亮鼻腔.wav",
+    "audio_sha256": "c8552ed817fcc76a7fe5f42b52f83adf2bb081c1766d0f700d17eaf87cdbce6c",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:51.846242+00:00",
+    "passed": true,
+    "expected_normalized": "我把票放在手机壳里了到了门口直接扫码",
+    "recognized_normalized": "我把票放在手机壳里了到了门口直接扫码",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "我把票放在手机壳里了到了门口直接扫码"
+      }
+    ],
+    "elapsed_seconds": 0.49848316609859467,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "piao4",
+          "piao1"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shou3"
+        ],
+        [
+          "ji1",
+          "wei4"
+        ],
+        [
+          "ke2",
+          "qiao4"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "le5"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "zhi2"
+        ],
+        [
+          "jie1",
+          "xie2",
+          "sha4",
+          "cha1"
+        ],
+        [
+          "sao3",
+          "sao4"
+        ],
+        [
+          "ma3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "piao4",
+          "piao1"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shou3"
+        ],
+        [
+          "ji1",
+          "wei4"
+        ],
+        [
+          "ke2",
+          "qiao4"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "le5"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "zhi2"
+        ],
+        [
+          "jie1",
+          "xie2",
+          "sha4",
+          "cha1"
+        ],
+        [
+          "sao3",
+          "sao4"
+        ],
+        [
+          "ma3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

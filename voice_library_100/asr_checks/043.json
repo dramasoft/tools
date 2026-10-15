@@ -1,0 +1,55 @@
+{
+  "id": "043",
+  "status": "checked",
+  "expected_text": "新的展览今天开门，带上相机我们一起去吧，听说还有木雕展区。",
+  "recognized_text": "新的展览今天开门带上相机我们一起去吧听说还有木雕斩区",
+  "audio": "audio/043_青年女声清甜.wav",
+  "audio_sha256": "754a6f17afb63dcab0235b37e4d1bf917cad99ea3575c5a9b1a5f08007ebdb25",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:07:49.171560+00:00",
+  "passed": true,
+  "expected_normalized": "新的展览今天开门带上相机我们一起去吧听说还有木雕展区",
+  "recognized_normalized": "新的展览今天开门带上相机我们一起去吧听说还有木雕斩区",
+  "expected_characters": 26,
+  "recognized_characters": 26,
+  "levenshtein_distance": 1,
+  "substitutions": 1,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 25,
+  "cer": 0.038461538461538464,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": false,
+  "sequence_match_ratio": 0.9615384615384616,
+  "sequence_matching_characters": 25,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 24,
+      "text": "新的展览今天开门带上相机我们一起去吧听说还有木雕"
+    },
+    {
+      "expected_start": 25,
+      "recognized_start": 25,
+      "length": 1,
+      "text": "区"
+    }
+  ],
+  "elapsed_seconds": 0.5536262090317905
+}

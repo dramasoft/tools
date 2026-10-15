@@ -1,0 +1,376 @@
+{
+  "id": "030",
+  "name": "青年暖磁",
+  "gender": "male",
+  "age_range": "23—28岁",
+  "age_group": "young_adult",
+  "pitch": "中低",
+  "resonance": "胸腔柔实，口腔圆润",
+  "texture": "温暖平滑，磁性适中",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "亲切沉稳，正常近讲",
+  "text": "行李我已经放好了，你坐稳再系上安全带，我们马上就要出发。",
+  "voice_description": "23—28岁的青年男声，音高中低，胸腔柔实，口腔圆润，温暖平滑，磁性适中，语速中速。标准普通话，亲切沉稳，正常近讲。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "剧情游戏"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中低",
+    "温暖平滑",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "行李我已经放好了，你坐稳再系上安全带，我们马上就要出发。",
+  "long_text_char_count": 25,
+  "design_text": "行李我已经放好了，你坐稳，我们马上出发。",
+  "fingerprint": "2ff80d713beac620d492f5a61d6af3435ed66e51e6fa92a100b10695483bec50",
+  "status": "generated",
+  "audio": "audio/030_青年暖磁.wav",
+  "sha256": "54efb6141701c031f68f0aaa72398707342ddc7a10e4ead708e59c6528f53eaf",
+  "seed": 20396013,
+  "description_used": "23—28岁的青年男声，音高中低，胸腔柔实，口腔圆润，温暖平滑，磁性适中，语速中速。标准普通话，亲切沉稳，正常近讲。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 245280,
+    "duration_seconds": 5.11,
+    "active_duration_seconds": 3.91,
+    "active_span_seconds": 4.91,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.7793930768966675,
+    "rms": 0.06462926773420506,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.120166666666667,
+    "original_active_duration_seconds": 3.91,
+    "original_peak": 0.7793930768966675,
+    "original_rms": 0.06456507337513383,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.01,
+    "trimmed_end_seconds": 0.00016666666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20291284,
+      "description": "23—28岁的青年男声，音高中低，胸腔柔实，口腔圆润，温暖平滑，磁性适中，语速中速。标准普通话，亲切沉稳，正常近讲。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "行李我已经放好了，你坐稳，我们马上出发。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 182880,
+        "duration_seconds": 3.81,
+        "active_duration_seconds": 3.55,
+        "active_span_seconds": 3.71,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3615105450153351,
+        "rms": 0.0573037865969648,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.55,
+        "original_peak": 0.3615105450153351,
+        "original_rms": 0.05707826611350822,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.030166666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.29,
+      "audio": "attempts/030__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20396013,
+      "description": "23—28岁的青年男声，音高中低，胸腔柔实，口腔圆润，温暖平滑，磁性适中，语速中速。标准普通话，亲切沉稳，正常近讲。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "行李我已经放好了，你坐稳再系上安全带，我们马上就要出发。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 245280,
+        "duration_seconds": 5.11,
+        "active_duration_seconds": 3.91,
+        "active_span_seconds": 4.91,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7793930768966675,
+        "rms": 0.06462926773420506,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.120166666666667,
+        "original_active_duration_seconds": 3.91,
+        "original_peak": 0.7793930768966675,
+        "original_rms": 0.06456507337513383,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.01,
+        "trimmed_end_seconds": 0.00016666666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 18.75,
+      "audio": "attempts/030__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "030",
+    "status": "checked",
+    "expected_text": "行李我已经放好了，你坐稳再系上安全带，我们马上就要出发。",
+    "recognized_text": "行李我已经放好了你坐稳再击上安全带我们马上就要出发",
+    "audio": "audio/030_青年暖磁.wav",
+    "audio_sha256": "54efb6141701c031f68f0aaa72398707342ddc7a10e4ead708e59c6528f53eaf",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:36.203085+00:00",
+    "passed": true,
+    "expected_normalized": "行李我已经放好了你坐稳再系上安全带我们马上就要出发",
+    "recognized_normalized": "行李我已经放好了你坐稳再击上安全带我们马上就要出发",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 24,
+    "cer": 0.04,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.96,
+    "sequence_matching_characters": 24,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 12,
+        "text": "行李我已经放好了你坐稳再"
+      },
+      {
+        "expected_start": 13,
+        "recognized_start": 13,
+        "length": 12,
+        "text": "上安全带我们马上就要出发"
+      }
+    ],
+    "elapsed_seconds": 7.012895166873932,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": false,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xing2"
+        ],
+        [
+          "li3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wen3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "xi4",
+          "ji4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "an1"
+        ],
+        [
+          "quan2"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "ma3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xing2"
+        ],
+        [
+          "li3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wen3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "ji1"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "an1"
+        ],
+        [
+          "quan2"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "ma3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

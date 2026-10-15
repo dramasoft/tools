@@ -1,0 +1,432 @@
+{
+  "id": "048",
+  "name": "青年女声轻气感",
+  "gender": "female",
+  "age_range": "22—28岁",
+  "age_group": "young_adult",
+  "pitch": "中高",
+  "resonance": "头腔轻盈，口腔柔和",
+  "texture": "轻薄水润，少量均匀气感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "温柔自然，正常音量",
+  "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+  "voice_description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活短视频",
+    "恋爱游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中高",
+    "轻薄水润",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "把窗帘拉开一点吧，清晨的阳光刚好照进来，桌上的花也该换水了。",
+  "long_text_char_count": 27,
+  "design_text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+  "fingerprint": "b5d1ac27538562464c343d42538b7b505ced4f2231c9ae9272e3a41ae4cc8dcb",
+  "status": "generated",
+  "audio": "audio/048_青年女声轻气感.wav",
+  "sha256": "397a4fd0c86748744d5a76a287572531184c315f0e48711cf47a1aab53a58144",
+  "seed": 20728362,
+  "description_used": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 207368,
+    "duration_seconds": 4.320166666666666,
+    "active_duration_seconds": 3.95,
+    "active_span_seconds": 4.29,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.030166666666666668,
+    "peak": 0.2793949246406555,
+    "rms": 0.04974301557572101,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 3.95,
+    "original_peak": 0.2793949246406555,
+    "original_rms": 0.04974301557572101,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20309446,
+      "description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 187200,
+        "duration_seconds": 3.9,
+        "active_duration_seconds": 2.94,
+        "active_span_seconds": 3.76,
+        "leading_silence_seconds": 0.04,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3442068099975586,
+        "rms": 0.035406102690231055,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.000166666666667,
+        "original_active_duration_seconds": 2.94,
+        "original_peak": 0.3442068099975586,
+        "original_rms": 0.034960008340606696,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.10016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.59,
+      "audio": "attempts/048__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20414175,
+      "description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来，桌上的花也该换水了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 330248,
+        "duration_seconds": 6.880166666666667,
+        "active_duration_seconds": 6.81,
+        "active_span_seconds": 6.81,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.07016666666666667,
+        "peak": 0.27952054142951965,
+        "rms": 0.041466666973313894,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.880166666666667,
+        "original_active_duration_seconds": 6.81,
+        "original_peak": 0.27952054142951965,
+        "original_rms": 0.041466666973313894,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.75,
+      "audio": "attempts/048__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20518904,
+      "description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 190080,
+        "duration_seconds": 3.96,
+        "active_duration_seconds": 3.3,
+        "active_span_seconds": 3.86,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5047831535339355,
+        "rms": 0.10669199851680686,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.160166666666667,
+        "original_active_duration_seconds": 3.3,
+        "original_peak": 0.5047831535339355,
+        "original_rms": 0.10409362575473328,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.20016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.71,
+      "audio": "attempts/048__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20623633,
+      "description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来，桌上的花也该换水了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 326880,
+        "duration_seconds": 6.81,
+        "active_duration_seconds": 6.65,
+        "active_span_seconds": 6.71,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2673017084598541,
+        "rms": 0.04201594261300673,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.880166666666667,
+        "original_active_duration_seconds": 6.65,
+        "original_peak": 0.2673017084598541,
+        "original_rms": 0.04180114596161492,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.07016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.71,
+      "audio": "attempts/048__4.wav"
+    },
+    {
+      "attempt": 5,
+      "seed": 20728362,
+      "description": "22—28岁的青年女声，音高中高，头腔轻盈，口腔柔和，轻薄水润，少量均匀气感，语速中速。标准普通话，温柔自然，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 207368,
+        "duration_seconds": 4.320166666666666,
+        "active_duration_seconds": 3.95,
+        "active_span_seconds": 4.29,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.030166666666666668,
+        "peak": 0.2793949246406555,
+        "rms": 0.04974301557572101,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 3.95,
+        "original_peak": 0.2793949246406555,
+        "original_rms": 0.04974301557572101,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.94,
+      "audio": "attempts/048__5.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "048",
+    "status": "checked",
+    "expected_text": "把窗帘拉开一点吧，清晨的阳光刚好照进来。",
+    "recognized_text": "把窗帘拉开一点吧清晨的阳光刚好照进来",
+    "audio": "audio/048_青年女声轻气感.wav",
+    "audio_sha256": "397a4fd0c86748744d5a76a287572531184c315f0e48711cf47a1aab53a58144",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:51.354340+00:00",
+    "passed": true,
+    "expected_normalized": "把窗帘拉开一点吧清晨的阳光刚好照进来",
+    "recognized_normalized": "把窗帘拉开一点吧清晨的阳光刚好照进来",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "把窗帘拉开一点吧清晨的阳光刚好照进来"
+      }
+    ],
+    "elapsed_seconds": 0.4882700419984758,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "chuang1",
+          "cong1"
+        ],
+        [
+          "lian2",
+          "chen2"
+        ],
+        [
+          "la1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "chen2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "yang2"
+        ],
+        [
+          "guang1",
+          "guang4"
+        ],
+        [
+          "gang1"
+        ],
+        [
+          "hao3"
+        ],
+        [
+          "zhao4"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "chuang1",
+          "cong1"
+        ],
+        [
+          "lian2",
+          "chen2"
+        ],
+        [
+          "la1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "dian3"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "chen2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "yang2"
+        ],
+        [
+          "guang1",
+          "guang4"
+        ],
+        [
+          "gang1"
+        ],
+        [
+          "hao3"
+        ],
+        [
+          "zhao4"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "lai2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

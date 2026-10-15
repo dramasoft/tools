@@ -1,0 +1,29 @@
+{
+  "requested": 100,
+  "generated": 100,
+  "pending": 0,
+  "failed": 0,
+  "duration_range_seconds": [
+    4.01,
+    5.920166666666667
+  ],
+  "duplicate_audio_hashes": 0,
+  "age_groups": {
+    "child": 12,
+    "teen": 16,
+    "young_adult": 32,
+    "middle_aged": 24,
+    "senior": 16
+  },
+  "genders": {
+    "male": 44,
+    "female": 44,
+    "neutral": 12
+  },
+  "verification": {
+    "signal_checked": 100,
+    "transcript_checked": 100,
+    "listening_reviewed": 0,
+    "clone_tested": 3
+  }
+}

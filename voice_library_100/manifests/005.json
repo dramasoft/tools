@@ -1,0 +1,373 @@
+{
+  "id": "005",
+  "name": "童声细颗粒",
+  "gender": "male",
+  "age_range": "9—11岁",
+  "age_group": "child",
+  "pitch": "中高",
+  "resonance": "前口腔集中",
+  "texture": "清脆，带轻微干燥颗粒",
+  "pace": "中速稍快",
+  "accent": "标准普通话",
+  "delivery": "有一点好奇，整体音量平稳",
+  "text": "这个按钮会发光，你先站到旁边，我试试能不能打开前面的门。",
+  "voice_description": "9—11岁的儿童男声，音高中高，前口腔集中，清脆，带轻微干燥颗粒，语速中速稍快。标准普通话，有一点好奇，整体音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "科普短视频",
+    "互动游戏"
+  ],
+  "tags": [
+    "儿童",
+    "男声",
+    "中高",
+    "清脆",
+    "中速稍快"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "这个按钮会发光，你先站到旁边，我试试能不能打开前面的门。",
+  "long_text_char_count": 25,
+  "design_text": "这个按钮会发光，你站远一点，我来试试看。",
+  "fingerprint": "0389583b03851f6cce2da0f1304709da8658b8a9fcde78c42a729ae71296e1ac",
+  "status": "generated",
+  "audio": "audio/005_童声细颗粒.wav",
+  "sha256": "55effe074349b406bf5e90a818de2ba93285655f4a71eb90286236df2419bdca",
+  "seed": 20370788,
+  "description_used": "9—11岁的儿童男声，音高中高，前口腔集中，清脆，带轻微干燥颗粒，语速中速稍快。标准普通话，有一点好奇，整体音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 244800,
+    "duration_seconds": 5.1,
+    "active_duration_seconds": 4.4,
+    "active_span_seconds": 5.0,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.3791320323944092,
+    "rms": 0.06374187163751126,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.120166666666667,
+    "original_active_duration_seconds": 4.4,
+    "original_peak": 0.3791320323944092,
+    "original_rms": 0.06361621856961341,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.020166666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20266059,
+      "description": "9—11岁的儿童男声，音高中高，前口腔集中，清脆，带轻微干燥颗粒，语速中速稍快。标准普通话，有一点好奇，整体音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这个按钮会发光，你站远一点，我来试试看。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 162240,
+        "duration_seconds": 3.38,
+        "active_duration_seconds": 3.14,
+        "active_span_seconds": 3.18,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2787014842033386,
+        "rms": 0.02651370331744517,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.000166666666667,
+        "original_active_duration_seconds": 3.14,
+        "original_peak": 0.2787014842033386,
+        "original_rms": 0.024371922160906643,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.28,
+        "trimmed_end_seconds": 0.3401666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.82,
+      "audio": "attempts/005__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20370788,
+      "description": "9—11岁的儿童男声，音高中高，前口腔集中，清脆，带轻微干燥颗粒，语速中速稍快。标准普通话，有一点好奇，整体音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "这个按钮会发光，你先站到旁边，我试试能不能打开前面的门。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 244800,
+        "duration_seconds": 5.1,
+        "active_duration_seconds": 4.4,
+        "active_span_seconds": 5.0,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3791320323944092,
+        "rms": 0.06374187163751126,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.120166666666667,
+        "original_active_duration_seconds": 4.4,
+        "original_peak": 0.3791320323944092,
+        "original_rms": 0.06361621856961341,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.020166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.09,
+      "audio": "attempts/005__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "005",
+    "status": "checked",
+    "expected_text": "这个按钮会发光，你先站到旁边，我试试能不能打开前面的门。",
+    "recognized_text": "这个按钮会发光,你先站到旁边,我试试能不能打开前面的门。",
+    "audio": "audio/005_童声细颗粒.wav",
+    "audio_sha256": "55effe074349b406bf5e90a818de2ba93285655f4a71eb90286236df2419bdca",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:51.310925+00:00",
+    "passed": true,
+    "expected_normalized": "这个按钮会发光你先站到旁边我试试能不能打开前面的门",
+    "recognized_normalized": "这个按钮会发光你先站到旁边我试试能不能打开前面的门",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "这个按钮会发光你先站到旁边我试试能不能打开前面的门"
+      }
+    ],
+    "elapsed_seconds": 1.0363104157149792,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4"
+        ],
+        [
+          "ge5"
+        ],
+        [
+          "an4"
+        ],
+        [
+          "niu3"
+        ],
+        [
+          "hui4",
+          "kuai4"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "guang1"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "zhan4",
+          "zhan1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "bu4"
+        ],
+        [
+          "neng2"
+        ],
+        [
+          "da3"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "men2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4"
+        ],
+        [
+          "ge5"
+        ],
+        [
+          "an4"
+        ],
+        [
+          "niu3"
+        ],
+        [
+          "hui4",
+          "kuai4"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "guang1"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "zhan4",
+          "zhan1"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "shi4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "bu4"
+        ],
+        [
+          "neng2"
+        ],
+        [
+          "da3"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "men2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

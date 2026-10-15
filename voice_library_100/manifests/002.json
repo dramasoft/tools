@@ -1,0 +1,359 @@
+{
+  "id": "002",
+  "name": "稚声小鼻腔",
+  "gender": "male",
+  "age_range": "10—12岁",
+  "age_group": "child",
+  "pitch": "中高",
+  "resonance": "靠前，轻微鼻腔共鸣",
+  "texture": "明亮紧实，带一点天然鼻音",
+  "pace": "中速稍快",
+  "accent": "标准普通话",
+  "delivery": "平实认真，咬字利落",
+  "text": "钥匙就在书包侧面，我们先去楼下等哥哥，免得错过出发时间。",
+  "voice_description": "10—12岁的儿童男声，音高中高，靠前，轻微鼻腔共鸣，明亮紧实，带一点天然鼻音，语速中速稍快。标准普通话，平实认真，咬字利落。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "校园短视频",
+    "冒险游戏"
+  ],
+  "tags": [
+    "儿童",
+    "男声",
+    "中高",
+    "明亮紧实",
+    "中速稍快"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "钥匙就在书包侧面，我们先去楼下等哥哥，免得错过出发时间。",
+  "long_text_char_count": 25,
+  "design_text": "钥匙就在书包侧面，我们先去楼下等哥哥。",
+  "fingerprint": "d47bf0399c155095b47fcb8600df9aa96bdbf64df0c0841e95b8b9cb0594aa6a",
+  "status": "generated",
+  "audio": "audio/002_稚声小鼻腔.wav",
+  "sha256": "0b5abd42e8086419e951372897b51d4a62f1fbb39a88d5b28654e91a5fee8e0f",
+  "seed": 20367761,
+  "description_used": "10—12岁的儿童男声，音高中高，靠前，轻微鼻腔共鸣，明亮紧实，带一点天然鼻音，语速中速稍快。标准普通话，平实认真，咬字利落。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 252000,
+    "duration_seconds": 5.25,
+    "active_duration_seconds": 5.15,
+    "active_span_seconds": 5.15,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.39773041009902954,
+    "rms": 0.04895324761437813,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 5.15,
+    "original_peak": 0.39773041009902954,
+    "original_rms": 0.04881320738042805,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.030166666666666668,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20263032,
+      "description": "10—12岁的儿童男声，音高中高，靠前，轻微鼻腔共鸣，明亮紧实，带一点天然鼻音，语速中速稍快。标准普通话，平实认真，咬字利落。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "钥匙就在书包侧面，我们先去楼下等哥哥。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 174240,
+        "duration_seconds": 3.63,
+        "active_duration_seconds": 3.01,
+        "active_span_seconds": 3.44,
+        "leading_silence_seconds": 0.09,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2752864360809326,
+        "rms": 0.0515878859608607,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.01,
+        "original_peak": 0.2752864360809326,
+        "original_rms": 0.05015635958752603,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.21016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.82,
+      "audio": "attempts/002__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20367761,
+      "description": "10—12岁的儿童男声，音高中高，靠前，轻微鼻腔共鸣，明亮紧实，带一点天然鼻音，语速中速稍快。标准普通话，平实认真，咬字利落。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "钥匙就在书包侧面，我们先去楼下等哥哥，免得错过出发时间。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 252000,
+        "duration_seconds": 5.25,
+        "active_duration_seconds": 5.15,
+        "active_span_seconds": 5.15,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.39773041009902954,
+        "rms": 0.04895324761437813,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 5.15,
+        "original_peak": 0.39773041009902954,
+        "original_rms": 0.04881320738042805,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.030166666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.23,
+      "audio": "attempts/002__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "002",
+    "status": "checked",
+    "expected_text": "钥匙就在书包侧面，我们先去楼下等哥哥，免得错过出发时间。",
+    "recognized_text": "鑰匙就在书包侧面,我们先去楼下等哥哥,免得错过出发时间。",
+    "audio": "audio/002_稚声小鼻腔.wav",
+    "audio_sha256": "0b5abd42e8086419e951372897b51d4a62f1fbb39a88d5b28654e91a5fee8e0f",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:48.004924+00:00",
+    "passed": true,
+    "expected_normalized": "钥匙就在书包侧面我们先去楼下等哥哥免得错过出发时间",
+    "recognized_normalized": "钥匙就在书包侧面我们先去楼下等哥哥免得错过出发时间",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "钥匙就在书包侧面我们先去楼下等哥哥免得错过出发时间"
+      }
+    ],
+    "elapsed_seconds": 1.1919447500258684,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "yao4"
+        ],
+        [
+          "shi5"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shu1"
+        ],
+        [
+          "bao1",
+          "pao2",
+          "fu2"
+        ],
+        [
+          "ce4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "lou2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "ge1"
+        ],
+        [
+          "ge1"
+        ],
+        [
+          "mian3"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "cuo4"
+        ],
+        [
+          "guo4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "jian1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "yao4"
+        ],
+        [
+          "shi5"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "shu1"
+        ],
+        [
+          "bao1",
+          "pao2",
+          "fu2"
+        ],
+        [
+          "ce4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "lou2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "ge1"
+        ],
+        [
+          "ge1"
+        ],
+        [
+          "mian3"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "cuo4"
+        ],
+        [
+          "guo4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "jian1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

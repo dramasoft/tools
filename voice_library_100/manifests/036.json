@@ -1,0 +1,386 @@
+{
+  "id": "036",
+  "name": "青年金属亮边",
+  "gender": "male",
+  "age_range": "24—29岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "前口腔集中，头腔明亮",
+  "texture": "紧致有亮边，轻金属质感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "清楚直接，轻度坚定",
+  "text": "能源读数恢复正常，下一道舱门可以开启了，先让探测器进去看看。",
+  "voice_description": "24—29岁的青年男声，音高中音，前口腔集中，头腔明亮，紧致有亮边，轻金属质感，语速中速。标准普通话，清楚直接，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "科技短视频",
+    "科幻游戏"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中音",
+    "紧致有亮边",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "能源读数恢复正常，下一道舱门可以开启了，先让探测器进去看看。",
+  "long_text_char_count": 27,
+  "design_text": "能源读数恢复正常，下一道舱门可以开启了。",
+  "fingerprint": "06adfab5144a1c09916a02a6e87f9cc7f3927f8175cf7f597a9a46abb6b4c51d",
+  "status": "generated",
+  "audio": "audio/036_青年金属亮边.wav",
+  "sha256": "b4627f20eab94ebe52625cb6a71b0babe180f63310036ad791b13431eadb88fb",
+  "seed": 20402067,
+  "description_used": "24—29岁的青年男声，音高中音，前口腔集中，头腔明亮，紧致有亮边，轻金属质感，语速中速。标准普通话，清楚直接，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 242400,
+    "duration_seconds": 5.05,
+    "active_duration_seconds": 3.71,
+    "active_span_seconds": 4.95,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.13449727073983841,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 3.71,
+    "original_peak": 0.9927994012832642,
+    "original_rms": 0.13745902342286448,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.23016666666666666,
+    "gain": 0.956890182218137
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20297338,
+      "description": "24—29岁的青年男声，音高中音，前口腔集中，头腔明亮，紧致有亮边，轻金属质感，语速中速。标准普通话，清楚直接，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "能源读数恢复正常，下一道舱门可以开启了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 145440,
+        "duration_seconds": 3.03,
+        "active_duration_seconds": 2.48,
+        "active_span_seconds": 2.88,
+        "leading_silence_seconds": 0.05,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5063203573226929,
+        "rms": 0.04781677385741866,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.2001666666666666,
+        "original_active_duration_seconds": 2.48,
+        "original_peak": 0.5063203573226929,
+        "original_rms": 0.046528096995420855,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.17016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.51,
+      "audio": "attempts/036__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20402067,
+      "description": "24—29岁的青年男声，音高中音，前口腔集中，头腔明亮，紧致有亮边，轻金属质感，语速中速。标准普通话，清楚直接，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "能源读数恢复正常，下一道舱门可以开启了，先让探测器进去看看。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 242400,
+        "duration_seconds": 5.05,
+        "active_duration_seconds": 3.71,
+        "active_span_seconds": 4.95,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.13449727073983841,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 3.71,
+        "original_peak": 0.9927994012832642,
+        "original_rms": 0.13745902342286448,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.23016666666666666,
+        "gain": 0.956890182218137
+      },
+      "elapsed_seconds": 7.01,
+      "audio": "attempts/036__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "036",
+    "status": "checked",
+    "expected_text": "能源读数恢复正常，下一道舱门可以开启了，先让探测器进去看看。",
+    "recognized_text": "能源毒树恢复正常下一道舱门可以开启了先让探测器进去看看",
+    "audio": "audio/036_青年金属亮边.wav",
+    "audio_sha256": "b4627f20eab94ebe52625cb6a71b0babe180f63310036ad791b13431eadb88fb",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:45.372899+00:00",
+    "passed": true,
+    "expected_normalized": "能源读数恢复正常下一道舱门可以开启了先让探测器进去看看",
+    "recognized_normalized": "能源毒树恢复正常下一道舱门可以开启了先让探测器进去看看",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 2,
+    "substitutions": 2,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.07407407407407407,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9259259259259259,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 2,
+        "text": "能源"
+      },
+      {
+        "expected_start": 4,
+        "recognized_start": 4,
+        "length": 23,
+        "text": "恢复正常下一道舱门可以开启了先让探测器进去看看"
+      }
+    ],
+    "elapsed_seconds": 0.5474276668392122,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "neng2"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "du2"
+        ],
+        [
+          "shu4"
+        ],
+        [
+          "hui1"
+        ],
+        [
+          "fu4"
+        ],
+        [
+          "zheng4"
+        ],
+        [
+          "chang2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "dao4",
+          "dao3"
+        ],
+        [
+          "cang1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "rang4"
+        ],
+        [
+          "tan4",
+          "xian2"
+        ],
+        [
+          "ce4"
+        ],
+        [
+          "qi4"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "kan4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "neng2"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "du2",
+          "dai4"
+        ],
+        [
+          "shu4"
+        ],
+        [
+          "hui1"
+        ],
+        [
+          "fu4"
+        ],
+        [
+          "zheng4"
+        ],
+        [
+          "chang2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "dao4",
+          "dao3"
+        ],
+        [
+          "cang1"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "rang4"
+        ],
+        [
+          "tan4",
+          "xian2"
+        ],
+        [
+          "ce4"
+        ],
+        [
+          "qi4"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "kan4"
+        ],
+        [
+          "kan4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

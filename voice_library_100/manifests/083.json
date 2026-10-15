@@ -1,0 +1,445 @@
+{
+  "id": "083",
+  "name": "中性中年厚木",
+  "gender": "neutral",
+  "age_range": "37—45岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "胸腔温实，口腔开阔",
+  "texture": "厚度适中，干净木质感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "稳重平实，语调自然",
+  "text": "登记册就在柜台上，填好名字以后交给我，证件也请一起准备好。",
+  "voice_description": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "职业短视频",
+    "经营游戏"
+  ],
+  "tags": [
+    "中年",
+    "中性声",
+    "中低",
+    "厚度适中",
+    "中速"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "登记册就在柜台上，填好名字以后交给我，证件也请一起准备好。",
+  "long_text_char_count": 26,
+  "design_text": "登记册就在柜台上，填好名字以后交给我。",
+  "fingerprint": "d1d0daf143899f0b8f11fae166a9faa2b1536a7ffe54507e7a1928359e9c3997",
+  "status": "generated",
+  "audio": "audio/083_中性中年厚木.wav",
+  "sha256": "754ffd6a00c5ae0606a073a845082b0e52e5f10d71b6d8c96ce3b9c7993368ab",
+  "seed": 20658948,
+  "description_used": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 255840,
+    "duration_seconds": 5.33,
+    "active_duration_seconds": 4.33,
+    "active_span_seconds": 5.22,
+    "leading_silence_seconds": 0.01,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.5964453816413879,
+    "rms": 0.06426120328252728,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.440166666666666,
+    "original_active_duration_seconds": 4.33,
+    "original_peak": 0.5964453816413879,
+    "original_rms": 0.06360721150253382,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.11016666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20344761,
+      "description": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "登记册就在柜台上，填好名字以后交给我。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 176648,
+        "duration_seconds": 3.6801666666666666,
+        "active_duration_seconds": 3.1,
+        "active_span_seconds": 3.66,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.020166666666666666,
+        "peak": 0.7125948071479797,
+        "rms": 0.06034975992632324,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.1,
+        "original_peak": 0.7125948071479797,
+        "original_rms": 0.06034975992632324,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.26,
+      "audio": "attempts/083__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20449490,
+      "description": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "登记册就在柜台上，填好名字以后交给我，证件也请一起准备好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 294240,
+        "duration_seconds": 6.13,
+        "active_duration_seconds": 4.76,
+        "active_span_seconds": 5.98,
+        "leading_silence_seconds": 0.05,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.937343418598175,
+        "rms": 0.07315001542535174,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.240166666666667,
+        "original_active_duration_seconds": 4.76,
+        "original_peak": 0.937343418598175,
+        "original_rms": 0.07250142869157492,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.11016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.23,
+      "audio": "attempts/083__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20554219,
+      "description": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "登记册就在柜台上，填好名字以后交给我。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 167520,
+        "duration_seconds": 3.49,
+        "active_duration_seconds": 3.19,
+        "active_span_seconds": 3.39,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7969785332679749,
+        "rms": 0.12728309609018065,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 3.19,
+        "original_peak": 0.7969785332679749,
+        "original_rms": 0.12673653554840475,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.030166666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.13,
+      "audio": "attempts/083__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20658948,
+      "description": "37—45岁的中年中性声，音高中低，胸腔温实，口腔开阔，厚度适中，干净木质感，语速中速。标准普通话，稳重平实，语调自然。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "登记册就在柜台上，填好名字以后交给我，证件也请一起准备好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 255840,
+        "duration_seconds": 5.33,
+        "active_duration_seconds": 4.33,
+        "active_span_seconds": 5.22,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5964453816413879,
+        "rms": 0.06426120328252728,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.440166666666666,
+        "original_active_duration_seconds": 4.33,
+        "original_peak": 0.5964453816413879,
+        "original_rms": 0.06360721150253382,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.11016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.21,
+      "audio": "attempts/083__4.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "083",
+    "status": "checked",
+    "expected_text": "登记册就在柜台上，填好名字以后交给我，证件也请一起准备好。",
+    "recognized_text": "登记册就在柜台上填好名字以后交给我证件也请一起准备好",
+    "audio": "audio/083_中性中年厚木.wav",
+    "audio_sha256": "754ffd6a00c5ae0606a073a845082b0e52e5f10d71b6d8c96ce3b9c7993368ab",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:09.600883+00:00",
+    "passed": true,
+    "expected_normalized": "登记册就在柜台上填好名字以后交给我证件也请一起准备好",
+    "recognized_normalized": "登记册就在柜台上填好名字以后交给我证件也请一起准备好",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 26,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 26,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 26,
+        "text": "登记册就在柜台上填好名字以后交给我证件也请一起准备好"
+      }
+    ],
+    "elapsed_seconds": 0.5996722090058029,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "deng1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "ce4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "gui4"
+        ],
+        [
+          "tai2"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "tian2",
+          "tian3",
+          "chen2",
+          "zhen4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "ming2",
+          "ming4"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "jiao1"
+        ],
+        [
+          "gei3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "zheng4"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ],
+        [
+          "ye3",
+          "yi2"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "zhun3"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "deng1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "ce4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "gui4"
+        ],
+        [
+          "tai2"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "tian2",
+          "tian3",
+          "chen2",
+          "zhen4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "ming2",
+          "ming4"
+        ],
+        [
+          "zi4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "jiao1"
+        ],
+        [
+          "gei3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "zheng4"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ],
+        [
+          "ye3",
+          "yi2"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "zhun3"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "id": "077",
+  "name": "中年女声圆木",
+  "gender": "female",
+  "age_range": "43—51岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "口腔圆润，胸腔扎实",
+  "texture": "温润木质，厚度均衡",
+  "pace": "中速",
+  "accent": "普通话，轻微中原语感",
+  "delivery": "稳妥自然，咬字清楚",
+  "text": "仓库的门已经锁好了，钥匙就放在抽屉里面。",
+  "voice_description": "43—51岁的中年女声，音高中低，口腔圆润，胸腔扎实，温润木质，厚度均衡，语速中速。普通话，轻微中原语感，稳妥自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "职业短视频",
+    "经营游戏"
+  ],
+  "tags": [
+    "中年",
+    "女声",
+    "中低",
+    "温润木质",
+    "中速"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "仓库的门已经锁好了，钥匙就放在抽屉里面，走前再检查一下电源。",
+  "long_text_char_count": 27,
+  "design_text": "仓库的门已经锁好了，钥匙就放在抽屉里面。",
+  "fingerprint": "de8024e34495c0a51173d7001fdb6120fe5f670e0b25e2be4d4668cf6a7e83b9",
+  "status": "generated",
+  "audio": "audio/077_中年女声圆木.wav",
+  "sha256": "0d522f2fb4059af48f18904dbb3bf2177f261d857dca840aa126e0c246c0f3a3",
+  "seed": 20548165,
+  "description_used": "43—51岁的中年女声，音高中低，口腔圆润，胸腔扎实，温润木质，厚度均衡，语速中速。普通话，轻微中原语感，稳妥自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 199688,
+    "duration_seconds": 4.160166666666667,
+    "active_duration_seconds": 4.02,
+    "active_span_seconds": 4.05,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.09016666666666667,
+    "peak": 0.3638859689235687,
+    "rms": 0.05154114574665897,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.160166666666667,
+    "original_active_duration_seconds": 4.02,
+    "original_peak": 0.3638859689235687,
+    "original_rms": 0.05154114574665897,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20338707,
+      "description": "43—51岁的中年女声，音高中低，口腔圆润，胸腔扎实，温润木质，厚度均衡，语速中速。普通话，轻微中原语感，稳妥自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "仓库的门已经锁好了，钥匙就放在抽屉里面。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 145928,
+        "duration_seconds": 3.0401666666666665,
+        "active_duration_seconds": 2.9901666666666666,
+        "active_span_seconds": 3.0301666666666667,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.0,
+        "peak": 0.38692358136177063,
+        "rms": 0.07851356026727212,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.0401666666666665,
+        "original_active_duration_seconds": 2.9901666666666666,
+        "original_peak": 0.38692358136177063,
+        "original_rms": 0.07851356026727212,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.49,
+      "audio": "attempts/077__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20443436,
+      "description": "43—51岁的中年女声，音高中低，口腔圆润，胸腔扎实，温润木质，厚度均衡，语速中速。普通话，轻微中原语感，稳妥自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "仓库的门已经锁好了，钥匙就放在抽屉里面，走前再检查一下电源。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 291848,
+        "duration_seconds": 6.080166666666667,
+        "active_duration_seconds": 5.53,
+        "active_span_seconds": 6.01,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.07016666666666667,
+        "peak": 0.5099459290504456,
+        "rms": 0.05616761889039308,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.080166666666667,
+        "original_active_duration_seconds": 5.53,
+        "original_peak": 0.5099459290504456,
+        "original_rms": 0.05616761889039308,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.94,
+      "audio": "attempts/077__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20548165,
+      "description": "43—51岁的中年女声，音高中低，口腔圆润，胸腔扎实，温润木质，厚度均衡，语速中速。普通话，轻微中原语感，稳妥自然，咬字清楚。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "仓库的门已经锁好了，钥匙就放在抽屉里面。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 199688,
+        "duration_seconds": 4.160166666666667,
+        "active_duration_seconds": 4.02,
+        "active_span_seconds": 4.05,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.09016666666666667,
+        "peak": 0.3638859689235687,
+        "rms": 0.05154114574665897,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.160166666666667,
+        "original_active_duration_seconds": 4.02,
+        "original_peak": 0.3638859689235687,
+        "original_rms": 0.05154114574665897,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.78,
+      "audio": "attempts/077__3.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "077",
+    "status": "checked",
+    "expected_text": "仓库的门已经锁好了，钥匙就放在抽屉里面。",
+    "recognized_text": "仓库的门已经锁好了 钥匙就放在抽屉里面",
+    "audio": "audio/077_中年女声圆木.wav",
+    "audio_sha256": "0d522f2fb4059af48f18904dbb3bf2177f261d857dca840aa126e0c246c0f3a3",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:06.454708+00:00",
+    "passed": true,
+    "expected_normalized": "仓库的门已经锁好了钥匙就放在抽屉里面",
+    "recognized_normalized": "仓库的门已经锁好了钥匙就放在抽屉里面",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "仓库的门已经锁好了钥匙就放在抽屉里面"
+      }
+    ],
+    "elapsed_seconds": 0.5047310418449342,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "cang1"
+        ],
+        [
+          "ku4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "suo3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "shi5"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "chou1"
+        ],
+        [
+          "ti4"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "mian4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "cang1"
+        ],
+        [
+          "ku4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "suo3"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "yao4"
+        ],
+        [
+          "shi5"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "chou1"
+        ],
+        [
+          "ti4"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "mian4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

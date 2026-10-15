@@ -1,0 +1,184 @@
+{
+  "id": "003",
+  "status": "checked",
+  "expected_text": "院子里的风车转起来了，我想走近一点看看。",
+  "recognized_text": "院子里的风车转起来了,我想走近一点看看。",
+  "audio": "audio/003_轻薄童声.wav",
+  "audio_sha256": "70a719fe451cfdb4defb2363cd24d968b168cb68c234d44cf526084c4720f0b7",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:09:49.462217+00:00",
+  "passed": true,
+  "expected_normalized": "院子里的风车转起来了我想走近一点看看",
+  "recognized_normalized": "院子里的风车转起来了我想走近一点看看",
+  "expected_characters": 18,
+  "recognized_characters": 18,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 18,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "pass_basis": "exact_text",
+  "phonetic_check": {
+    "available": true,
+    "exact_compatible": true,
+    "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+    "expected_candidates": [
+      [
+        "yuan4"
+      ],
+      [
+        "zi5"
+      ],
+      [
+        "li3",
+        "li5"
+      ],
+      [
+        "de5",
+        "di1",
+        "di2",
+        "di4"
+      ],
+      [
+        "feng1"
+      ],
+      [
+        "che1"
+      ],
+      [
+        "zhuan3",
+        "zhuan4",
+        "zhuai3"
+      ],
+      [
+        "qi3"
+      ],
+      [
+        "lai2"
+      ],
+      [
+        "le5",
+        "liao3",
+        "liao4"
+      ],
+      [
+        "wo3"
+      ],
+      [
+        "xiang3"
+      ],
+      [
+        "zou3"
+      ],
+      [
+        "jin4"
+      ],
+      [
+        "yi4"
+      ],
+      [
+        "dian3"
+      ],
+      [
+        "kan4"
+      ],
+      [
+        "kan4"
+      ]
+    ],
+    "recognized_candidates": [
+      [
+        "yuan4"
+      ],
+      [
+        "zi5"
+      ],
+      [
+        "li3",
+        "li5"
+      ],
+      [
+        "de5",
+        "di1",
+        "di2",
+        "di4"
+      ],
+      [
+        "feng1"
+      ],
+      [
+        "che1"
+      ],
+      [
+        "zhuan3",
+        "zhuan4",
+        "zhuai3"
+      ],
+      [
+        "qi3"
+      ],
+      [
+        "lai2"
+      ],
+      [
+        "le5",
+        "liao3",
+        "liao4"
+      ],
+      [
+        "wo3"
+      ],
+      [
+        "xiang3"
+      ],
+      [
+        "zou3"
+      ],
+      [
+        "jin4"
+      ],
+      [
+        "yi4"
+      ],
+      [
+        "dian3"
+      ],
+      [
+        "kan4"
+      ],
+      [
+        "kan4"
+      ]
+    ],
+    "note": "Dictionary pronunciation compatibility; not human listening."
+  },
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 18,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 18,
+      "text": "院子里的风车转起来了我想走近一点看看"
+    }
+  ],
+  "elapsed_seconds": 3.1219547912478447
+}

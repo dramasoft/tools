@@ -1,0 +1,299 @@
+{
+  "id": "071",
+  "name": "中年低柔气感",
+  "gender": "male",
+  "age_range": "37—45岁",
+  "age_group": "middle_aged",
+  "pitch": "偏低",
+  "resonance": "胸腔轻共鸣，口腔柔和",
+  "texture": "柔润偏暗，少量均匀气感",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "温和安稳，正常有声说话",
+  "text": "车里备了一条毯子，路上冷了就拿来盖上。",
+  "voice_description": "37—45岁的中年男声，音高偏低，胸腔轻共鸣，口腔柔和，柔润偏暗，少量均匀气感，语速中速稍慢。标准普通话，温和安稳，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "情感旁白",
+    "剧情游戏"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "偏低",
+    "柔润偏暗",
+    "中速稍慢"
+  ],
+  "text_char_count": 17,
+  "target_duration_seconds": 5.0,
+  "long_text": "车里备了一条毯子，路上冷了就拿来盖上，到了山里风会更大些。",
+  "long_text_char_count": 26,
+  "design_text": "车里备了一条毯子，路上冷了就拿来盖上。",
+  "fingerprint": "13a42c6930e865ebd1ba1767260d47046d50f9bf2fd4f56eab6aa97380fe5020",
+  "status": "generated",
+  "audio": "audio/071_中年低柔气感.wav",
+  "sha256": "f205627fee98f7a2a6af879f2c10f54eb13a12f7923500b8db0b6f4b7fb7cffb",
+  "seed": 20332653,
+  "description_used": "37—45岁的中年男声，音高偏低，胸腔轻共鸣，口腔柔和，柔润偏暗，少量均匀气感，语速中速稍慢。标准普通话，温和安稳，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 224160,
+    "duration_seconds": 4.67,
+    "active_duration_seconds": 4.07,
+    "active_span_seconds": 4.47,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.08381944327982085,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 4.07,
+    "original_peak": 0.9667508006095886,
+    "original_rms": 0.08021777662919685,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.24,
+    "trimmed_end_seconds": 0.37016666666666664,
+    "gain": 0.9826730936255482
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20332653,
+      "description": "37—45岁的中年男声，音高偏低，胸腔轻共鸣，口腔柔和，柔润偏暗，少量均匀气感，语速中速稍慢。标准普通话，温和安稳，正常有声说话。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "车里备了一条毯子，路上冷了就拿来盖上。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 224160,
+        "duration_seconds": 4.67,
+        "active_duration_seconds": 4.07,
+        "active_span_seconds": 4.47,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.08381944327982085,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 4.07,
+        "original_peak": 0.9667508006095886,
+        "original_rms": 0.08021777662919685,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.24,
+        "trimmed_end_seconds": 0.37016666666666664,
+        "gain": 0.9826730936255482
+      },
+      "elapsed_seconds": 6.11,
+      "audio": "attempts/071__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "071",
+    "status": "checked",
+    "expected_text": "车里备了一条毯子，路上冷了就拿来盖上。",
+    "recognized_text": "车里背了一条毯子路上冷了就拿来盖上",
+    "audio": "audio/071_中年低柔气感.wav",
+    "audio_sha256": "f205627fee98f7a2a6af879f2c10f54eb13a12f7923500b8db0b6f4b7fb7cffb",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:03.843753+00:00",
+    "passed": true,
+    "expected_normalized": "车里备了一条毯子路上冷了就拿来盖上",
+    "recognized_normalized": "车里背了一条毯子路上冷了就拿来盖上",
+    "expected_characters": 17,
+    "recognized_characters": 17,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.058823529411764705,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9411764705882353,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 2,
+        "text": "车里"
+      },
+      {
+        "expected_start": 3,
+        "recognized_start": 3,
+        "length": 14,
+        "text": "了一条毯子路上冷了就拿来盖上"
+      }
+    ],
+    "elapsed_seconds": 0.4894568333402276,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "che1",
+          "ju1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "bei4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "yi1"
+        ],
+        [
+          "tiao2"
+        ],
+        [
+          "tan3"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "leng3",
+          "ling2",
+          "ling3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "gai4",
+          "ge3"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "che1",
+          "ju1"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "bei4",
+          "bei1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "yi1"
+        ],
+        [
+          "tiao2"
+        ],
+        [
+          "tan3"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "leng3",
+          "ling2",
+          "ling3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "na2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "gai4",
+          "ge3"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

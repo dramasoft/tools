@@ -1,0 +1,312 @@
+{
+  "id": "015",
+  "name": "少年明亮鼻腔",
+  "gender": "male",
+  "age_range": "13—15岁",
+  "age_group": "teen",
+  "pitch": "中高",
+  "resonance": "靠前，鼻腔共鸣较明显",
+  "texture": "亮而有弹性，轻微鼻音",
+  "pace": "中速稍快",
+  "accent": "普通话，轻微北方语感",
+  "delivery": "爽利自然，轻度活泼",
+  "text": "原来入口在桥的右边，我还以为要绕一大圈。",
+  "voice_description": "13—15岁的少年男声，音高中高，靠前，鼻腔共鸣较明显，亮而有弹性，轻微鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻度活泼。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "校园短视频",
+    "解谜游戏"
+  ],
+  "tags": [
+    "少年",
+    "男声",
+    "中高",
+    "亮而有弹性",
+    "中速稍快"
+  ],
+  "text_char_count": 18,
+  "target_duration_seconds": 5.0,
+  "long_text": "原来入口在桥的右边，顺着台阶下去就到，根本不用再绕一大圈。",
+  "long_text_char_count": 26,
+  "design_text": "原来入口在桥的右边，我还以为要绕一大圈。",
+  "fingerprint": "5fc74b776fecfc7b416a5e727c1b118c861f1e60ef23ecc454a1e3cb8e3e2df7",
+  "status": "generated",
+  "audio": "audio/015_少年明亮鼻腔.wav",
+  "sha256": "eca529880c096b5349954099cd28cbb810a5cb67434546a1a65016e731154bc9",
+  "seed": 20276149,
+  "description_used": "13—15岁的少年男声，音高中高，靠前，鼻腔共鸣较明显，亮而有弹性，轻微鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻度活泼。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 194880,
+    "duration_seconds": 4.06,
+    "active_duration_seconds": 3.74,
+    "active_span_seconds": 3.96,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.3273237347602844,
+    "rms": 0.05720375687239396,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.160166666666667,
+    "original_active_duration_seconds": 3.74,
+    "original_peak": 0.3273237347602844,
+    "original_rms": 0.05651092534166641,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.10016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20276149,
+      "description": "13—15岁的少年男声，音高中高，靠前，鼻腔共鸣较明显，亮而有弹性，轻微鼻音，语速中速稍快。普通话，轻微北方语感，爽利自然，轻度活泼。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "原来入口在桥的右边，我还以为要绕一大圈。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 194880,
+        "duration_seconds": 4.06,
+        "active_duration_seconds": 3.74,
+        "active_span_seconds": 3.96,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3273237347602844,
+        "rms": 0.05720375687239396,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.160166666666667,
+        "original_active_duration_seconds": 3.74,
+        "original_peak": 0.3273237347602844,
+        "original_rms": 0.05651092534166641,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.10016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.99,
+      "audio": "attempts/015__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "015",
+    "status": "checked",
+    "expected_text": "原来入口在桥的右边，我还以为要绕一大圈。",
+    "recognized_text": "原来入口在桥的右边,我还以为要绕一大圈。",
+    "audio": "audio/015_少年明亮鼻腔.wav",
+    "audio_sha256": "eca529880c096b5349954099cd28cbb810a5cb67434546a1a65016e731154bc9",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:00.456278+00:00",
+    "passed": true,
+    "expected_normalized": "原来入口在桥的右边我还以为要绕一大圈",
+    "recognized_normalized": "原来入口在桥的右边我还以为要绕一大圈",
+    "expected_characters": 18,
+    "recognized_characters": 18,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 18,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 18,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 18,
+        "text": "原来入口在桥的右边我还以为要绕一大圈"
+      }
+    ],
+    "elapsed_seconds": 0.8910462078638375,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "yuan2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "ru4"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qiao2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "you4"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "wei2"
+        ],
+        [
+          "yao4",
+          "yao1",
+          "yao3"
+        ],
+        [
+          "rao4",
+          "rao3"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "da4",
+          "dai4",
+          "tai4"
+        ],
+        [
+          "quan1",
+          "juan1",
+          "juan4",
+          "quan2",
+          "juan3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "yuan2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "ru4"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "qiao2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "you4"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "wei2"
+        ],
+        [
+          "yao4",
+          "yao1",
+          "yao3"
+        ],
+        [
+          "rao4",
+          "rao3"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "da4",
+          "dai4",
+          "tai4"
+        ],
+        [
+          "quan1",
+          "juan1",
+          "juan4",
+          "quan2",
+          "juan3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

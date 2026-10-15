@@ -1,0 +1,388 @@
+{
+  "id": "020",
+  "name": "少女清亮",
+  "gender": "female",
+  "age_range": "14—16岁",
+  "age_group": "teen",
+  "pitch": "中高",
+  "resonance": "明亮头腔，口腔靠前",
+  "texture": "清亮洁净，声线纤细",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "坦率自然，表情轻淡",
+  "text": "窗台上的花开了，明天上学时带一枝给你，放在你的书桌旁边。",
+  "voice_description": "14—16岁的少年女声，音高中高，明亮头腔，口腔靠前，清亮洁净，声线纤细，语速中速。标准普通话，坦率自然，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "校园短视频",
+    "青春游戏"
+  ],
+  "tags": [
+    "少年",
+    "女声",
+    "中高",
+    "清亮洁净",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "窗台上的花开了，明天上学时带一枝给你，放在你的书桌旁边。",
+  "long_text_char_count": 25,
+  "design_text": "窗台上的花开了，明天上学时带一枝给你。",
+  "fingerprint": "1e1314ecc9b039883ed1953818393e78ebaa817e9fdef7faccde756bc37be87d",
+  "status": "generated",
+  "audio": "audio/020_少女清亮.wav",
+  "sha256": "ba66eb11ce7207b27416d39a92bc6fdbdf3cc07d288b54fcbbae1f527dc0233b",
+  "seed": 20385923,
+  "description_used": "14—16岁的少年女声，音高中高，明亮头腔，口腔靠前，清亮洁净，声线纤细，语速中速。标准普通话，坦率自然，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 284168,
+    "duration_seconds": 5.920166666666667,
+    "active_duration_seconds": 5.63,
+    "active_span_seconds": 5.86,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.06016666666666667,
+    "peak": 0.30790388584136963,
+    "rms": 0.038009527661539456,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.920166666666667,
+    "original_active_duration_seconds": 5.63,
+    "original_peak": 0.30790388584136963,
+    "original_rms": 0.038009527661539456,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20281194,
+      "description": "14—16岁的少年女声，音高中高，明亮头腔，口腔靠前，清亮洁净，声线纤细，语速中速。标准普通话，坦率自然，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "窗台上的花开了，明天上学时带一枝给你。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 174728,
+        "duration_seconds": 3.6401666666666666,
+        "active_duration_seconds": 3.24,
+        "active_span_seconds": 3.49,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.050166666666666665,
+        "peak": 0.3622383773326874,
+        "rms": 0.0708862472513696,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.24,
+        "original_peak": 0.3622383773326874,
+        "original_rms": 0.07049996137932599,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.04,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.63,
+      "audio": "attempts/020__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20385923,
+      "description": "14—16岁的少年女声，音高中高，明亮头腔，口腔靠前，清亮洁净，声线纤细，语速中速。标准普通话，坦率自然，表情轻淡。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "窗台上的花开了，明天上学时带一枝给你，放在你的书桌旁边。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 284168,
+        "duration_seconds": 5.920166666666667,
+        "active_duration_seconds": 5.63,
+        "active_span_seconds": 5.86,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.06016666666666667,
+        "peak": 0.30790388584136963,
+        "rms": 0.038009527661539456,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.920166666666667,
+        "original_active_duration_seconds": 5.63,
+        "original_peak": 0.30790388584136963,
+        "original_rms": 0.038009527661539456,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.43,
+      "audio": "attempts/020__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "020",
+    "status": "checked",
+    "expected_text": "窗台上的花开了，明天上学时带一枝给你，放在你的书桌旁边。",
+    "recognized_text": "窗台上的花开了,明天上学时带一只给你,放在你的书桌旁边。",
+    "audio": "audio/020_少女清亮.wav",
+    "audio_sha256": "ba66eb11ce7207b27416d39a92bc6fdbdf3cc07d288b54fcbbae1f527dc0233b",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:05.431148+00:00",
+    "passed": true,
+    "expected_normalized": "窗台上的花开了明天上学时带一枝给你放在你的书桌旁边",
+    "recognized_normalized": "窗台上的花开了明天上学时带一只给你放在你的书桌旁边",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 1,
+    "substitutions": 1,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 24,
+    "cer": 0.04,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.96,
+    "sequence_matching_characters": 24,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 14,
+        "text": "窗台上的花开了明天上学时带一"
+      },
+      {
+        "expected_start": 15,
+        "recognized_start": 15,
+        "length": 10,
+        "text": "给你放在你的书桌旁边"
+      }
+    ],
+    "elapsed_seconds": 0.9671252924017608,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "chuang1"
+        ],
+        [
+          "tai2"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "hua1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "xue2"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "zhi1",
+          "qi2"
+        ],
+        [
+          "gei3",
+          "ji3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shu1"
+        ],
+        [
+          "zhuo1"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "chuang1"
+        ],
+        [
+          "tai2"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "hua1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "xue2"
+        ],
+        [
+          "shi2"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "yi1"
+        ],
+        [
+          "zhi1"
+        ],
+        [
+          "gei3",
+          "ji3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shu1"
+        ],
+        [
+          "zhuo1"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

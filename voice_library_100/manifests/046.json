@@ -1,0 +1,385 @@
+{
+  "id": "046",
+  "name": "青年女声银亮",
+  "gender": "female",
+  "age_range": "21—26岁",
+  "age_group": "young_adult",
+  "pitch": "中高",
+  "resonance": "头腔清亮，前口腔集中",
+  "texture": "紧致清脆，银亮质感",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "清楚爽利，轻度坚定",
+  "text": "扫描结果已经出来，目标就在走廊尽头，房间的门锁还没有被打开。",
+  "voice_description": "21—26岁的青年女声，音高中高，头腔清亮，前口腔集中，紧致清脆，银亮质感，语速中速。标准普通话，清楚爽利，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "科技短视频",
+    "科幻游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中高",
+    "紧致清脆",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "扫描结果已经出来，目标就在走廊尽头，房间的门锁还没有被打开。",
+  "long_text_char_count": 27,
+  "design_text": "扫描结果已经出来，目标就在走廊尽头的房间。",
+  "fingerprint": "3a38ead7f8925def846ae0ae00be98584967b8dac36c13405721981f12b42a87",
+  "status": "generated",
+  "audio": "audio/046_青年女声银亮.wav",
+  "sha256": "ea53925b782e954c24056d8bc693e237f35a513d02b7cb0335bd9d57c979ba35",
+  "seed": 20412157,
+  "description_used": "21—26岁的青年女声，音高中高，头腔清亮，前口腔集中，紧致清脆，银亮质感，语速中速。标准普通话，清楚爽利，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 238088,
+    "duration_seconds": 4.960166666666667,
+    "active_duration_seconds": 4.19,
+    "active_span_seconds": 4.9,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.06016666666666667,
+    "peak": 0.9145516157150269,
+    "rms": 0.1776439899132181,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.960166666666667,
+    "original_active_duration_seconds": 4.19,
+    "original_peak": 0.9145516157150269,
+    "original_rms": 0.1776439899132181,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20307428,
+      "description": "21—26岁的青年女声，音高中高，头腔清亮，前口腔集中，紧致清脆，银亮质感，语速中速。标准普通话，清楚爽利，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "扫描结果已经出来，目标就在走廊尽头的房间。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 176648,
+        "duration_seconds": 3.6801666666666666,
+        "active_duration_seconds": 3.35,
+        "active_span_seconds": 3.62,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.06016666666666667,
+        "peak": 0.7495427131652832,
+        "rms": 0.16706069760793943,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 3.35,
+        "original_peak": 0.7495427131652832,
+        "original_rms": 0.16706069760793943,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.56,
+      "audio": "attempts/046__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20412157,
+      "description": "21—26岁的青年女声，音高中高，头腔清亮，前口腔集中，紧致清脆，银亮质感，语速中速。标准普通话，清楚爽利，轻度坚定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "扫描结果已经出来，目标就在走廊尽头，房间的门锁还没有被打开。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 238088,
+        "duration_seconds": 4.960166666666667,
+        "active_duration_seconds": 4.19,
+        "active_span_seconds": 4.9,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.06016666666666667,
+        "peak": 0.9145516157150269,
+        "rms": 0.1776439899132181,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.960166666666667,
+        "original_active_duration_seconds": 4.19,
+        "original_peak": 0.9145516157150269,
+        "original_rms": 0.1776439899132181,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.69,
+      "audio": "attempts/046__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "046",
+    "status": "checked",
+    "expected_text": "扫描结果已经出来，目标就在走廊尽头，房间的门锁还没有被打开。",
+    "recognized_text": "扫描结果已经出来,目标就在走廊尽头,房间的门锁还没有被打开。",
+    "audio": "audio/046_青年女声银亮.wav",
+    "audio_sha256": "ea53925b782e954c24056d8bc693e237f35a513d02b7cb0335bd9d57c979ba35",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:50.298759+00:00",
+    "passed": true,
+    "expected_normalized": "扫描结果已经出来目标就在走廊尽头房间的门锁还没有被打开",
+    "recognized_normalized": "扫描结果已经出来目标就在走廊尽头房间的门锁还没有被打开",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 27,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 27,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 27,
+        "text": "扫描结果已经出来目标就在走廊尽头房间的门锁还没有被打开"
+      }
+    ],
+    "elapsed_seconds": 0.5733487498946488,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "sao3"
+        ],
+        [
+          "miao2"
+        ],
+        [
+          "jie2"
+        ],
+        [
+          "guo3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "mu4"
+        ],
+        [
+          "biao1"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "lang2"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "tou2"
+        ],
+        [
+          "fang2"
+        ],
+        [
+          "jian1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "suo3"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "bei4",
+          "bi4",
+          "pi1",
+          "pi4"
+        ],
+        [
+          "da3"
+        ],
+        [
+          "kai1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "sao3"
+        ],
+        [
+          "miao2"
+        ],
+        [
+          "jie2"
+        ],
+        [
+          "guo3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "mu4"
+        ],
+        [
+          "biao1"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "lang2"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "tou2"
+        ],
+        [
+          "fang2"
+        ],
+        [
+          "jian1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "suo3"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "mei2"
+        ],
+        [
+          "you3"
+        ],
+        [
+          "bei4",
+          "bi4",
+          "pi1",
+          "pi4"
+        ],
+        [
+          "da3"
+        ],
+        [
+          "kai1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "id": "001",
+  "name": "稚亮圆润",
+  "gender": "male",
+  "age_range": "8—10岁",
+  "age_group": "child",
+  "pitch": "偏高",
+  "resonance": "头腔明亮，口腔圆润",
+  "texture": "清亮，声线细而有实体",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "轻快自然，句尾收稳",
+  "text": "我把蓝色积木搭好了，你看窗边还有一座小桥。",
+  "voice_description": "8—10岁的儿童男声，音高偏高，头腔明亮，口腔圆润，清亮，声线细而有实体，语速中速。标准普通话，轻快自然，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "儿童剧情",
+    "益智游戏"
+  ],
+  "tags": [
+    "儿童",
+    "男声",
+    "偏高",
+    "清亮",
+    "中速"
+  ],
+  "text_char_count": 19,
+  "target_duration_seconds": 5.0,
+  "fingerprint": "9435fbe793e50f1d4e4b17b88e36ec7ced3053697623b70903fd76592b4fd3c9",
+  "status": "generated",
+  "audio": "audio/001_稚亮圆润.wav",
+  "sha256": "20e030aa6153dceffef14af70b58400390b267bf80ca6e42b9ea03f9cf51cd2f",
+  "seed": 20262023,
+  "description_used": "8—10岁的儿童男声，音高偏高，头腔明亮，口腔圆润，清亮，声线细而有实体，语速中速。标准普通话，轻快自然，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 263040,
+    "duration_seconds": 5.48,
+    "active_duration_seconds": 4.62,
+    "active_span_seconds": 5.36,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.29556289315223694,
+    "rms": 0.03384094458895902,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.920166666666667,
+    "original_active_duration_seconds": 4.62,
+    "original_peak": 0.29556289315223694,
+    "original_rms": 0.03255860563873097,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.44016666666666665,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20262023,
+      "description": "8—10岁的儿童男声，音高偏高，头腔明亮，口腔圆润，清亮，声线细而有实体，语速中速。标准普通话，轻快自然，句尾收稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 263040,
+        "duration_seconds": 5.48,
+        "active_duration_seconds": 4.62,
+        "active_span_seconds": 5.36,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.29556289315223694,
+        "rms": 0.03384094458895902,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.920166666666667,
+        "original_active_duration_seconds": 4.62,
+        "original_peak": 0.29556289315223694,
+        "original_rms": 0.03255860563873097,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.44016666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 9.66,
+      "audio": "attempts/001__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": true
+  },
+  "asr": {
+    "id": "001",
+    "status": "checked",
+    "expected_text": "我把蓝色积木搭好了，你看窗边还有一座小桥。",
+    "recognized_text": "我把蓝色积木搭好了,你看窗边还有一座小桥。",
+    "audio": "audio/001_稚亮圆润.wav",
+    "audio_sha256": "20e030aa6153dceffef14af70b58400390b267bf80ca6e42b9ea03f9cf51cd2f",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:40.303005+00:00",
+    "passed": true,
+    "expected_normalized": "我把蓝色积木搭好了你看窗边还有一座小桥",
+    "recognized_normalized": "我把蓝色积木搭好了你看窗边还有一座小桥",
+    "expected_characters": 19,
+    "recognized_characters": 19,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 19,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 19,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 19,
+        "text": "我把蓝色积木搭好了你看窗边还有一座小桥"
+      }
+    ],
+    "elapsed_seconds": 7.698603541124612,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "lan2",
+          "la5"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "ji1",
+          "zhi3"
+        ],
+        [
+          "mu4"
+        ],
+        [
+          "da1",
+          "ta4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "kan4",
+          "kan1"
+        ],
+        [
+          "chuang1",
+          "cong1"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "qiao2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "wo3"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "lan2",
+          "la5"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "ji1",
+          "zhi3"
+        ],
+        [
+          "mu4"
+        ],
+        [
+          "da1",
+          "ta4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "kan4",
+          "kan1"
+        ],
+        [
+          "chuang1",
+          "cong1"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "xiao3"
+        ],
+        [
+          "qiao2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  },
+  "clone_check": {
+    "audio": "clone_checks/audio/001.wav",
+    "text": "清晨的风吹过窗台，我们准备沿着河边出发了。",
+    "source_sha256": "20e030aa6153dceffef14af70b58400390b267bf80ca6e42b9ea03f9cf51cd2f",
+    "signal": true,
+    "transcript": true,
+    "speaker_similarity_listening_verified": false
+  }
+}

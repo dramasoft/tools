@@ -1,0 +1,375 @@
+{
+  "id": "014",
+  "name": "少年暖木",
+  "gender": "male",
+  "age_range": "16—17岁",
+  "age_group": "teen",
+  "pitch": "中低",
+  "resonance": "口腔饱满，胸腔轻支撑",
+  "texture": "温暖柔实，淡木质纹理",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "平和可靠，正常音量",
+  "text": "外套先放在椅子上，我去把车窗关好，免得夜里下雨淋湿座位。",
+  "voice_description": "16—17岁的少年男声，音高中低，口腔饱满，胸腔轻支撑，温暖柔实，淡木质纹理，语速中速。标准普通话，平和可靠，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "青春剧情",
+    "冒险游戏"
+  ],
+  "tags": [
+    "少年",
+    "男声",
+    "中低",
+    "温暖柔实",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "外套先放在椅子上，我去把车窗关好，免得夜里下雨淋湿座位。",
+  "long_text_char_count": 25,
+  "design_text": "外套先放在椅子上，我去把车窗关好就回来。",
+  "fingerprint": "07fbcbe70c9514c99d4ce5709ef7054daa614cffdea3f47e1cabbf705eea07f1",
+  "status": "generated",
+  "audio": "audio/014_少年暖木.wav",
+  "sha256": "29e789e8ba535038320d3a5245f31e8c5e70442365f4736a628409c7da2255ef",
+  "seed": 20379869,
+  "description_used": "16—17岁的少年男声，音高中低，口腔饱满，胸腔轻支撑，温暖柔实，淡木质纹理，语速中速。标准普通话，平和可靠，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 227520,
+    "duration_seconds": 4.74,
+    "active_duration_seconds": 3.66,
+    "active_span_seconds": 4.54,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.5314556956291199,
+    "rms": 0.07525679587320373,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.120166666666667,
+    "original_active_duration_seconds": 3.66,
+    "original_peak": 0.5314556956291199,
+    "original_rms": 0.07240908249719699,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.22,
+    "trimmed_end_seconds": 0.16016666666666668,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20275140,
+      "description": "16—17岁的少年男声，音高中低，口腔饱满，胸腔轻支撑，温暖柔实，淡木质纹理，语速中速。标准普通话，平和可靠，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "外套先放在椅子上，我去把车窗关好就回来。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 163200,
+        "duration_seconds": 3.4,
+        "active_duration_seconds": 2.99,
+        "active_span_seconds": 3.26,
+        "leading_silence_seconds": 0.04,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.4904003143310547,
+        "rms": 0.053740980709829,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 2.99,
+        "original_peak": 0.4904003143310547,
+        "original_rms": 0.05281575551874498,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.12016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.28,
+      "audio": "attempts/014__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20379869,
+      "description": "16—17岁的少年男声，音高中低，口腔饱满，胸腔轻支撑，温暖柔实，淡木质纹理，语速中速。标准普通话，平和可靠，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "外套先放在椅子上，我去把车窗关好，免得夜里下雨淋湿座位。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 227520,
+        "duration_seconds": 4.74,
+        "active_duration_seconds": 3.66,
+        "active_span_seconds": 4.54,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5314556956291199,
+        "rms": 0.07525679587320373,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.120166666666667,
+        "original_active_duration_seconds": 3.66,
+        "original_peak": 0.5314556956291199,
+        "original_rms": 0.07240908249719699,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.22,
+        "trimmed_end_seconds": 0.16016666666666668,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.26,
+      "audio": "attempts/014__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "014",
+    "status": "checked",
+    "expected_text": "外套先放在椅子上，我去把车窗关好，免得夜里下雨淋湿座位。",
+    "recognized_text": "外套先放在椅子上,我去把车窗关好,免得夜里下雨淋湿座位。",
+    "audio": "audio/014_少年暖木.wav",
+    "audio_sha256": "29e789e8ba535038320d3a5245f31e8c5e70442365f4736a628409c7da2255ef",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:59.517436+00:00",
+    "passed": true,
+    "expected_normalized": "外套先放在椅子上我去把车窗关好免得夜里下雨淋湿座位",
+    "recognized_normalized": "外套先放在椅子上我去把车窗关好免得夜里下雨淋湿座位",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "外套先放在椅子上我去把车窗关好免得夜里下雨淋湿座位"
+      }
+    ],
+    "elapsed_seconds": 0.9364964156411588,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "wai4"
+        ],
+        [
+          "tao4",
+          "tao3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "chuang1"
+        ],
+        [
+          "guan1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "mian3"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yu3"
+        ],
+        [
+          "lin2",
+          "lin4"
+        ],
+        [
+          "shi1"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "wai4"
+        ],
+        [
+          "tao4",
+          "tao3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "fang4",
+          "fang3",
+          "fang1"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "chuang1"
+        ],
+        [
+          "guan1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "mian3"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "li3",
+          "li5"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yu3"
+        ],
+        [
+          "lin2",
+          "lin4"
+        ],
+        [
+          "shi1"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

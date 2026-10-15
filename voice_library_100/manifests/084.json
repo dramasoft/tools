@@ -1,0 +1,499 @@
+{
+  "id": "084",
+  "name": "中性中年细绒",
+  "gender": "neutral",
+  "age_range": "46—54岁",
+  "age_group": "middle_aged",
+  "pitch": "中音偏低",
+  "resonance": "口腔柔和，鼻腔轻共鸣",
+  "texture": "细绒偏暗，轻微自然鼻音",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "从容亲切，正常音量",
+  "text": "这把伞你先带着，晚些可能下雨，到家以后给我打个电话。",
+  "voice_description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "生活旁白",
+    "剧情游戏"
+  ],
+  "tags": [
+    "中年",
+    "中性声",
+    "中音偏低",
+    "细绒偏暗",
+    "中速稍慢"
+  ],
+  "text_char_count": 23,
+  "target_duration_seconds": 5.0,
+  "long_text": "这把伞你先带着，晚些可能下雨，到家以后给我打个电话。",
+  "long_text_char_count": 23,
+  "design_text": "这把伞你先带着，晚些时候可能还会下雨。",
+  "fingerprint": "804c579430299811cb5ac1f10b706036d18a2f13a7dfbbd5d0a13e53ae297470",
+  "status": "generated",
+  "audio": "audio/084_中性中年细绒.wav",
+  "sha256": "61f549862ed7b7b26cb7db5b051f88e6b4290d2cd4853c9731a75a946e7f8d2b",
+  "seed": 20869415,
+  "description_used": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 212640,
+    "duration_seconds": 4.43,
+    "active_duration_seconds": 3.46,
+    "active_span_seconds": 4.23,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.53208988904953,
+    "rms": 0.04648118486918109,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.960166666666667,
+    "original_active_duration_seconds": 3.46,
+    "original_peak": 0.53208988904953,
+    "original_rms": 0.04392694467181228,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.21,
+    "trimmed_end_seconds": 0.32016666666666665,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20345770,
+      "description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这把伞你先带着，晚些时候可能还会下雨。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 183360,
+        "duration_seconds": 3.82,
+        "active_duration_seconds": 3.14,
+        "active_span_seconds": 3.72,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5665455460548401,
+        "rms": 0.051316700419556875,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.14,
+        "original_peak": 0.5665455460548401,
+        "original_rms": 0.05118178049499301,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.020166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.36,
+      "audio": "attempts/084__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20450499,
+      "description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "这把伞你先带着，晚些时候可能还会下雨，到家以后给我回个电话。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 307208,
+        "duration_seconds": 6.400166666666666,
+        "active_duration_seconds": 6.36,
+        "active_span_seconds": 6.36,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.04016666666666667,
+        "peak": 0.8307715058326721,
+        "rms": 0.08348770011676629,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.400166666666666,
+        "original_active_duration_seconds": 6.36,
+        "original_peak": 0.8307715058326721,
+        "original_rms": 0.08348770011676629,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.24,
+      "audio": "attempts/084__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20555228,
+      "description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "这把伞你先带着，晚些时候可能还会下雨。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 171360,
+        "duration_seconds": 3.57,
+        "active_duration_seconds": 3.03,
+        "active_span_seconds": 3.47,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.5431037545204163,
+        "rms": 0.06733443747534638,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.03,
+        "original_peak": 0.5431037545204163,
+        "original_rms": 0.06492270454588663,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.27016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.4,
+      "audio": "attempts/084__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20659957,
+      "description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "这把伞你先带着，晚些时候可能还会下雨，到家以后给我回个电话。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 314888,
+        "duration_seconds": 6.5601666666666665,
+        "active_duration_seconds": 6.35,
+        "active_span_seconds": 6.56,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.00016666666666666666,
+        "peak": 0.6893054246902466,
+        "rms": 0.07258366902161613,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.5601666666666665,
+        "original_active_duration_seconds": 6.35,
+        "original_peak": 0.6893054246902466,
+        "original_rms": 0.07258366902161613,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.39,
+      "audio": "attempts/084__4.wav"
+    },
+    {
+      "attempt": 5,
+      "seed": 20764686,
+      "description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "这把伞你先带着，晚些时候可能还会下雨。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 168000,
+        "duration_seconds": 3.5,
+        "active_duration_seconds": 2.67,
+        "active_span_seconds": 3.3,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.9063207507133484,
+        "rms": 0.14905406989842854,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.000166666666667,
+        "original_active_duration_seconds": 2.67,
+        "original_peak": 0.9063207507133484,
+        "original_rms": 0.13942454445905736,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.23,
+        "trimmed_end_seconds": 0.27016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.56,
+      "audio": "attempts/084__5.wav"
+    },
+    {
+      "attempt": 6,
+      "seed": 20869415,
+      "description": "46—54岁的中年中性声，音高中音偏低，口腔柔和，鼻腔轻共鸣，细绒偏暗，轻微自然鼻音，语速中速稍慢。标准普通话，从容亲切，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这把伞你先带着，晚些可能下雨，到家以后给我打个电话。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 212640,
+        "duration_seconds": 4.43,
+        "active_duration_seconds": 3.46,
+        "active_span_seconds": 4.23,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.53208988904953,
+        "rms": 0.04648118486918109,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.960166666666667,
+        "original_active_duration_seconds": 3.46,
+        "original_peak": 0.53208988904953,
+        "original_rms": 0.04392694467181228,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.32016666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 12.2,
+      "audio": "attempts/084__6.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "084",
+    "status": "checked",
+    "expected_text": "这把伞你先带着，晚些可能下雨，到家以后给我打个电话。",
+    "recognized_text": "这把伞你先带着晚些可能下雨到家以后给我打个电话",
+    "audio": "audio/084_中性中年细绒.wav",
+    "audio_sha256": "61f549862ed7b7b26cb7db5b051f88e6b4290d2cd4853c9731a75a946e7f8d2b",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:10.203162+00:00",
+    "passed": true,
+    "expected_normalized": "这把伞你先带着晚些可能下雨到家以后给我打个电话",
+    "recognized_normalized": "这把伞你先带着晚些可能下雨到家以后给我打个电话",
+    "expected_characters": 23,
+    "recognized_characters": 23,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 23,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 23,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 23,
+        "text": "这把伞你先带着晚些可能下雨到家以后给我打个电话"
+      }
+    ],
+    "elapsed_seconds": 0.5278614582493901,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "san3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "wan3"
+        ],
+        [
+          "xie1",
+          "suo4",
+          "suo1"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "neng2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yu3"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "jia1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "gei3",
+          "ji3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "da3",
+          "da2"
+        ],
+        [
+          "ge4",
+          "ge3",
+          "gan4"
+        ],
+        [
+          "dian4"
+        ],
+        [
+          "hua4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4",
+          "zhei4"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "san3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "dai4"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "wan3"
+        ],
+        [
+          "xie1",
+          "suo4",
+          "suo1"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "neng2"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "yu3"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "jia1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "gei3",
+          "ji3"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "da3",
+          "da2"
+        ],
+        [
+          "ge4",
+          "ge3",
+          "gan4"
+        ],
+        [
+          "dian4"
+        ],
+        [
+          "hua4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

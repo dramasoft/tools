@@ -1,0 +1,294 @@
+{
+  "id": "095",
+  "name": "长者女声暗绒",
+  "gender": "female",
+  "age_range": "62—70岁",
+  "age_group": "senior",
+  "pitch": "偏低",
+  "resonance": "后口腔偏暖，胸腔适中",
+  "texture": "低柔细绒，轻微自然沙哑",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "安稳从容，正常音量",
+  "text": "门边留着一双拖鞋，你进屋以后换上吧。",
+  "voice_description": "62—70岁的老年女声，音高偏低，后口腔偏暖，胸腔适中，低柔细绒，轻微自然沙哑，语速中速稍慢。标准普通话，安稳从容，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "情感旁白",
+    "剧情游戏"
+  ],
+  "tags": [
+    "老年",
+    "女声",
+    "偏低",
+    "低柔细绒",
+    "中速稍慢"
+  ],
+  "text_char_count": 16,
+  "target_duration_seconds": 5.0,
+  "long_text": "门边留着一双拖鞋，你进屋以后换上，鞋柜下面还有新袜子。",
+  "long_text_char_count": 24,
+  "design_text": "门边留着一双拖鞋，你进屋以后换上吧。",
+  "fingerprint": "197f1bb30822e9f8d9c60db839f16fd309dd3b8e7674e518f0f531608884972f",
+  "status": "generated",
+  "audio": "audio/095_长者女声暗绒.wav",
+  "sha256": "c7342599f7ad2c28220fc16735033d35382e75438b869b189d7f836a62260443",
+  "seed": 20356869,
+  "description_used": "62—70岁的老年女声，音高偏低，后口腔偏暖，胸腔适中，低柔细绒，轻微自然沙哑，语速中速稍慢。标准普通话，安稳从容，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 250560,
+    "duration_seconds": 5.22,
+    "active_duration_seconds": 4.45,
+    "active_span_seconds": 5.12,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.29888206720352173,
+    "rms": 0.05835260011599058,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.280166666666666,
+    "original_active_duration_seconds": 4.45,
+    "original_peak": 0.29888206720352173,
+    "original_rms": 0.05801918827237047,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.06016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20356869,
+      "description": "62—70岁的老年女声，音高偏低，后口腔偏暖，胸腔适中，低柔细绒，轻微自然沙哑，语速中速稍慢。标准普通话，安稳从容，正常音量。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "门边留着一双拖鞋，你进屋以后换上吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 250560,
+        "duration_seconds": 5.22,
+        "active_duration_seconds": 4.45,
+        "active_span_seconds": 5.12,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.29888206720352173,
+        "rms": 0.05835260011599058,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.280166666666666,
+        "original_active_duration_seconds": 4.45,
+        "original_peak": 0.29888206720352173,
+        "original_rms": 0.05801918827237047,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.06016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.93,
+      "audio": "attempts/095__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "095",
+    "status": "checked",
+    "expected_text": "门边留着一双拖鞋，你进屋以后换上吧。",
+    "recognized_text": "门边留着一双拖鞋你进屋以后换上吧",
+    "audio": "audio/095_长者女声暗绒.wav",
+    "audio_sha256": "c7342599f7ad2c28220fc16735033d35382e75438b869b189d7f836a62260443",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:14.807873+00:00",
+    "passed": true,
+    "expected_normalized": "门边留着一双拖鞋你进屋以后换上吧",
+    "recognized_normalized": "门边留着一双拖鞋你进屋以后换上吧",
+    "expected_characters": 16,
+    "recognized_characters": 16,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 16,
+        "text": "门边留着一双拖鞋你进屋以后换上吧"
+      }
+    ],
+    "elapsed_seconds": 0.5061473753303289,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "men2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "shuang1"
+        ],
+        [
+          "tuo1",
+          "chi3"
+        ],
+        [
+          "xie2",
+          "wa1"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "wu1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "huan4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "men2"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "liu2",
+          "liu4",
+          "liu3"
+        ],
+        [
+          "zhe5",
+          "zhao1",
+          "zhao2",
+          "zhuo2"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "shuang1"
+        ],
+        [
+          "tuo1",
+          "chi3"
+        ],
+        [
+          "xie2",
+          "wa1"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "wu1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "huan4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

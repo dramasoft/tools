@@ -1,0 +1,415 @@
+{
+  "id": "070",
+  "name": "中年微哑",
+  "gender": "male",
+  "age_range": "42—50岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "前口腔偏暗，胸腔适中",
+  "texture": "自然微哑，干燥而不破",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "平静认真，句尾完整",
+  "text": "账本最后一页有改动，等他回来再核对一次，先别把原来的记录划掉。",
+  "voice_description": "42—50岁的中年男声，音高中低，前口腔偏暗，胸腔适中，自然微哑，干燥而不破，语速中速。标准普通话，平静认真，句尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "悬疑短视频",
+    "侦探游戏"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "中低",
+    "自然微哑",
+    "中速"
+  ],
+  "text_char_count": 28,
+  "target_duration_seconds": 5.0,
+  "long_text": "账本最后一页有改动，等他回来再核对一次，先别把原来的记录划掉。",
+  "long_text_char_count": 28,
+  "design_text": "账本最后一页有改动，等他回来再核对一次。",
+  "fingerprint": "33819bc08a19c1f7b4eadfc410c903aab898e255d3999a21f37e31e8dd2984ae",
+  "status": "generated",
+  "audio": "audio/070_中年微哑.wav",
+  "sha256": "0c40270372dead22ce432e12d8f9bd550a511fc73a9781560354957a58c5f972",
+  "seed": 20436373,
+  "description_used": "42—50岁的中年男声，音高中低，前口腔偏暗，胸腔适中，自然微哑，干燥而不破，语速中速。标准普通话，平静认真，句尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 268320,
+    "duration_seconds": 5.59,
+    "active_duration_seconds": 5.41,
+    "active_span_seconds": 5.48,
+    "leading_silence_seconds": 0.01,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.2158242017030716,
+    "rms": 0.023122985377508863,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.6001666666666665,
+    "original_active_duration_seconds": 5.41,
+    "original_peak": 0.2158242017030716,
+    "original_rms": 0.02310198685610605,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.010166666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20331644,
+      "description": "42—50岁的中年男声，音高中低，前口腔偏暗，胸腔适中，自然微哑，干燥而不破，语速中速。标准普通话，平静认真，句尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "账本最后一页有改动，等他回来再核对一次。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 165120,
+        "duration_seconds": 3.44,
+        "active_duration_seconds": 3.05,
+        "active_span_seconds": 3.28,
+        "leading_silence_seconds": 0.06,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7913689613342285,
+        "rms": 0.10537262409249616,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.520166666666667,
+        "original_active_duration_seconds": 3.05,
+        "original_peak": 0.7913689613342285,
+        "original_rms": 0.10416586288298904,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.08016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.99,
+      "audio": "attempts/070__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20436373,
+      "description": "42—50岁的中年男声，音高中低，前口腔偏暗，胸腔适中，自然微哑，干燥而不破，语速中速。标准普通话，平静认真，句尾完整。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "账本最后一页有改动，等他回来再核对一次，先别把原来的记录划掉。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 268320,
+        "duration_seconds": 5.59,
+        "active_duration_seconds": 5.41,
+        "active_span_seconds": 5.48,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2158242017030716,
+        "rms": 0.023122985377508863,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.6001666666666665,
+        "original_active_duration_seconds": 5.41,
+        "original_peak": 0.2158242017030716,
+        "original_rms": 0.02310198685610605,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.010166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.4,
+      "audio": "attempts/070__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "070",
+    "status": "checked",
+    "expected_text": "账本最后一页有改动，等他回来再核对一次，先别把原来的记录划掉。",
+    "recognized_text": "账本最后一页有改动等他回来再核对一次先别把原来的记录划掉",
+    "audio": "audio/070_中年微哑.wav",
+    "audio_sha256": "0c40270372dead22ce432e12d8f9bd550a511fc73a9781560354957a58c5f972",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:03.265035+00:00",
+    "passed": true,
+    "expected_normalized": "账本最后一页有改动等他回来再核对一次先别把原来的记录划掉",
+    "recognized_normalized": "账本最后一页有改动等他回来再核对一次先别把原来的记录划掉",
+    "expected_characters": 28,
+    "recognized_characters": 28,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 28,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 28,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 28,
+        "text": "账本最后一页有改动等他回来再核对一次先别把原来的记录划掉"
+      }
+    ],
+    "elapsed_seconds": 0.5763818752020597,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhang4"
+        ],
+        [
+          "ben3",
+          "ben1"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "gai3"
+        ],
+        [
+          "dong4"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "ta1",
+          "tuo2"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "ci4",
+          "zi1",
+          "ci2"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "bie2",
+          "bie4"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "hua4",
+          "hua2",
+          "guo4",
+          "guo3",
+          "huai5"
+        ],
+        [
+          "diao4",
+          "nuo2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhang4"
+        ],
+        [
+          "ben3",
+          "ben1"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "gai3"
+        ],
+        [
+          "dong4"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "ta1",
+          "tuo2"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "ci4",
+          "zi1",
+          "ci2"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "bie2",
+          "bie4"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "lai2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "hua4",
+          "hua2",
+          "guo4",
+          "guo3",
+          "huai5"
+        ],
+        [
+          "diao4",
+          "nuo2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

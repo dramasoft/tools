@@ -1,0 +1,459 @@
+{
+  "id": "042",
+  "name": "青年厚亮",
+  "gender": "male",
+  "age_range": "30—34岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "胸腔饱满，口腔明亮",
+  "texture": "厚而不闷，声音结实",
+  "pace": "中速",
+  "accent": "普通话，轻微中原语感",
+  "delivery": "大方自然，轻度鼓励",
+  "text": "结果已经比上次好了，按这个节奏继续练，先把最后两个动作做好。",
+  "voice_description": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识短视频",
+    "训练游戏"
+  ],
+  "tags": [
+    "青年",
+    "男声",
+    "中音",
+    "厚而不闷",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "结果已经比上次好了，按这个节奏继续练，先把最后两个动作做好。",
+  "long_text_char_count": 27,
+  "design_text": "结果已经比上次好了，按这个节奏继续练吧。",
+  "fingerprint": "baffb70503d8637afa227c2c43cc11577746d4e86f28e3a05c4f5f2c0d9abb4f",
+  "status": "generated",
+  "audio": "audio/042_青年厚亮.wav",
+  "sha256": "f7190cf178d5c8be8d3509c67e5bf713379456f24b3ed10f0d2e66529ae08545",
+  "seed": 20617579,
+  "description_used": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 250080,
+    "duration_seconds": 5.21,
+    "active_duration_seconds": 4.33,
+    "active_span_seconds": 5.01,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.1270630479622643,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.440166666666666,
+    "original_active_duration_seconds": 4.33,
+    "original_peak": 0.9925386905670166,
+    "original_rms": 0.12991397431194385,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.16,
+    "trimmed_end_seconds": 0.07016666666666667,
+    "gain": 0.9571415291199226
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20303392,
+      "description": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "结果已经比上次好了，按这个节奏继续练吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 161288,
+        "duration_seconds": 3.3601666666666667,
+        "active_duration_seconds": 2.79,
+        "active_span_seconds": 3.25,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.09016666666666667,
+        "peak": 0.8751322627067566,
+        "rms": 0.1466336389705645,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.3601666666666667,
+        "original_active_duration_seconds": 2.79,
+        "original_peak": 0.8751322627067566,
+        "original_rms": 0.1466336389705645,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.23,
+      "audio": "attempts/042__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20408121,
+      "description": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "结果已经比上次好了，按这个节奏继续练，先把最后两个动作做好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 299528,
+        "duration_seconds": 6.240166666666667,
+        "active_duration_seconds": 5.98,
+        "active_span_seconds": 6.22,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.020166666666666666,
+        "peak": 0.8283295035362244,
+        "rms": 0.13161583797239662,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.240166666666667,
+        "original_active_duration_seconds": 5.98,
+        "original_peak": 0.8283295035362244,
+        "original_rms": 0.13161583797239662,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.82,
+      "audio": "attempts/042__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20512850,
+      "description": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "结果已经比上次好了，按这个节奏继续练吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 156000,
+        "duration_seconds": 3.25,
+        "active_duration_seconds": 2.61,
+        "active_span_seconds": 3.05,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.29400429129600525,
+        "rms": 0.033787531516131286,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.61,
+        "original_peak": 0.29400429129600525,
+        "original_rms": 0.031751543281333824,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.2,
+        "trimmed_end_seconds": 0.23016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.68,
+      "audio": "attempts/042__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20617579,
+      "description": "30—34岁的青年男声，音高中音，胸腔饱满，口腔明亮，厚而不闷，声音结实，语速中速。普通话，轻微中原语感，大方自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "结果已经比上次好了，按这个节奏继续练，先把最后两个动作做好。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 250080,
+        "duration_seconds": 5.21,
+        "active_duration_seconds": 4.33,
+        "active_span_seconds": 5.01,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.1270630479622643,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.440166666666666,
+        "original_active_duration_seconds": 4.33,
+        "original_peak": 0.9925386905670166,
+        "original_rms": 0.12991397431194385,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.16,
+        "trimmed_end_seconds": 0.07016666666666667,
+        "gain": 0.9571415291199226
+      },
+      "elapsed_seconds": 6.79,
+      "audio": "attempts/042__4.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "042",
+    "status": "checked",
+    "expected_text": "结果已经比上次好了，按这个节奏继续练，先把最后两个动作做好。",
+    "recognized_text": "结果已经比上次好了按这个节奏继续练先把最后两个动作做好",
+    "audio": "audio/042_青年厚亮.wav",
+    "audio_sha256": "f7190cf178d5c8be8d3509c67e5bf713379456f24b3ed10f0d2e66529ae08545",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:48.636892+00:00",
+    "passed": true,
+    "expected_normalized": "结果已经比上次好了按这个节奏继续练先把最后两个动作做好",
+    "recognized_normalized": "结果已经比上次好了按这个节奏继续练先把最后两个动作做好",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 27,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 27,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 27,
+        "text": "结果已经比上次好了按这个节奏继续练先把最后两个动作做好"
+      }
+    ],
+    "elapsed_seconds": 0.5320612089708447,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "jie2"
+        ],
+        [
+          "guo3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "bi3",
+          "bi4",
+          "pi2",
+          "pi3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "ci4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "an4"
+        ],
+        [
+          "zhe4"
+        ],
+        [
+          "ge5"
+        ],
+        [
+          "jie2"
+        ],
+        [
+          "zou4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "xu4"
+        ],
+        [
+          "lian4"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "liang3"
+        ],
+        [
+          "ge4"
+        ],
+        [
+          "dong4"
+        ],
+        [
+          "zuo4",
+          "zuo1",
+          "zuo2"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "jie2"
+        ],
+        [
+          "guo3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "bi3",
+          "bi4",
+          "pi2",
+          "pi3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "ci4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "an4"
+        ],
+        [
+          "zhe4"
+        ],
+        [
+          "ge5"
+        ],
+        [
+          "jie2"
+        ],
+        [
+          "zou4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "xu4"
+        ],
+        [
+          "lian4"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "ba3",
+          "ba4",
+          "pa2"
+        ],
+        [
+          "zui4",
+          "cuo1"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "liang3"
+        ],
+        [
+          "ge4"
+        ],
+        [
+          "dong4"
+        ],
+        [
+          "zuo4",
+          "zuo1",
+          "zuo2"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

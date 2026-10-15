@@ -1,0 +1,288 @@
+{
+  "id": "099",
+  "name": "中性长者清砂",
+  "gender": "neutral",
+  "age_range": "60—68岁",
+  "age_group": "senior",
+  "pitch": "中音",
+  "resonance": "前口腔清楚，头胸均衡",
+  "texture": "清薄微砂，轻微年龄纹理",
+  "pace": "中速稍慢",
+  "accent": "标准普通话",
+  "delivery": "平静自然，表情克制",
+  "text": "桥头的站牌换了，坐车前记得再看一眼。",
+  "voice_description": "60—68岁的老年中性声，音高中音，前口腔清楚，头胸均衡，清薄微砂，轻微年龄纹理，语速中速稍慢。标准普通话，平静自然，表情克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识旁白",
+    "城市游戏"
+  ],
+  "tags": [
+    "老年",
+    "中性声",
+    "中音",
+    "清薄微砂",
+    "中速稍慢"
+  ],
+  "text_char_count": 16,
+  "target_duration_seconds": 5.0,
+  "long_text": "桥头的站牌换了，坐车前记得再看一眼，别像上回那样坐反了。",
+  "long_text_char_count": 25,
+  "design_text": "桥头的站牌换了，坐车前记得再看一眼。",
+  "fingerprint": "89eee03bf9f7b3c0e575fe5c89ac2c839b218cdf915084fe3c7fb29d4e3b23a5",
+  "status": "generated",
+  "audio": "audio/099_中性长者清砂.wav",
+  "sha256": "33428f3fa98cd09e9923b0228e9cce08832e22832e0fe1e4fb982346fd1bf48a",
+  "seed": 20360905,
+  "description_used": "60—68岁的老年中性声，音高中音，前口腔清楚，头胸均衡，清薄微砂，轻微年龄纹理，语速中速稍慢。标准普通话，平静自然，表情克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 199688,
+    "duration_seconds": 4.160166666666667,
+    "active_duration_seconds": 4.15,
+    "active_span_seconds": 4.15,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.010166666666666666,
+    "peak": 0.2523181140422821,
+    "rms": 0.03280554600199462,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.160166666666667,
+    "original_active_duration_seconds": 4.15,
+    "original_peak": 0.2523181140422821,
+    "original_rms": 0.03280554600199462,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20360905,
+      "description": "60—68岁的老年中性声，音高中音，前口腔清楚，头胸均衡，清薄微砂，轻微年龄纹理，语速中速稍慢。标准普通话，平静自然，表情克制。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "桥头的站牌换了，坐车前记得再看一眼。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 199688,
+        "duration_seconds": 4.160166666666667,
+        "active_duration_seconds": 4.15,
+        "active_span_seconds": 4.15,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.010166666666666666,
+        "peak": 0.2523181140422821,
+        "rms": 0.03280554600199462,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.160166666666667,
+        "original_active_duration_seconds": 4.15,
+        "original_peak": 0.2523181140422821,
+        "original_rms": 0.03280554600199462,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.7,
+      "audio": "attempts/099__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "099",
+    "status": "checked",
+    "expected_text": "桥头的站牌换了，坐车前记得再看一眼。",
+    "recognized_text": "桥头的站牌换了坐车前记得再看一眼",
+    "audio": "audio/099_中性长者清砂.wav",
+    "audio_sha256": "33428f3fa98cd09e9923b0228e9cce08832e22832e0fe1e4fb982346fd1bf48a",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:16.442505+00:00",
+    "passed": true,
+    "expected_normalized": "桥头的站牌换了坐车前记得再看一眼",
+    "recognized_normalized": "桥头的站牌换了坐车前记得再看一眼",
+    "expected_characters": 16,
+    "recognized_characters": 16,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 16,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 16,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 16,
+        "text": "桥头的站牌换了坐车前记得再看一眼"
+      }
+    ],
+    "elapsed_seconds": 0.4970490001142025,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "qiao2"
+        ],
+        [
+          "tou2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "zhan4",
+          "zhan1"
+        ],
+        [
+          "pai2"
+        ],
+        [
+          "huan4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "kan4",
+          "kan1"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "yan3",
+          "wen3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "qiao2"
+        ],
+        [
+          "tou2"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "zhan4",
+          "zhan1"
+        ],
+        [
+          "pai2"
+        ],
+        [
+          "huan4"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "zuo4"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "kan4",
+          "kan1"
+        ],
+        [
+          "yi1",
+          "yi2",
+          "yi4"
+        ],
+        [
+          "yan3",
+          "wen3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

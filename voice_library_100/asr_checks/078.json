@@ -1,0 +1,49 @@
+{
+  "id": "078",
+  "status": "checked",
+  "expected_text": "身份信息核验通过，请到右侧窗口领取材料，签完字以后再交回来。",
+  "recognized_text": "身份信息核验通过,请到右侧窗口领取材料,签完字以后再交回来。",
+  "audio": "audio/078_中年女声冷亮.wav",
+  "audio_sha256": "f3866069ec37cbf464870b931be302864301c58e55df375a6ee137d14cdcd364",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:08:06.962237+00:00",
+  "passed": true,
+  "expected_normalized": "身份信息核验通过请到右侧窗口领取材料签完字以后再交回来",
+  "recognized_normalized": "身份信息核验通过请到右侧窗口领取材料签完字以后再交回来",
+  "expected_characters": 27,
+  "recognized_characters": 27,
+  "levenshtein_distance": 0,
+  "substitutions": 0,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 27,
+  "cer": 0.0,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": true,
+  "sequence_match_ratio": 1.0,
+  "sequence_matching_characters": 27,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 27,
+      "text": "身份信息核验通过请到右侧窗口领取材料签完字以后再交回来"
+    }
+  ],
+  "elapsed_seconds": 0.5624165418557823
+}

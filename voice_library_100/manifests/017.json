@@ -1,0 +1,389 @@
+{
+  "id": "017",
+  "name": "少年银亮",
+  "gender": "male",
+  "age_range": "15—17岁",
+  "age_group": "teen",
+  "pitch": "中音",
+  "resonance": "前口腔集中，头腔亮",
+  "texture": "紧致清晰，轻微金属感",
+  "pace": "中速稍快",
+  "accent": "标准普通话",
+  "delivery": "清楚果断，音量平稳",
+  "text": "定位已经更新了，沿着蓝色标记往前走，就能找到失踪的队友。",
+  "voice_description": "15—17岁的少年男声，音高中音，前口腔集中，头腔亮，紧致清晰，轻微金属感，语速中速稍快。标准普通话，清楚果断，音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "科技短视频",
+    "科幻游戏"
+  ],
+  "tags": [
+    "少年",
+    "男声",
+    "中音",
+    "紧致清晰",
+    "中速稍快"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "定位已经更新了，沿着蓝色标记往前走，就能找到失踪的队友。",
+  "long_text_char_count": 25,
+  "design_text": "定位已经更新了，沿着蓝色标记走就能找到。",
+  "fingerprint": "d4d78879285154687213d50479ab74f4848a3426c962bd9a85bff6207317e5f8",
+  "status": "generated",
+  "audio": "audio/017_少年银亮.wav",
+  "sha256": "778fcaedadd997d52aee5d095bdfc196247a32bcf2cb44614a036fe8d02bbf9a",
+  "seed": 20382896,
+  "description_used": "15—17岁的少年男声，音高中音，前口腔集中，头腔亮，紧致清晰，轻微金属感，语速中速稍快。标准普通话，清楚果断，音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 205440,
+    "duration_seconds": 4.28,
+    "active_duration_seconds": 4.13,
+    "active_span_seconds": 4.16,
+    "leading_silence_seconds": 0.02,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.44540542364120483,
+    "rms": 0.06991396328484259,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 4.13,
+    "original_peak": 0.44540542364120483,
+    "original_rms": 0.06958819244505428,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.04016666666666667,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20278167,
+      "description": "15—17岁的少年男声，音高中音，前口腔集中，头腔亮，紧致清晰，轻微金属感，语速中速稍快。标准普通话，清楚果断，音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "定位已经更新了，沿着蓝色标记走就能找到。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 189600,
+        "duration_seconds": 3.95,
+        "active_duration_seconds": 3.36,
+        "active_span_seconds": 3.76,
+        "leading_silence_seconds": 0.09,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.14929512588786434,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.000166666666667,
+        "original_active_duration_seconds": 3.36,
+        "original_peak": 0.9848052263259888,
+        "original_rms": 0.15379133726990254,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.050166666666666665,
+        "gain": 0.9646577562795472
+      },
+      "elapsed_seconds": 4.83,
+      "audio": "attempts/017__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20382896,
+      "description": "15—17岁的少年男声，音高中音，前口腔集中，头腔亮，紧致清晰，轻微金属感，语速中速稍快。标准普通话，清楚果断，音量平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "定位已经更新了，沿着蓝色标记往前走，就能找到失踪的队友。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 205440,
+        "duration_seconds": 4.28,
+        "active_duration_seconds": 4.13,
+        "active_span_seconds": 4.16,
+        "leading_silence_seconds": 0.02,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.44540542364120483,
+        "rms": 0.06991396328484259,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 4.13,
+        "original_peak": 0.44540542364120483,
+        "original_rms": 0.06958819244505428,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.04016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.28,
+      "audio": "attempts/017__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "017",
+    "status": "checked",
+    "expected_text": "定位已经更新了，沿着蓝色标记往前走，就能找到失踪的队友。",
+    "recognized_text": "定位已经更新了沿着蓝色标记往前走就能找到失踪的队友",
+    "audio": "audio/017_少年银亮.wav",
+    "audio_sha256": "778fcaedadd997d52aee5d095bdfc196247a32bcf2cb44614a036fe8d02bbf9a",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:02.384612+00:00",
+    "passed": true,
+    "expected_normalized": "定位已经更新了沿着蓝色标记往前走就能找到失踪的队友",
+    "recognized_normalized": "定位已经更新了沿着蓝色标记往前走就能找到失踪的队友",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "定位已经更新了沿着蓝色标记往前走就能找到失踪的队友"
+      }
+    ],
+    "elapsed_seconds": 1.1340037500485778,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "ding4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "geng1"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "yan2"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "lan2",
+          "la5"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "biao1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "wang3",
+          "wang4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "zhao3",
+          "hua2"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "shi1",
+          "yi4"
+        ],
+        [
+          "zong1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "you3"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "ding4"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "geng1"
+        ],
+        [
+          "xin1"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "yan2"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "lan2",
+          "la5"
+        ],
+        [
+          "se4",
+          "shai3"
+        ],
+        [
+          "biao1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "wang3",
+          "wang4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "zhao3",
+          "hua2"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "shi1",
+          "yi4"
+        ],
+        [
+          "zong1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "you3"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

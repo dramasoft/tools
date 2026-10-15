@@ -1,0 +1,393 @@
+{
+  "id": "052",
+  "name": "青年女声冷清",
+  "gender": "female",
+  "age_range": "26—32岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "前口腔集中，头腔清晰",
+  "texture": "清透偏冷，轮廓利落",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "冷静平实，音量稳定",
+  "text": "任务清单还有两项，核对完毕就可以离开，交接记录记得一并上传。",
+  "voice_description": "26—32岁的青年女声，音高中音，前口腔集中，头腔清晰，清透偏冷，轮廓利落，语速中速。标准普通话，冷静平实，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识短视频",
+    "策略游戏"
+  ],
+  "tags": [
+    "青年",
+    "女声",
+    "中音",
+    "清透偏冷",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "任务清单还有两项，核对完毕就可以离开，交接记录记得一并上传。",
+  "long_text_char_count": 27,
+  "design_text": "任务清单还有两项，核对完毕就可以离开了。",
+  "fingerprint": "1de3209f9f63c457c3f61c2c8c2236b5d420885cd1e257fe619035f0aa340c78",
+  "status": "generated",
+  "audio": "audio/052_青年女声冷清.wav",
+  "sha256": "eaa5fb01e28366758ee8e658c638318b630af7bde212b5c64f65dc31609b7292",
+  "seed": 20418211,
+  "description_used": "26—32岁的青年女声，音高中音，前口腔集中，头腔清晰，清透偏冷，轮廓利落，语速中速。标准普通话，冷静平实，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 283680,
+    "duration_seconds": 5.91,
+    "active_duration_seconds": 4.98,
+    "active_span_seconds": 5.72,
+    "leading_silence_seconds": 0.09,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.7559458017349243,
+    "rms": 0.081891405982203,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 6.080166666666667,
+    "original_active_duration_seconds": 4.98,
+    "original_peak": 0.7559458017349243,
+    "original_rms": 0.08073733643760875,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.17016666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20313482,
+      "description": "26—32岁的青年女声，音高中音，前口腔集中，头腔清晰，清透偏冷，轮廓利落，语速中速。标准普通话，冷静平实，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "任务清单还有两项，核对完毕就可以离开了。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 156960,
+        "duration_seconds": 3.27,
+        "active_duration_seconds": 2.68,
+        "active_span_seconds": 3.07,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.4713744521141052,
+        "rms": 0.06574265297898248,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.6801666666666666,
+        "original_active_duration_seconds": 2.68,
+        "original_peak": 0.4713744521141052,
+        "original_rms": 0.06197083673575914,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.23,
+        "trimmed_end_seconds": 0.18016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.25,
+      "audio": "attempts/052__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20418211,
+      "description": "26—32岁的青年女声，音高中音，前口腔集中，头腔清晰，清透偏冷，轮廓利落，语速中速。标准普通话，冷静平实，音量稳定。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "任务清单还有两项，核对完毕就可以离开，交接记录记得一并上传。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 283680,
+        "duration_seconds": 5.91,
+        "active_duration_seconds": 4.98,
+        "active_span_seconds": 5.72,
+        "leading_silence_seconds": 0.09,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7559458017349243,
+        "rms": 0.081891405982203,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 6.080166666666667,
+        "original_active_duration_seconds": 4.98,
+        "original_peak": 0.7559458017349243,
+        "original_rms": 0.08073733643760875,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.17016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.89,
+      "audio": "attempts/052__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "052",
+    "status": "checked",
+    "expected_text": "任务清单还有两项，核对完毕就可以离开，交接记录记得一并上传。",
+    "recognized_text": "任务清单还有两项核对完毕就可以离开交接记录记得一并上传",
+    "audio": "audio/052_青年女声冷清.wav",
+    "audio_sha256": "eaa5fb01e28366758ee8e658c638318b630af7bde212b5c64f65dc31609b7292",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:53.386689+00:00",
+    "passed": true,
+    "expected_normalized": "任务清单还有两项核对完毕就可以离开交接记录记得一并上传",
+    "recognized_normalized": "任务清单还有两项核对完毕就可以离开交接记录记得一并上传",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 27,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 27,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 27,
+        "text": "任务清单还有两项核对完毕就可以离开交接记录记得一并上传"
+      }
+    ],
+    "elapsed_seconds": 0.5919607919640839,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "ren4"
+        ],
+        [
+          "wu4"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "dan1",
+          "chan2",
+          "shan4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "liang3"
+        ],
+        [
+          "xiang4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "wan2",
+          "kuan1"
+        ],
+        [
+          "bi4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "li2",
+          "chi1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "jiao1"
+        ],
+        [
+          "jie1",
+          "xie2",
+          "sha4",
+          "cha1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "yi1"
+        ],
+        [
+          "bing4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "chuan2",
+          "zhuan4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "ren4"
+        ],
+        [
+          "wu4"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "dan1",
+          "chan2",
+          "shan4"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "you3",
+          "you4",
+          "wei3"
+        ],
+        [
+          "liang3"
+        ],
+        [
+          "xiang4"
+        ],
+        [
+          "he2"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "wan2",
+          "kuan1"
+        ],
+        [
+          "bi4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "ke3"
+        ],
+        [
+          "yi3"
+        ],
+        [
+          "li2",
+          "chi1"
+        ],
+        [
+          "kai1"
+        ],
+        [
+          "jiao1"
+        ],
+        [
+          "jie1",
+          "xie2",
+          "sha4",
+          "cha1"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "lu4"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "de5"
+        ],
+        [
+          "yi1"
+        ],
+        [
+          "bing4"
+        ],
+        [
+          "shang4",
+          "shang3"
+        ],
+        [
+          "chuan2",
+          "zhuan4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

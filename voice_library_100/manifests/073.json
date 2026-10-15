@@ -1,0 +1,312 @@
+{
+  "id": "073",
+  "name": "中年女声清朗",
+  "gender": "female",
+  "age_range": "36—44岁",
+  "age_group": "middle_aged",
+  "pitch": "中音",
+  "resonance": "前口腔明亮，头胸均衡",
+  "texture": "清晰明朗，薄厚适中",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "大方端正，短停顿",
+  "text": "新的方案已经发给大家，请先看第三页的说明。",
+  "voice_description": "36—44岁的中年女声，音高中音，前口腔明亮，头胸均衡，清晰明朗，薄厚适中，语速中速。标准普通话，大方端正，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "知识短视频",
+    "任务提示"
+  ],
+  "tags": [
+    "中年",
+    "女声",
+    "中音",
+    "清晰明朗",
+    "中速"
+  ],
+  "text_char_count": 19,
+  "target_duration_seconds": 5.0,
+  "long_text": "新的方案已经发给大家，请先看第三页的说明，预算调整都标在上面。",
+  "long_text_char_count": 28,
+  "design_text": "新的方案已经发给大家，请先看第三页的说明。",
+  "fingerprint": "a3c2a193a0e212561e1d94f5af47253149203a29fc8c2ce7ee33401baa6f8054",
+  "status": "generated",
+  "audio": "audio/073_中年女声清朗.wav",
+  "sha256": "1e706ea32c64764a1ccbd6ac6bee1a7aa549e3a2efc61744408a031581ae9710",
+  "seed": 20334671,
+  "description_used": "36—44岁的中年女声，音高中音，前口腔明亮，头胸均衡，清晰明朗，薄厚适中，语速中速。标准普通话，大方端正，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 197280,
+    "duration_seconds": 4.11,
+    "active_duration_seconds": 4.0,
+    "active_span_seconds": 4.01,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.2268834114074707,
+    "rms": 0.03186332557933502,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.160166666666667,
+    "original_active_duration_seconds": 4.0,
+    "original_peak": 0.2268834114074707,
+    "original_rms": 0.031670625995191375,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.050166666666666665,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20334671,
+      "description": "36—44岁的中年女声，音高中音，前口腔明亮，头胸均衡，清晰明朗，薄厚适中，语速中速。标准普通话，大方端正，短停顿。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "新的方案已经发给大家，请先看第三页的说明。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 197280,
+        "duration_seconds": 4.11,
+        "active_duration_seconds": 4.0,
+        "active_span_seconds": 4.01,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.2268834114074707,
+        "rms": 0.03186332557933502,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.160166666666667,
+        "original_active_duration_seconds": 4.0,
+        "original_peak": 0.2268834114074707,
+        "original_rms": 0.031670625995191375,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.050166666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.84,
+      "audio": "attempts/073__1.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "073",
+    "status": "checked",
+    "expected_text": "新的方案已经发给大家，请先看第三页的说明。",
+    "recognized_text": "新的方案已经发给大家,请先看第三页的说明。",
+    "audio": "audio/073_中年女声清朗.wav",
+    "audio_sha256": "1e706ea32c64764a1ccbd6ac6bee1a7aa549e3a2efc61744408a031581ae9710",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:04.901502+00:00",
+    "passed": true,
+    "expected_normalized": "新的方案已经发给大家请先看第三页的说明",
+    "recognized_normalized": "新的方案已经发给大家请先看第三页的说明",
+    "expected_characters": 19,
+    "recognized_characters": 19,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 19,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 19,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 19,
+        "text": "新的方案已经发给大家请先看第三页的说明"
+      }
+    ],
+    "elapsed_seconds": 0.47515308298170567,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "xin1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "fang1",
+          "fang2",
+          "fang3",
+          "pang2",
+          "wang3",
+          "feng1"
+        ],
+        [
+          "an4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "gei3"
+        ],
+        [
+          "da4"
+        ],
+        [
+          "jia1"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "kan4",
+          "kan1"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "san1"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shuo1"
+        ],
+        [
+          "ming2"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "xin1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "fang1",
+          "fang2",
+          "fang3",
+          "pang2",
+          "wang3",
+          "feng1"
+        ],
+        [
+          "an4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "fa1"
+        ],
+        [
+          "gei3"
+        ],
+        [
+          "da4"
+        ],
+        [
+          "jia1"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "xian1"
+        ],
+        [
+          "kan4",
+          "kan1"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "san1"
+        ],
+        [
+          "ye4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "shuo1"
+        ],
+        [
+          "ming2"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

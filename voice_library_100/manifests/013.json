@@ -1,0 +1,442 @@
+{
+  "id": "013",
+  "name": "少年清透",
+  "gender": "male",
+  "age_range": "14—16岁",
+  "age_group": "teen",
+  "pitch": "中高",
+  "resonance": "头腔清亮，前口腔集中",
+  "texture": "清透轻盈，薄而不虚",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "坦然自然，字尾干净",
+  "text": "操场边的灯已经亮了，我陪你走到路口，等你上车以后再回去。",
+  "voice_description": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "校园短视频",
+    "青春游戏"
+  ],
+  "tags": [
+    "少年",
+    "男声",
+    "中高",
+    "清透轻盈",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "操场边的灯已经亮了，我陪你走到路口，等你上车以后再回去。",
+  "long_text_char_count": 25,
+  "design_text": "操场边的灯已经亮了，我陪你走到路口再回去。",
+  "fingerprint": "5bd45072764c391091f3756f772a0811a12d751028c4e1505895278bb22713e8",
+  "status": "generated",
+  "audio": "audio/013_少年清透.wav",
+  "sha256": "25823b4cc4e1a5e68413cf6776e503f039390fb58a029f39a625902a7aae40bf",
+  "seed": 20588318,
+  "description_used": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 206880,
+    "duration_seconds": 4.31,
+    "active_duration_seconds": 4.08,
+    "active_span_seconds": 4.21,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.632591962814331,
+    "rms": 0.08888683823799119,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 4.320166666666666,
+    "original_active_duration_seconds": 4.08,
+    "original_peak": 0.632591962814331,
+    "original_rms": 0.0887821877463468,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.010166666666666666,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20274131,
+      "description": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 177600,
+        "duration_seconds": 3.7,
+        "active_duration_seconds": 3.04,
+        "active_span_seconds": 3.59,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.828835666179657,
+        "rms": 0.14209555320562078,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.8401666666666667,
+        "original_active_duration_seconds": 3.04,
+        "original_peak": 0.828835666179657,
+        "original_rms": 0.13947820895616522,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.14016666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 4.75,
+      "audio": "attempts/013__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20378860,
+      "description": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 153600,
+        "duration_seconds": 3.2,
+        "active_duration_seconds": 2.6,
+        "active_span_seconds": 3.1,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.7309300899505615,
+        "rms": 0.10160396423850462,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.2001666666666666,
+        "original_active_duration_seconds": 2.6,
+        "original_peak": 0.7309300899505615,
+        "original_rms": 0.10160131840529135,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.00016666666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.91,
+      "audio": "attempts/013__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20483589,
+      "description": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 153608,
+        "duration_seconds": 3.2001666666666666,
+        "active_duration_seconds": 2.85,
+        "active_span_seconds": 3.12,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.08016666666666666,
+        "peak": 0.41588592529296875,
+        "rms": 0.083110302743476,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.2001666666666666,
+        "original_active_duration_seconds": 2.85,
+        "original_peak": 0.41588592529296875,
+        "original_rms": 0.083110302743476,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.92,
+      "audio": "attempts/013__3.wav"
+    },
+    {
+      "attempt": 4,
+      "seed": 20588318,
+      "description": "14—16岁的少年男声，音高中高，头腔清亮，前口腔集中，清透轻盈，薄而不虚，语速中速。标准普通话，坦然自然，字尾干净。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "操场边的灯已经亮了，我陪你走到路口，等你上车以后再回去。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 206880,
+        "duration_seconds": 4.31,
+        "active_duration_seconds": 4.08,
+        "active_span_seconds": 4.21,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.632591962814331,
+        "rms": 0.08888683823799119,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 4.08,
+        "original_peak": 0.632591962814331,
+        "original_rms": 0.0887821877463468,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.010166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 5.2,
+      "audio": "attempts/013__4.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "013",
+    "status": "checked",
+    "expected_text": "操场边的灯已经亮了，我陪你走到路口，等你上车以后再回去。",
+    "recognized_text": "操场边的灯已经亮了我陪你走到路口等你上车以后再回去",
+    "audio": "audio/013_少年清透.wav",
+    "audio_sha256": "25823b4cc4e1a5e68413cf6776e503f039390fb58a029f39a625902a7aae40bf",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:27:58.645772+00:00",
+    "passed": true,
+    "expected_normalized": "操场边的灯已经亮了我陪你走到路口等你上车以后再回去",
+    "recognized_normalized": "操场边的灯已经亮了我陪你走到路口等你上车以后再回去",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "操场边的灯已经亮了我陪你走到路口等你上车以后再回去"
+      }
+    ],
+    "elapsed_seconds": 0.8683569589629769,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "cao1"
+        ],
+        [
+          "chang3"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "pei2"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "cao1"
+        ],
+        [
+          "chang3"
+        ],
+        [
+          "bian1",
+          "bian5"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "liang4",
+          "liang2"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "pei2"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "dao4"
+        ],
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "ni3"
+        ],
+        [
+          "shang4"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

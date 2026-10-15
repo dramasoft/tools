@@ -1,0 +1,55 @@
+{
+  "id": "076",
+  "status": "checked",
+  "expected_text": "你的包裹放在前台了，出门的时候顺手带上。",
+  "recognized_text": "你的包裹放在前台了出门的时候顺手戴上",
+  "audio": "audio/076_中年女声亮鼻腔.wav",
+  "audio_sha256": "b5c77c2b5da7c06b37650dd380a6501efc61b786937d373eec6217ce18d5773c",
+  "settings": {
+    "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+    "language": "zh",
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "sample_len": 128,
+    "normalization": {
+      "unicode": "NFKC",
+      "case": "casefold",
+      "retained_characters": "Unicode letters and numbers only",
+      "traditional_to_simplified": "OpenCC t2s",
+      "note": "No homophone, numeral-word, or semantic substitutions are made."
+    },
+    "cer_threshold": 0.12
+  },
+  "method": "offline Whisper ASR; machine-assisted, not listening review",
+  "checked_at": "2026-10-14T14:08:05.887098+00:00",
+  "passed": true,
+  "expected_normalized": "你的包裹放在前台了出门的时候顺手带上",
+  "recognized_normalized": "你的包裹放在前台了出门的时候顺手戴上",
+  "expected_characters": 18,
+  "recognized_characters": 18,
+  "levenshtein_distance": 1,
+  "substitutions": 1,
+  "deletions": 0,
+  "insertions": 0,
+  "aligned_matching_characters": 17,
+  "cer": 0.05555555555555555,
+  "cer_threshold": 0.12,
+  "exact_normalized_match": false,
+  "sequence_match_ratio": 0.9444444444444444,
+  "sequence_matching_characters": 17,
+  "sequence_matching_blocks": [
+    {
+      "expected_start": 0,
+      "recognized_start": 0,
+      "length": 16,
+      "text": "你的包裹放在前台了出门的时候顺手"
+    },
+    {
+      "expected_start": 17,
+      "recognized_start": 17,
+      "length": 1,
+      "text": "上"
+    }
+  ],
+  "elapsed_seconds": 0.564799333922565
+}

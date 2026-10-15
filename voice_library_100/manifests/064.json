@@ -1,0 +1,381 @@
+{
+  "id": "064",
+  "name": "中年亮厚",
+  "gender": "male",
+  "age_range": "36—44岁",
+  "age_group": "middle_aged",
+  "pitch": "中音",
+  "resonance": "胸腔饱满，口腔明亮",
+  "texture": "厚实明亮，边缘清晰",
+  "pace": "中速",
+  "accent": "普通话，轻微中原语感",
+  "delivery": "坦然自然，轻度鼓励",
+  "text": "今天的进度很顺利，大家收好工具就回去吧，剩下的明早接着做。",
+  "voice_description": "36—44岁的中年男声，音高中音，胸腔饱满，口腔明亮，厚实明亮，边缘清晰，语速中速。普通话，轻微中原语感，坦然自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "职业短视频",
+    "任务提示"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "中音",
+    "厚实明亮",
+    "中速"
+  ],
+  "text_char_count": 26,
+  "target_duration_seconds": 5.0,
+  "long_text": "今天的进度很顺利，大家收好工具就回去吧，剩下的明早接着做。",
+  "long_text_char_count": 26,
+  "design_text": "今天的进度很顺利，大家收好工具就回去吧。",
+  "fingerprint": "13aad17e7f50477b8c347033658575c82ea6691387592cd24479d367e8fba681",
+  "status": "generated",
+  "audio": "audio/064_中年亮厚.wav",
+  "sha256": "94e3c27123a2749e743d58c450886e135f5caaec3c5c1abadeb353baffdbef86",
+  "seed": 20430319,
+  "description_used": "36—44岁的中年男声，音高中音，胸腔饱满，口腔明亮，厚实明亮，边缘清晰，语速中速。普通话，轻微中原语感，坦然自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 276488,
+    "duration_seconds": 5.760166666666667,
+    "active_duration_seconds": 5.760166666666667,
+    "active_span_seconds": 5.760166666666667,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.0,
+    "peak": 0.4579213857650757,
+    "rms": 0.06261653765142015,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.760166666666667,
+    "original_active_duration_seconds": 5.760166666666667,
+    "original_peak": 0.4579213857650757,
+    "original_rms": 0.06261653765142015,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20325590,
+      "description": "36—44岁的中年男声，音高中音，胸腔饱满，口腔明亮，厚实明亮，边缘清晰，语速中速。普通话，轻微中原语感，坦然自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "今天的进度很顺利，大家收好工具就回去吧。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 134880,
+        "duration_seconds": 2.81,
+        "active_duration_seconds": 2.28,
+        "active_span_seconds": 2.68,
+        "leading_silence_seconds": 0.03,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.3726750612258911,
+        "rms": 0.038070319326327616,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 2.8801666666666668,
+        "original_active_duration_seconds": 2.28,
+        "original_peak": 0.3726750612258911,
+        "original_rms": 0.037603725302561,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.07016666666666667,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.39,
+      "audio": "attempts/064__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20430319,
+      "description": "36—44岁的中年男声，音高中音，胸腔饱满，口腔明亮，厚实明亮，边缘清晰，语速中速。普通话，轻微中原语感，坦然自然，轻度鼓励。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "今天的进度很顺利，大家收好工具就回去吧，剩下的明早接着做。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 276488,
+        "duration_seconds": 5.760166666666667,
+        "active_duration_seconds": 5.760166666666667,
+        "active_span_seconds": 5.760166666666667,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.0,
+        "peak": 0.4579213857650757,
+        "rms": 0.06261653765142015,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.760166666666667,
+        "original_active_duration_seconds": 5.760166666666667,
+        "original_peak": 0.4579213857650757,
+        "original_rms": 0.06261653765142015,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.58,
+      "audio": "attempts/064__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "064",
+    "status": "checked",
+    "expected_text": "今天的进度很顺利，大家收好工具就回去吧，剩下的明早接着做。",
+    "recognized_text": "今天的进度很顺利大家收好工具就回去吧剩下的明早接着做",
+    "audio": "audio/064_中年亮厚.wav",
+    "audio_sha256": "94e3c27123a2749e743d58c450886e135f5caaec3c5c1abadeb353baffdbef86",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:08:00.076324+00:00",
+    "passed": true,
+    "expected_normalized": "今天的进度很顺利大家收好工具就回去吧剩下的明早接着做",
+    "recognized_normalized": "今天的进度很顺利大家收好工具就回去吧剩下的明早接着做",
+    "expected_characters": 26,
+    "recognized_characters": 26,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 26,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 26,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 26,
+        "text": "今天的进度很顺利大家收好工具就回去吧剩下的明早接着做"
+      }
+    ],
+    "elapsed_seconds": 0.5109753748402,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "jin1"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "du4"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "shun4"
+        ],
+        [
+          "li4"
+        ],
+        [
+          "da4"
+        ],
+        [
+          "jia1"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "gong1"
+        ],
+        [
+          "ju4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "zao3"
+        ],
+        [
+          "jie1"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "zuo4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "jin1"
+        ],
+        [
+          "tian1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "jin4"
+        ],
+        [
+          "du4"
+        ],
+        [
+          "hen3"
+        ],
+        [
+          "shun4"
+        ],
+        [
+          "li4"
+        ],
+        [
+          "da4"
+        ],
+        [
+          "jia1"
+        ],
+        [
+          "shou1"
+        ],
+        [
+          "hao3",
+          "hao4"
+        ],
+        [
+          "gong1"
+        ],
+        [
+          "ju4"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "qu4",
+          "qu1"
+        ],
+        [
+          "ba5",
+          "ba1",
+          "pa1"
+        ],
+        [
+          "sheng4"
+        ],
+        [
+          "xia4"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "ming2",
+          "meng4"
+        ],
+        [
+          "zao3"
+        ],
+        [
+          "jie1"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "zuo4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

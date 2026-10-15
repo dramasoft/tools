@@ -1,0 +1,403 @@
+{
+  "id": "063",
+  "name": "中年干砂",
+  "gender": "male",
+  "age_range": "43—50岁",
+  "age_group": "middle_aged",
+  "pitch": "中低",
+  "resonance": "前口腔集中，胸腔扎实",
+  "texture": "干燥沙质，颗粒较明显",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "平静直接，字头结实",
+  "text": "这个零件还能继续用，清理以后再装回原位，注意别碰坏旁边的线。",
+  "voice_description": "43—50岁的中年男声，音高中低，前口腔集中，胸腔扎实，干燥沙质，颗粒较明显，语速中速。标准普通话，平静直接，字头结实。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "技能短视频",
+    "生存游戏"
+  ],
+  "tags": [
+    "中年",
+    "男声",
+    "中低",
+    "干燥沙质",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "这个零件还能继续用，清理以后再装回原位，注意别碰坏旁边的线。",
+  "long_text_char_count": 27,
+  "design_text": "这个零件还能继续用，清理以后再装回原位。",
+  "fingerprint": "89a12bae62496f44f7adfe44c78ffcff9246f48549172d4cf56499af71558ac2",
+  "status": "generated",
+  "audio": "audio/063_中年干砂.wav",
+  "sha256": "3e13e9dc9996b69bc59eba3bcc89e72ba749dd0e1281b9e24a38e7ebc2f3f8f2",
+  "seed": 20429310,
+  "description_used": "43—50岁的中年男声，音高中低，前口腔集中，胸腔扎实，干燥沙质，颗粒较明显，语速中速。标准普通话，平静直接，字头结实。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 268808,
+    "duration_seconds": 5.6001666666666665,
+    "active_duration_seconds": 5.41,
+    "active_span_seconds": 5.53,
+    "leading_silence_seconds": 0.0,
+    "trailing_silence_seconds": 0.07016666666666667,
+    "peak": 0.3021146059036255,
+    "rms": 0.04129701882724146,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.6001666666666665,
+    "original_active_duration_seconds": 5.41,
+    "original_peak": 0.3021146059036255,
+    "original_rms": 0.04129701882724146,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.0,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20324581,
+      "description": "43—50岁的中年男声，音高中低，前口腔集中，胸腔扎实，干燥沙质，颗粒较明显，语速中速。标准普通话，平静直接，字头结实。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "这个零件还能继续用，清理以后再装回原位。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 183360,
+        "duration_seconds": 3.82,
+        "active_duration_seconds": 3.02,
+        "active_span_seconds": 3.62,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.11617193403454851,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 4.320166666666666,
+        "original_active_duration_seconds": 3.02,
+        "original_peak": 0.9687817096710205,
+        "original_rms": 0.1113999475589849,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.2,
+        "trimmed_end_seconds": 0.3001666666666667,
+        "gain": 0.9806130633108273
+      },
+      "elapsed_seconds": 5.04,
+      "audio": "attempts/063__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20429310,
+      "description": "43—50岁的中年男声，音高中低，前口腔集中，胸腔扎实，干燥沙质，颗粒较明显，语速中速。标准普通话，平静直接，字头结实。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "这个零件还能继续用，清理以后再装回原位，注意别碰坏旁边的线。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 268808,
+        "duration_seconds": 5.6001666666666665,
+        "active_duration_seconds": 5.41,
+        "active_span_seconds": 5.53,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.07016666666666667,
+        "peak": 0.3021146059036255,
+        "rms": 0.04129701882724146,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.6001666666666665,
+        "original_active_duration_seconds": 5.41,
+        "original_peak": 0.3021146059036255,
+        "original_rms": 0.04129701882724146,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.53,
+      "audio": "attempts/063__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "063",
+    "status": "checked",
+    "expected_text": "这个零件还能继续用，清理以后再装回原位，注意别碰坏旁边的线。",
+    "recognized_text": "这个零件还能继续用清理以后再装回原位注意别碰坏旁边的线",
+    "audio": "audio/063_中年干砂.wav",
+    "audio_sha256": "3e13e9dc9996b69bc59eba3bcc89e72ba749dd0e1281b9e24a38e7ebc2f3f8f2",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:59.485874+00:00",
+    "passed": true,
+    "expected_normalized": "这个零件还能继续用清理以后再装回原位注意别碰坏旁边的线",
+    "recognized_normalized": "这个零件还能继续用清理以后再装回原位注意别碰坏旁边的线",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 27,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 27,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 27,
+        "text": "这个零件还能继续用清理以后再装回原位注意别碰坏旁边的线"
+      }
+    ],
+    "elapsed_seconds": 0.5879862499423325,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "zhe4"
+        ],
+        [
+          "ge5"
+        ],
+        [
+          "ling2",
+          "lian2"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "xu4"
+        ],
+        [
+          "yong4"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "li3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "zhuang1"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "zhu4",
+          "zhou4"
+        ],
+        [
+          "yi4",
+          "yi1"
+        ],
+        [
+          "bie2",
+          "bie4"
+        ],
+        [
+          "peng4"
+        ],
+        [
+          "huai4",
+          "pi1",
+          "pei2"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "xian4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "zhe4"
+        ],
+        [
+          "ge5"
+        ],
+        [
+          "ling2",
+          "lian2"
+        ],
+        [
+          "jian4",
+          "mou2"
+        ],
+        [
+          "hai2",
+          "huan2",
+          "fu2"
+        ],
+        [
+          "neng2",
+          "tai2",
+          "nai2",
+          "nai4",
+          "xiong2"
+        ],
+        [
+          "ji4"
+        ],
+        [
+          "xu4"
+        ],
+        [
+          "yong4"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "li3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "hou4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "zhuang1"
+        ],
+        [
+          "hui2"
+        ],
+        [
+          "yuan2"
+        ],
+        [
+          "wei4",
+          "li4"
+        ],
+        [
+          "zhu4",
+          "zhou4"
+        ],
+        [
+          "yi4",
+          "yi1"
+        ],
+        [
+          "bie2",
+          "bie4"
+        ],
+        [
+          "peng4"
+        ],
+        [
+          "huai4",
+          "pi1",
+          "pei2"
+        ],
+        [
+          "pang2"
+        ],
+        [
+          "bian1"
+        ],
+        [
+          "de5",
+          "di1",
+          "di2",
+          "di4"
+        ],
+        [
+          "xian4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

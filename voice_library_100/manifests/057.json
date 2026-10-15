@@ -1,0 +1,419 @@
+{
+  "id": "057",
+  "name": "中性青年清冷",
+  "gender": "neutral",
+  "age_range": "20—25岁",
+  "age_group": "young_adult",
+  "pitch": "中音",
+  "resonance": "前口腔集中，头腔通透",
+  "texture": "清透偏冷，薄厚适中",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "冷静自然，句尾平稳",
+  "text": "通行权限已经确认，请沿着地面灯光往前走，出口就在第二道门后。",
+  "voice_description": "20—25岁的青年中性声，音高中音，前口腔集中，头腔通透，清透偏冷，薄厚适中，语速中速。标准普通话，冷静自然，句尾平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "科技短视频",
+    "科幻游戏"
+  ],
+  "tags": [
+    "青年",
+    "中性声",
+    "中音",
+    "清透偏冷",
+    "中速"
+  ],
+  "text_char_count": 27,
+  "target_duration_seconds": 5.0,
+  "long_text": "通行权限已经确认，请沿着地面灯光往前走，出口就在第二道门后。",
+  "long_text_char_count": 27,
+  "design_text": "通行权限已经确认，请沿着地面灯光往前走。",
+  "fingerprint": "dd05fd4604b86242abac6ec40b1ef692da26a0612ff25fb676f0693e71ec6cf5",
+  "status": "generated",
+  "audio": "audio/057_中性青年清冷.wav",
+  "sha256": "fcf5fc500c025016b52ae50f3c9ff2ea631ffe04c5f5e9b208343c3bc04cfbbd",
+  "seed": 20527985,
+  "description_used": "20—25岁的青年中性声，音高中音，前口腔集中，头腔通透，清透偏冷，薄厚适中，语速中速。标准普通话，冷静自然，句尾平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 258240,
+    "duration_seconds": 5.38,
+    "active_duration_seconds": 4.16,
+    "active_span_seconds": 5.25,
+    "leading_silence_seconds": 0.03,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.95,
+    "rms": 0.14138805871051058,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.440166666666666,
+    "original_active_duration_seconds": 4.16,
+    "original_peak": 0.9623314738273621,
+    "original_rms": 0.1424291398572356,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.0,
+    "trimmed_end_seconds": 0.06016666666666667,
+    "gain": 0.9871858354810763
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20318527,
+      "description": "20—25岁的青年中性声，音高中音，前口腔集中，头腔通透，清透偏冷，薄厚适中，语速中速。标准普通话，冷静自然，句尾平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "通行权限已经确认，请沿着地面灯光往前走。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 291360,
+        "duration_seconds": 6.07,
+        "active_duration_seconds": 5.93,
+        "active_span_seconds": 5.93,
+        "leading_silence_seconds": 0.04,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.9365468621253967,
+        "rms": 0.13956894667976796,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_long"
+        ],
+        "original_duration_seconds": 6.080166666666667,
+        "original_active_duration_seconds": 5.93,
+        "original_peak": 0.9365468621253967,
+        "original_rms": 0.13945221101413394,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.010166666666666666,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 7.09,
+      "audio": "attempts/057__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20423256,
+      "description": "20—25岁的青年中性声，音高中音，前口腔集中，头腔通透，清透偏冷，薄厚适中，语速中速。标准普通话，冷静自然，句尾平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，保持该音色，语速稍紧凑，减少句间停顿，总长约五秒",
+      "text": "通行权限已经确认，请沿着地面灯光往前走。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 153608,
+        "duration_seconds": 3.2001666666666666,
+        "active_duration_seconds": 3.09,
+        "active_span_seconds": 3.12,
+        "leading_silence_seconds": 0.01,
+        "trailing_silence_seconds": 0.07016666666666667,
+        "peak": 0.4591352641582489,
+        "rms": 0.060820833438146635,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.2001666666666666,
+        "original_active_duration_seconds": 3.09,
+        "original_peak": 0.4591352641582489,
+        "original_rms": 0.060820833438146635,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.0,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 3.95,
+      "audio": "attempts/057__2.wav"
+    },
+    {
+      "attempt": 3,
+      "seed": 20527985,
+      "description": "20—25岁的青年中性声，音高中音，前口腔集中，头腔通透，清透偏冷，薄厚适中，语速中速。标准普通话，冷静自然，句尾平稳。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "通行权限已经确认，请沿着地面灯光往前走，出口就在第二道门后。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 258240,
+        "duration_seconds": 5.38,
+        "active_duration_seconds": 4.16,
+        "active_span_seconds": 5.25,
+        "leading_silence_seconds": 0.03,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.95,
+        "rms": 0.14138805871051058,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.440166666666666,
+        "original_active_duration_seconds": 4.16,
+        "original_peak": 0.9623314738273621,
+        "original_rms": 0.1424291398572356,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.06016666666666667,
+        "gain": 0.9871858354810763
+      },
+      "elapsed_seconds": 6.39,
+      "audio": "attempts/057__3.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "057",
+    "status": "checked",
+    "expected_text": "通行权限已经确认，请沿着地面灯光往前走，出口就在第二道门后。",
+    "recognized_text": "通行全线已经确认,请沿着地面灯光往前走,出口就在第二道门后。",
+    "audio": "audio/057_中性青年清冷.wav",
+    "audio_sha256": "fcf5fc500c025016b52ae50f3c9ff2ea631ffe04c5f5e9b208343c3bc04cfbbd",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T14:07:56.217980+00:00",
+    "passed": true,
+    "expected_normalized": "通行权限已经确认请沿着地面灯光往前走出口就在第二道门后",
+    "recognized_normalized": "通行全线已经确认请沿着地面灯光往前走出口就在第二道门后",
+    "expected_characters": 27,
+    "recognized_characters": 27,
+    "levenshtein_distance": 2,
+    "substitutions": 2,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.07407407407407407,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": false,
+    "sequence_match_ratio": 0.9259259259259259,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 2,
+        "text": "通行"
+      },
+      {
+        "expected_start": 4,
+        "recognized_start": 4,
+        "length": 23,
+        "text": "已经确认请沿着地面灯光往前走出口就在第二道门后"
+      }
+    ],
+    "elapsed_seconds": 0.5512475417926908,
+    "pass_basis": "cer_threshold",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "tong1"
+        ],
+        [
+          "xing2"
+        ],
+        [
+          "quan2"
+        ],
+        [
+          "xian4",
+          "wen3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "que4"
+        ],
+        [
+          "ren4"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "yan2"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "guang1",
+          "guang4"
+        ],
+        [
+          "wang3",
+          "wang4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "er4"
+        ],
+        [
+          "dao4",
+          "dao3"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "hou4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "tong1"
+        ],
+        [
+          "xing2"
+        ],
+        [
+          "quan2"
+        ],
+        [
+          "xian4"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "que4"
+        ],
+        [
+          "ren4"
+        ],
+        [
+          "qing3"
+        ],
+        [
+          "yan2"
+        ],
+        [
+          "zhe5"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "mian4"
+        ],
+        [
+          "deng1",
+          "ding1"
+        ],
+        [
+          "guang1",
+          "guang4"
+        ],
+        [
+          "wang3",
+          "wang4"
+        ],
+        [
+          "qian2",
+          "jian3"
+        ],
+        [
+          "zou3"
+        ],
+        [
+          "chu1"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "di4"
+        ],
+        [
+          "er4"
+        ],
+        [
+          "dao4",
+          "dao3"
+        ],
+        [
+          "men2"
+        ],
+        [
+          "hou4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}

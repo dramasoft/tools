@@ -1,0 +1,371 @@
+{
+  "id": "016",
+  "name": "少年干砂",
+  "gender": "male",
+  "age_range": "16—17岁",
+  "age_group": "teen",
+  "pitch": "中低",
+  "resonance": "口腔靠前，胸声轻",
+  "texture": "干净偏暗，微细沙质",
+  "pace": "中速",
+  "accent": "标准普通话",
+  "delivery": "冷静自然，短句收束",
+  "text": "路口已经清空了，等信号变绿我们一起过去，车子就停在对面。",
+  "voice_description": "16—17岁的少年男声，音高中低，口腔靠前，胸声轻，干净偏暗，微细沙质，语速中速。标准普通话，冷静自然，短句收束。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+  "use_cases": [
+    "剧情短视频",
+    "战术游戏"
+  ],
+  "tags": [
+    "少年",
+    "男声",
+    "中低",
+    "干净偏暗",
+    "中速"
+  ],
+  "text_char_count": 25,
+  "target_duration_seconds": 5.0,
+  "long_text": "路口已经清空了，等信号变绿我们一起过去，车子就停在对面。",
+  "long_text_char_count": 25,
+  "design_text": "路口已经清空了，等信号变绿，我们一起过去。",
+  "fingerprint": "4e2062ff2732acef331e9290ba74584df2caca5c29cbc72f22f435f369549c3d",
+  "status": "generated",
+  "audio": "audio/016_少年干砂.wav",
+  "sha256": "7d48af3d2bb8d9e98643a653c090e7cd85ede0c9cb42e055d07abaed67d787a7",
+  "seed": 20381887,
+  "description_used": "16—17岁的少年男声，音高中低，口腔靠前，胸声轻，干净偏暗，微细沙质，语速中速。标准普通话，冷静自然，短句收束。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+  "metrics": {
+    "sample_rate": 48000,
+    "sample_count": 235680,
+    "duration_seconds": 4.91,
+    "active_duration_seconds": 3.55,
+    "active_span_seconds": 4.71,
+    "leading_silence_seconds": 0.1,
+    "trailing_silence_seconds": 0.1,
+    "peak": 0.6166988015174866,
+    "rms": 0.07513036484455712,
+    "clipped_fraction": 0.0,
+    "nonfinite": 0,
+    "valid": true,
+    "issues": [],
+    "original_duration_seconds": 5.440166666666666,
+    "original_active_duration_seconds": 3.55,
+    "original_peak": 0.6166988015174866,
+    "original_rms": 0.07137570322455049,
+    "original_clipped_fraction": 0.0,
+    "trimmed_start_seconds": 0.21,
+    "trimmed_end_seconds": 0.32016666666666665,
+    "gain": 1.0
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "seed": 20277158,
+      "description": "16—17岁的少年男声，音高中低，口腔靠前，胸声轻，干净偏暗，微细沙质，语速中速。标准普通话，冷静自然，短句收束。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。",
+      "text": "路口已经清空了，等信号变绿，我们一起过去。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 158880,
+        "duration_seconds": 3.31,
+        "active_duration_seconds": 2.53,
+        "active_span_seconds": 3.21,
+        "leading_silence_seconds": 0.0,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6715856194496155,
+        "rms": 0.09744035915307576,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": false,
+        "issues": [
+          "too_short"
+        ],
+        "original_duration_seconds": 3.3601666666666667,
+        "original_active_duration_seconds": 2.53,
+        "original_peak": 0.6715856194496155,
+        "original_rms": 0.09671024051086206,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.0,
+        "trimmed_end_seconds": 0.050166666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.26,
+      "audio": "attempts/016__1.wav"
+    },
+    {
+      "attempt": 2,
+      "seed": 20381887,
+      "description": "16—17岁的少年男声，音高中低，口腔靠前，胸声轻，干净偏暗，微细沙质，语速中速。标准普通话，冷静自然，短句收束。正常音量、自然说话，咬字清楚，干净单人近讲录音，只有人声干声。，完整自然地说完台词，语速放缓，停顿简短，总长约五秒",
+      "text": "路口已经清空了，等信号变绿我们一起过去，车子就停在对面。",
+      "metrics": {
+        "sample_rate": 48000,
+        "sample_count": 235680,
+        "duration_seconds": 4.91,
+        "active_duration_seconds": 3.55,
+        "active_span_seconds": 4.71,
+        "leading_silence_seconds": 0.1,
+        "trailing_silence_seconds": 0.1,
+        "peak": 0.6166988015174866,
+        "rms": 0.07513036484455712,
+        "clipped_fraction": 0.0,
+        "nonfinite": 0,
+        "valid": true,
+        "issues": [],
+        "original_duration_seconds": 5.440166666666666,
+        "original_active_duration_seconds": 3.55,
+        "original_peak": 0.6166988015174866,
+        "original_rms": 0.07137570322455049,
+        "original_clipped_fraction": 0.0,
+        "trimmed_start_seconds": 0.21,
+        "trimmed_end_seconds": 0.32016666666666665,
+        "gain": 1.0
+      },
+      "elapsed_seconds": 6.68,
+      "audio": "attempts/016__2.wav"
+    }
+  ],
+  "settings": {
+    "backend": "mlx",
+    "model": "/Users/yuyao/Documents/Voice/models/VoxCPM2-bf16",
+    "timesteps": 10,
+    "cfg_value": 2.0,
+    "base_seed": 20261014,
+    "target_seconds": 5.0,
+    "minimum_seconds": 4.0,
+    "maximum_seconds": 6.0,
+    "processing": "trim surplus edge silence; attenuation only; original speed and pitch"
+  },
+  "verification": {
+    "signal": true,
+    "transcript": true,
+    "listening": false,
+    "clone": false
+  },
+  "asr": {
+    "id": "016",
+    "status": "checked",
+    "expected_text": "路口已经清空了，等信号变绿我们一起过去，车子就停在对面。",
+    "recognized_text": "路口已经清空了,等信号变绿,我们一起过去,车子就停在对面。",
+    "audio": "audio/016_少年干砂.wav",
+    "audio_sha256": "7d48af3d2bb8d9e98643a653c090e7cd85ede0c9cb42e055d07abaed67d787a7",
+    "settings": {
+      "model_path": "/Users/yuyao/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo-4bit/snapshots/0f058d38170d183f9fdee07908f5b515d91793a8",
+      "language": "zh",
+      "temperature": 0.0,
+      "condition_on_previous_text": false,
+      "sample_len": 128,
+      "normalization": {
+        "unicode": "NFKC",
+        "case": "casefold",
+        "retained_characters": "Unicode letters and numbers only",
+        "traditional_to_simplified": "OpenCC t2s",
+        "note": "No homophone, numeral-word, or semantic substitutions are made."
+      },
+      "cer_threshold": 0.12
+    },
+    "method": "offline Whisper ASR; machine-assisted, not listening review",
+    "checked_at": "2026-10-14T09:28:01.349959+00:00",
+    "passed": true,
+    "expected_normalized": "路口已经清空了等信号变绿我们一起过去车子就停在对面",
+    "recognized_normalized": "路口已经清空了等信号变绿我们一起过去车子就停在对面",
+    "expected_characters": 25,
+    "recognized_characters": 25,
+    "levenshtein_distance": 0,
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 0,
+    "aligned_matching_characters": 25,
+    "cer": 0.0,
+    "cer_threshold": 0.12,
+    "exact_normalized_match": true,
+    "sequence_match_ratio": 1.0,
+    "sequence_matching_characters": 25,
+    "sequence_matching_blocks": [
+      {
+        "expected_start": 0,
+        "recognized_start": 0,
+        "length": 25,
+        "text": "路口已经清空了等信号变绿我们一起过去车子就停在对面"
+      }
+    ],
+    "elapsed_seconds": 1.0324683748185635,
+    "pass_basis": "exact_text",
+    "phonetic_check": {
+      "available": true,
+      "exact_compatible": true,
+      "method": "pypinyin TONE3, tone-preserving per-character heteronym intersection",
+      "expected_candidates": [
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "kong1",
+          "kong4",
+          "kong3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "xin4"
+        ],
+        [
+          "hao4"
+        ],
+        [
+          "bian4"
+        ],
+        [
+          "lv4",
+          "lu4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "guo4"
+        ],
+        [
+          "qu4"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "ting2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "mian4"
+        ]
+      ],
+      "recognized_candidates": [
+        [
+          "lu4",
+          "luo4"
+        ],
+        [
+          "kou3"
+        ],
+        [
+          "yi3",
+          "si4"
+        ],
+        [
+          "jing1",
+          "jing4"
+        ],
+        [
+          "qing1",
+          "qing4"
+        ],
+        [
+          "kong1",
+          "kong4",
+          "kong3"
+        ],
+        [
+          "le5",
+          "liao3",
+          "liao4"
+        ],
+        [
+          "deng3"
+        ],
+        [
+          "xin4"
+        ],
+        [
+          "hao4"
+        ],
+        [
+          "bian4"
+        ],
+        [
+          "lv4",
+          "lu4"
+        ],
+        [
+          "wo3"
+        ],
+        [
+          "men5"
+        ],
+        [
+          "yi4"
+        ],
+        [
+          "qi3"
+        ],
+        [
+          "guo4"
+        ],
+        [
+          "qu4"
+        ],
+        [
+          "che1"
+        ],
+        [
+          "zi5"
+        ],
+        [
+          "jiu4"
+        ],
+        [
+          "ting2"
+        ],
+        [
+          "zai4"
+        ],
+        [
+          "dui4"
+        ],
+        [
+          "mian4"
+        ]
+      ],
+      "note": "Dictionary pronunciation compatibility; not human listening."
+    }
+  }
+}
